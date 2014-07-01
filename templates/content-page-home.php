@@ -9,9 +9,7 @@
 </div>
 <section>
 <div class="row home-news">
-	<div class="col-sm-12">
 		<?php echo do_shortcode('[wpv-view name="HOME | NEWS"]'); ?>
-	</div>
 </div>
 </section>
 <section>
