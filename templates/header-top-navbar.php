@@ -1,5 +1,16 @@
+
+<?php if (is_front_page()) {
+  echo do_shortcode('[wpv-view name="HOME | TOP-SLIDER"]');
+}
+?>
+
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container">
+  <div class="row home-top-slider">
+    <div class="col-sm-12">
+      <?php echo do_shortcode('[wpv-view name="HOME | TOP-SLIDER"]'); ?>
+    </div>
+  </div>
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
