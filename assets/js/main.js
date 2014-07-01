@@ -30,48 +30,11 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
-      //audio player change tracks functionality
-      audiojs.events.ready(function() {
-      var a = audiojs.createAll({
-        trackEnded: function() {
-            var next = $('ol li.playing').next();
-            if (!next.length) next = $('ol li').first();
-            next.addClass('playing').siblings().removeClass('playing');
-            audio.load($('a', next).attr('data-src'));
-            audio.play();
-      }
-      });
-      // Load in the first track
-        var audio = a[0];
-            first = $('ol li a').attr('data-src');
-        $('ol li').first().addClass('playing');
-        audio.load(first);
-
-        // Load in a track on click
-        $('ol li').click(function(e) {
-          e.preventDefault();
-          $(this).addClass('playing').siblings().removeClass('playing');
-          audio.load($('a', this).attr('data-src'));
-          audio.play();
-        });
-        // Keyboard shortcuts
-             // right arrow
-          $('.next-track').click( function(){
-            var next = $('li.playing').next();
-            if (!next.length) next = $('ol li').first();
-            next.click();
-            });
-            // back arrow
-           $('.prev-track').click(function(){
-            var prev = $('li.playing').prev();
-            if (!prev.length) prev = $('ol li').last();
-            prev.click();
-          });
-      });
-      $('.pop-out').click(function(){
-      newWindow = window.open("/audio-player/", null, "height=80,width=285,status=yes,toolbar=no,menubar=no,location=no");
+      $(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
     });
-    }
+  });
     }
   },
   // About us page, note the change from about-us to about_us.
