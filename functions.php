@@ -15,7 +15,7 @@ require_once dirname( __FILE__ ) . '/inc/options-framework.php';
 add_post_type_support('page','excerpt');
      	//[about] shortcode
 		function about_page () {
-		$page_id = 15;  //Page ID
+		$page_id = 34;  //Page ID
 		$page_data = get_page( $page_id );
 		global $more;
 		$more = 0;
