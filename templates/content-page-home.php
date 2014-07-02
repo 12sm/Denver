@@ -17,7 +17,7 @@
 	<div class='col-sm-6'>
 	</div>
 	<div class='col-sm-6'>
-		<?php echo do_shortcode('[wpv-view name="HOME | MUSIC-PLAYER"]'); ?>
+		<?php echo do_shortcode('[wpv-view name="HOME | MUSIC-PLAYER| ALBUMS"]'); ?>
 	</div>
 </div>
 </section>
@@ -26,7 +26,7 @@
 	<div class="col-sm-6">
 	</div>
 	<div class="col-sm-6">
-		bandcamp embed
+		bandsintown embed
 	</div>
 </div>
 </section>
