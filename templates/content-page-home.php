@@ -3,7 +3,7 @@
 	<div class='col-sm-6'>
 	</div>
 	<div class="col-sm-6">
-		[about]
+		<?php echo do_shortcode('[about]'); ?>
 		<a href="/about/" class="btn btn-about">Click to Find Out More </a>
 	</div>
 </div>
