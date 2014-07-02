@@ -26,7 +26,7 @@
 	<div class="col-sm-6">
 	</div>
 	<div class="col-sm-6">
-		bandsintown embed
+		<?php echo do_shortcode('[wpv-view name="HOME | TOUR EMBED"]'); ?>
 	</div>
 </div>
 </section>
