@@ -43,15 +43,29 @@
 </div>
 
 <!------------- HOME | MUSIC PLAYER | TRACKS ---------------->
-<div class='player'>
-      <div class='title'>Loading...</div>
-      <a class='prev'>Previous</a>
-      <a class='play'>Play</a>
-      <a class='pause'>Pause</a>
-      <a class='next'>Next</a>
-      <ol class='tracks'>
-      	<wpv-loop>
-      	<li><a href='mediaupload' class="inline-playable"></a></li>
-      	</wpv-loop>
-      </ol>
-    </div>
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<div class='player'>
+          <wpv-loop>
+  <div class='title'>
+    <ul class='titles'>
+    	<li>[wpv-post-title]</li>
+    </ul>
+  </div>
+  <a class='prev'>Previous</a>
+  <a class='play'>Play</a>
+  <a class='pause'>Pause</a>
+  <a class='next'>Next</a>
+  <ol class='tracks'>
+  	<wpv-loop>
+      <li><a href='[types field="mp3-upload" link="true" output="raw"][/types]' class="inline-playable"><i class='fa fa-play'></i></a></li>
+  	</wpv-loop>
+  </ol>
+</div>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
