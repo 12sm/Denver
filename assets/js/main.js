@@ -31,7 +31,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the home page
       $(window).load(function() {
-  $('.flexslider').flexslider({
+  $('.top-slider').flexslider({
     animation: "slide"
     });
   });
