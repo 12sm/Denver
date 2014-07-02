@@ -290,7 +290,7 @@ soundManager.setup({
 soundManager.onready(function() {
   // soundManager.createSound() etc. may now be called
   inlinePlayer = new InlinePlayer();
-});.
+});
 
     }
   },
