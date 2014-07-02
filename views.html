@@ -47,16 +47,16 @@
 	[wpv-items-found]
 	<!-- wpv-loop-start -->
 		<div class='player'>
-          <wpv-loop>
+          
   <div class='title'>
-    <ul class='titles'>
-    	<li>[wpv-post-title]</li>
-    </ul>
+    <ol class='titles'>
+[wpv-view name="home-music-player-track-titles" wpvprchildof='[wpv-post-id id='$albums']']
+    </ol>
   </div>
-  <a class='prev'>Previous</a>
+  <a class='prev' onclick="pagePlayer.playPrevious()">Previous</a>
   <a class='play'>Play</a>
   <a class='pause'>Pause</a>
-  <a class='next'>Next</a>
+  <a class='next' onclick="pagePlayer.playNext()">Next</a>
   <ol class='tracks'>
   	<wpv-loop>
       <li><a href='[types field="mp3-upload" link="true" output="raw"][/types]' class="inline-playable"><i class='fa fa-play'></i></a></li>
