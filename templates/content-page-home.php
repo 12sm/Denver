@@ -8,6 +8,7 @@
 		<a href="/about/" class="btn btn-about">Click to Find Out More </a>
 	</div>
 </div>
+</section>
 <section>
 <div class="row home-news">
 		<?php echo do_shortcode('[wpv-view name="HOME | NEWS"]'); ?>
@@ -37,5 +38,7 @@
 	<div class="col-sm-12">
 		<h1>Check Out Our Store</h1>
 		<a href="/store/" class="btn btn-click">Click Here</a>
+		<img src="banner image bottom">
 	</div>
 </div>
+</section>
