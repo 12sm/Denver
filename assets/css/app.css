@@ -9,7 +9,108 @@
 
 body { }
 
+/* ==========================================================================
+   Audio Player
+   ========================================================================== */
+   /* Audio Player*/
+.audiojs .scrubber {
+position: relative;
+float: left;
+width: 47%;
+background: #5a5a5a;
+height: 14px;
+margin: 10px;
+border-top: 1px solid #3f3f3f;
+border-left: 0px;
+border-bottom: 0px;
+overflow: hidden;
+}
+#audiojs_wrapper0{
+  width: 100%;
+}
+.scrubber{
+  background-color: rgba(0,0,0,0)!important;
+  border: 1px solid #D8D8D8!important;
+}
+.audiojs{
+  background-color: rgba(0,0,0,0)!important;
+  background-image: none!important
+}
+.audiojs .loaded{
+  background-color: rgba(0,0,0,0)!important;
+  background-image: none!important
+}
+.audiojs .progress{
+  color: #eeeeee;
+}
+.audiojs .play-pause{
+  border-right: 0px solid #000!important;
+  width: 40px;
+}
+.audiojs .time{
+  border-left: 0px solid #000!important;
+  color: #000!important;
+}
 
+.audiojs .time {
+float: none!important;
+}
+
+.play-pause>p{
+  display: inline-block;
+font-family: FontAwesome;
+font-style: normal;
+font-weight: normal;
+line-height: 1;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-size: 1.3em;
+}
+p.play:before{
+  content: "\f04b";
+  top: 5px;
+  left: 5px;
+  position: relative;
+}
+p.pause:before{
+  content: "\f04c";
+  top: 5px;
+  left: 5px;
+  position: relative;
+}
+ p.loading{
+  background: no-repeat center url("../img/spinnerLarge.gif")!important;
+  background-size: contain!important;
+  position: relative;
+  top:-5px;
+}
+.bio-home {
+margin-top: 25px;
+}
+
+.bio-home p {
+line-height: 1.6;
+font-weight: 100;
+}
+
+h3.quote-text {
+font-size: 20px;
+font-weight: 100;
+text-align: center;
+margin-top: 0;
+line-height: 1.3em;
+}
+
+.line {
+background: url(../img/JA_V04-BarLong.png) no-repeat;
+width: 100%;
+padding-bottom: 5%;
+background-size: contain;
+margin: 0 1%;
+}
+
+body.home .song-list {display:none;}
+body.home .music-wrapper h6 a {color:#fff!important;}
 
 /* ==========================================================================
    Header
