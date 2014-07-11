@@ -69,3 +69,60 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
+<!---- HOME | MUSIC PLAYER | TRACKS -->
+[wpv-layout-start]
+	[wpv-items-found]
+<ol class="song-list">
+		<wpv-loop>
+          <li>
+        		<a href="#" data-src="[types field="sample-mp3" link="true" output="raw"][/types]" class="[wpv-post-id]">
+                  [types field="track-number" output="raw"][/types] [wpv-post-title]
+              	</a>
+            </li>
+		</wpv-loop>
+</ol> 
+	[/wpv-items-found]
+	[wpv-no-items-found]
+        [wpml-string context="wpv-views"]<strong>N/A</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
+
+<!-- HOME | MUSIC PLAYER | ALBUMS -->
+[wpv-layout-start]
+	[wpv-items-found]
+		<wpv-loop>
+          <div class="col-sm-12">
+            <a href="[wpv-post-url]">
+            	<div class="album-img img-container">
+              		<img src="[types field="album-image" output="raw"][/types]" class="img-responsive" />
+          		</div>
+            </a>
+            <div class="music-wrapper">
+              <div class="row">
+            <div class="col-md-12">
+          <h4 class="featured">[wpv-post-title]</h4>
+            </div>
+          </div>
+		<div class="row">
+			<div class="col-xs-6">
+			<p class="song-title">Song Title</p>
+			</div>
+          <div class="col-xs-3"><a class="prev"><i class="fa fa-fast-backward"></i></a></div>
+          <div class="col-xs=3"><a class="next"><i class="fa fa-fast-forward"></i></a></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+              <audio preload></audio>
+              [wpv-view name="HOME | MUSIC PLAYER | TRACKS" wpvprchildof="[wpv-post-id]"]
+          </div>
+          </div>
+        </div>    
+		
+        </div>
+		</wpv-loop>
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
