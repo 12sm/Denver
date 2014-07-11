@@ -1,19 +1,35 @@
 <!--Views-->
 
 <!------------------------- HOME | TOP SLIDER ------------------------>
-<div class="row home-top-banner">
-	<div class="col-sm-12">
-		<div class="top-slider">
-			<ul class="slides">
-			    <li>
-			    <a href="URL">
-			      <img src="slide1.jpg" />
-			    </a>
-			    </li>
-	    	</ul>
-    	</div>
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+
+<div class='wrap container-fluid'>
+    <div class="row home-top-banner">
+		<div class="col-sm-12">
+      		<div class='top-slider col'>
+              <ul class="slides">
+                <wpv-loop>
+                  <li>
+                  <a href="[types field="slider-url" output="raw"][/types]">
+                    <img src="[types field="slider-image" size="large" url="true" resize="proportional"][/types]" class="img-responsive" />
+                  </a>
+                  </li>
+                </wpv-loop>
+              </ul>
+      		</div>
+		</div>
 	</div>
 </div>
+
+		
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
 
 <!----------------- HOME | NEWS -------------->
 <div class="row">
