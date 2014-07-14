@@ -33,8 +33,6 @@ var Roots = {
       $(window).load(function() {
   $('.top-slider').flexslider({
     animation: "slide",
-    prevText: "<i class='fa fa-angle-left'></i>",           //String: Set the text for the "previous" directionNav item
-    nextText: "<i class='fa fa-angle-right'></i>",
     });
   });
 
