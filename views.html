@@ -145,20 +145,21 @@
 
 
 <!---- PRODUCT CONTENT TEMPLATE ---->
-
-<div class="row">
-	<div class="col-sm-5 product-image">
-		<img src='[wpv-woo-product-image output="img_tag" size="medium"]' class="img=responsive" />
+<div class="col">
+	<div class="row">
+		<div class="col-sm-5 product-image">
+			<img src='[wpv-woo-product-image output="img_tag" size="medium"]' class="img=responsive" />
+		</div>
+		<div class="col-sm-7 product-info">
+			<h3 class='prod-title'>[wpv-post-title]</h3>
+			<p class="price">[wpv-woo-product-price]</p>
+			<p class='prod-desc'>[wpv-post-body]</p>
+			[wpv-woo-buy-options]
+		</div>
 	</div>
-	<div class="col-sm-7 product-info">
-		<h3 class='prod-title'>[wpv-post-title]</h3>
-		<p class="price">[wpv-woo-product-price]</p>
-		<p class='prod-desc'>[wpv-post-body]</p>
-		[wpv-woo-buy-options]
-	</div>
-</div>
-<div class='row'>
-	<div class="col-sm-12">
-		[wpv-woo-display-tabs]
+	<div class='row'>
+		<div class="col-sm-12">
+			[wpv-woo-display-tabs]
+		</div>
 	</div>
 </div>
