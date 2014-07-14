@@ -1,13 +1,8 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12">
+
 <?php if (is_front_page()) {
   echo do_shortcode('[wpv-view name="HOME | TOP-SLIDER"]');
 }
 ?>
-    </div>
-  </div>
-</div>
 
 <header class="banner navbar navbar-default navbar-static-top" role="banner" data-spy="affix" data-offset-top="552">
   <div class="container">
