@@ -35,7 +35,7 @@
 	<div class='col-sm-8 circles'>
 		<div class="row">
 			<div class="col-sm-4 col-sm-offset-4">
-				<?php echo do_shortcode('[wpv-view name="HOME | MUSIC PLAYER | ALBUMS"]'); ?>
+				<?php echo do_shortcode('[wpv-view name="HOME | MUSIC PLAYER | ALBUMS"]');  ?>
 			</div>
 		</div>
 	</div>
