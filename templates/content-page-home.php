@@ -16,10 +16,10 @@
 </section>
 <section id='news'>
 <div class="row home-news">
-	<div class="col-sm-6">
+	<div class="col-sm-4">
 		<?php echo do_shortcode('[wpv-view name="HOME | NEWS"]'); ?>
 	</div>
-	<div class="col-sm-6">
+	<div class="col-sm-8 home-people">
 		<img src="/wp-content/themes/denver/assets/img/mr-blue.png">
 		<img src="/wp-content/themes/denver/assets/img/mr-green.png">
 		<img src="/wp-content/themes/denver/assets/img/mr-grey.png">
