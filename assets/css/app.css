@@ -117,10 +117,12 @@ p.pause:before{
   div.row.music-player {
   padding-top: 7%;
   }
-  #music{
-    background: url(../img/denver-album.png);
-    background-size:cover;
-  }
+  #music {
+background: url(../img/denver-album.png) no-repeat;
+background-size: contain;
+background-position: -44% 0%;
+}
+  .circles{}
 
 
 /* ==========================================================================

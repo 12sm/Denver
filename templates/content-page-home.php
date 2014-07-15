@@ -30,7 +30,7 @@
 </section>
 <section id='music'>
 <div class='row music-player'>
-	<div class='col-sm-4'>
+	<div class='col-sm-6'>
 	</div>
 	<div class='col-sm-6 circles'>
 		<div class="row">
