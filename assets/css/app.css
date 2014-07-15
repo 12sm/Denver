@@ -117,6 +117,10 @@ p.pause:before{
   div.row.music-player {
   padding-top: 7%;
   }
+  #music{
+    background: url(../img/denver-album.png);
+    background-size:cover;
+  }
 
 
 /* ==========================================================================
