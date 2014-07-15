@@ -32,7 +32,7 @@
 <div class='row music-player'>
 	<div class='col-sm-6'>
 	</div>
-	<div class='col-sm-6'>
+	<div class='col-sm-3'>
 		<?php echo do_shortcode('[wpv-view name="HOME | MUSIC PLAYER | ALBUMS"]'); ?>
 	</div>
 </div>

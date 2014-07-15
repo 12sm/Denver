@@ -108,6 +108,15 @@ p.pause:before{
     top: 125px;
     }
 
+  /* [MUSIC] */
+  .album-img {
+  height: 380px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  }
+  div.row.music-player {
+  padding-top: 7%;
+  }
 
 
 /* ==========================================================================
