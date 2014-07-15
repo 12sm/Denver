@@ -1,6 +1,11 @@
 <section>
 <div class="row home-about">
 	<div class='col-sm-6'>
+		<div class="about-imgs-container">
+			<img src="/wp-content/themes/denver/assets/img/trumpet.png" class='about-trumpet'>
+			<img src="/wp-content/themes/denver/assets/img/guitar.png" class='about-guitar'>
+			<img src="/wp-content/themes/denver/assets/img/denver.png" class='about-denver'>
+		</div>
 	</div>
 	<div class="col-sm-6">
 	<h1>Who are We?</h1>
