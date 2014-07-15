@@ -1,4 +1,4 @@
-<section>
+<section id='about'>
 <div class="row home-about">
 	<div class='col-sm-6'>
 		<div class="about-imgs-container">
@@ -14,21 +14,21 @@
 	</div>
 </div>
 </section>
-<section>
+<section id='news'>
 <div class="row home-news">
 		<?php echo do_shortcode('[wpv-view name="HOME | NEWS"]'); ?>
 </div>
 </section>
-<section>
+<section id='music'>
 <div class='row music-player'>
-	<div class='col-sm-6'>
+	<div class='col-sm-8'>
 	</div>
-	<div class='col-sm-6'>
+	<div class='col-sm-4'>
 		<?php echo do_shortcode('[wpv-view name="HOME | MUSIC PLAYER | ALBUMS"]'); ?>
 	</div>
 </div>
 </section>
-<section>
+<section id='tour'>
 <div class='row tour-home'>
 	<div class="col-sm-6">
 	</div>
@@ -38,7 +38,7 @@
 	</div>
 </div>
 </section>
-<section>
+<section id='store'>
 <div class="row">
 	<div class="col-sm-12">
 		<h1>Check Out Our Store</h1>

@@ -84,33 +84,16 @@ p.pause:before{
   position: relative;
   top:-5px;
 }
-.bio-home {
-margin-top: 25px;
-}
+/* ==========================================================================
+   Header
+   ========================================================================== */
+  
+  /* [ABOUT] */
+  .about-imgs-container img {
+  position: absolute;
+  }
 
-.bio-home p {
-line-height: 1.6;
-font-weight: 100;
-}
 
-h3.quote-text {
-font-size: 20px;
-font-weight: 100;
-text-align: center;
-margin-top: 0;
-line-height: 1.3em;
-}
-
-.line {
-background: url(../img/JA_V04-BarLong.png) no-repeat;
-width: 100%;
-padding-bottom: 5%;
-background-size: contain;
-margin: 0 1%;
-}
-
-body.home .song-list {display:none;}
-body.home .music-wrapper h6 a {color:#fff!important;}
 
 /* ==========================================================================
    Header
@@ -300,6 +283,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .col {
 margin-left: 9%;
 margin-right: 9%;
+}
+
+.home section {
+height: 920px;
 }
 
  }
