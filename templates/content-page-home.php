@@ -20,11 +20,11 @@
 		<?php echo do_shortcode('[wpv-view name="HOME | NEWS"]'); ?>
 	</div>
 	<div class="col-sm-8 home-people">
-		<img src="/wp-content/themes/denver/assets/img/mr-blue.png">
-		<img src="/wp-content/themes/denver/assets/img/mr-green.png">
-		<img src="/wp-content/themes/denver/assets/img/mr-grey.png">
-		<img src="/wp-content/themes/denver/assets/img/mr-red.png">
-		<img src="/wp-content/themes/denver/assets/img/mr-stripe.png">
+		<img src="/wp-content/themes/denver/assets/img/mr-blue.png" class='mr-blue'>
+		<img src="/wp-content/themes/denver/assets/img/mr-green.png" class='mr-green'>
+		<img src="/wp-content/themes/denver/assets/img/mr-grey.png" class='mr-grey'>
+		<img src="/wp-content/themes/denver/assets/img/mr-red.png" class='mr-red'>
+		<img src="/wp-content/themes/denver/assets/img/mr-stripe.png" class='mr-stripe'>
 	</div>
 </div>
 </section>
