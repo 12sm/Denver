@@ -89,7 +89,7 @@ var Roots = {
     preferFlash: false,
     useFlashBlock: true,
     // path to directory containing SM2 SWF
-    url: '/assets/js',
+    url: '/swf',
     // optional: enable MPEG-4/AAC support (requires flash 9)
     flashVersion: 9
     });
@@ -113,7 +113,7 @@ var Roots = {
     preferFlash: false,
     useFlashBlock: true,
     // path to directory containing SM2 SWF
-    url: ' ',
+    url: '/swf ',
     // optional: enable MPEG-4/AAC support (requires flash 9)
     flashVersion: 9
     });
@@ -135,7 +135,7 @@ var Roots = {
   preferFlash: false,
   useFlashBlock: true,
   // path to directory containing SM2 SWF
-  url: '/assets/js',
+  url: '/swf',
   // optional: enable MPEG-4/AAC support (requires flash 9)
   flashVersion: 9
   });
