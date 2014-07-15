@@ -99,11 +99,13 @@ var Roots = {
     // soundManager.createSound() etc. may now be called
     inlinePlayer = new InlinePlayer();
   });
+
     }
   },
 
   albums: {
       init: function() {
+
       soundManager.setup({
     // disable or enable debug output
     debugMode: true,
@@ -111,7 +113,7 @@ var Roots = {
     preferFlash: false,
     useFlashBlock: true,
     // path to directory containing SM2 SWF
-    url: '/assets/js',
+    url: '../js',
     // optional: enable MPEG-4/AAC support (requires flash 9)
     flashVersion: 9
     });
