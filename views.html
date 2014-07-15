@@ -165,14 +165,52 @@
 </div>
 
 <!--------PRODUCT ARCHIVES------------>
-<div class="row row-prod">
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<wpv-loop>
+   <div class="row row-prod">
 	<div class="col-sm-4">
-		[wpv-woo-product-image]
+		[wpv-if album="_wpcf_belongs_albums_id" evaluate='!empty($album)']
+			<a href="[wpv-post-url id='$albums']">
+			<div class="img-container">
+			<h3>Album child</h3>
+				[wpv-woo-product-image]
+			</div>
+			</a>
+		[/wpv-if]
+		[wpv-if album="_wpcf_belongs_albums_id" evaluate='empty($album)']
+			<a href="[wpv-post-url]">
+			<h3>no child</h3>
+			<div class="img-container">
+				[wpv-woo-product-image]
+			</div>
+			</a>
+		[/wpv-if]
 	</div>
 	<div class="col-sm-8">
 		<h3 class='prod-title'>[wpv-post-title]</h3>
 		<p class="price">[wpv-woo-product-price]</p>
 		<p class='prod-desc'>[wpv-post-excerpt]</p>
-		<div class='buy-opt'>[wpv-woo-buy-options]</div>
+		<div class='buy-opt'>
+		[wpv-woo-buy-or-select add_to_cart_text="" link_to_product_text=""]
+		[wpv-if album="_wpcf_belongs_album_id" evaluate='!empty($album)']
+			<a href="[wpv-post-url id='$album']" class='btn btn-med'>
+			Read More
+			</a>
+		[/wpv-if]
+		[wpv-if album="_wpcf_belongs_album_id" evaluate='empty($album)']
+			<a href="[wpv-post-url]" class='btn btn-med'>
+			Read More
+			</a>
+		[/wpv-if]
+		</div>
 	</div>
 </div>
+		</wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
