@@ -165,6 +165,9 @@ body.home .music-wrapper h6 a {color:#fff!important;}
 .store-prod-img {
 height: 375px;
 }
+.song-list{
+  list-style: none;
+}
 
   /*SoundManager Css*/
     .track-title {
@@ -246,6 +249,7 @@ height: 375px;
     a.sm2_button.sm2_paused:hover {
      background-color:#666;
     }
+}
 
 /* ==========================================================================
    Footer
