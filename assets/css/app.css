@@ -105,7 +105,9 @@ p.pause:before{
   }
   .home-people img {
     position: absolute;
+    top: 125px;
     }
+
 
 
 /* ==========================================================================
@@ -317,6 +319,23 @@ margin-right: 9%;
     img.about-denver {
     left: 18%;
     }
+/*[news-home]*/
+  img.mr-blue {
+  right: 10%;
+  }
+  img.mr-grey {
+  right: 17%;
+  top: 150px;
+  }
+  img.mr-red {
+  right: 40%;
+  top: 80px;
+  }
+  img.mr-stripe {
+right: 55%;
+top: 167px;
+}
+
  }
 
 
