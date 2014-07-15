@@ -44,7 +44,7 @@
 <section id='tour'>
 <div class='row tour-home'>
 	<div class="col-sm-6">
-	<img src='/wp-content/themes/denver/assets/img/people.png' class="img-responsive people">
+	<img src='/wp-content/themes/denver/assets/img/People.png' class="img-responsive people">
 	</div>
 	<div class="col-sm-6">
 	<h1> Tour</h1>
