@@ -113,7 +113,7 @@ var Roots = {
     preferFlash: false,
     useFlashBlock: true,
     // path to directory containing SM2 SWF
-    url: '../js',
+    url: '../assets/js',
     // optional: enable MPEG-4/AAC support (requires flash 9)
     flashVersion: 9
     });
