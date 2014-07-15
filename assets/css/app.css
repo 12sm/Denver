@@ -133,6 +133,10 @@ background-position: 50% 50%;
     background: url(../img/bg-red.jpg) no-repeat;
     background-size: cover;
   }
+  img.img-responsive.people {
+  left: 22%;
+  position: absolute;
+  }
 
 /* ==========================================================================
    Header
