@@ -88,9 +88,17 @@ p.pause:before{
    Header
    ========================================================================== */
   
+
+/* ==========================================================================
+   Home
+   ========================================================================== */  
   /* [ABOUT] */
   .about-imgs-container img {
   position: absolute;
+  }
+  #news{
+    background: url(../img/BG.jpg);
+    background-size: cover;
   }
 
 
@@ -285,9 +293,22 @@ margin-left: 9%;
 margin-right: 9%;
 }
 
-.home section {
-height: 920px;
-}
+
+/*[about-home]*/
+  .home section {
+  height: 920px;
+  }
+  img.about-trumpet {
+  width: 50%;
+  z-index: 5;
+  left: -21%;
+  top: 340px;
+  }
+
+  img.about-guitar {
+    right: 8%;
+    top: 100px;
+    }
 
  }
 
