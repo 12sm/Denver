@@ -30,12 +30,11 @@
 </section>
 <section id='music'>
 <div class='row music-player'>
-	<div class='col-sm-6'>
+	<div class='col-sm-4'>
 	</div>
-	<div class='col-sm-6 circles'>
-	<img src="/wp-content/themes/denver/assets/img/circles.png" class="img-responsive">
+	<div class='col-sm-8 circles'>
 		<div class="row">
-			<div class="col-sm-6 col-sm-offset-3">
+			<div class="col-sm-4 col-sm-offset-4">
 				<?php echo do_shortcode('[wpv-view name="HOME | MUSIC PLAYER | ALBUMS"]'); ?>
 			</div>
 		</div>
