@@ -33,6 +33,7 @@
 	<div class='col-sm-6'>
 	</div>
 	<div class='col-sm-6 circles'>
+	<img src="/wp-content/themes/denver/assets/img/circles.png" class="img-responsive">
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
 				<?php echo do_shortcode('[wpv-view name="HOME | MUSIC PLAYER | ALBUMS"]'); ?>
