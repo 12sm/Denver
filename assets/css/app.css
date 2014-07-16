@@ -110,7 +110,7 @@ p.pause:before{
 
   /* [MUSIC] */
   .album-img {
-  height: 380px;
+  overflow: hidden;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   }
