@@ -54,10 +54,6 @@
 </section>
 <section id='store'>
 <div class="row">
-	<div class="col-sm-12">
-		<h1>Check Out Our Store</h1>
-		<a href="/store/" class="btn btn-click">Click Here</a>
-		<img src="banner image bottom">
-	</div>
+	<?php echo do_shortcode('[wpv-view name="HOME | STORE"]'); ?>
 </div>
 </section>
