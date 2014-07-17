@@ -127,14 +127,13 @@ $(".main-wrap").onepage_scroll({
   var windowHeight = $window.height(); //get the height of the window
     
   //apply the class "inview" to a section that is in the viewport
-  $('.about-guitar, .about-trumpet, #news, #music, #tour, #store').bind('inview', function (event, visible) {
+  $('.about-guitar, .about-trumpet, #about, #news, #music, #tour, #store').bind('inview', function (event, visible) {
       if (visible == true) {
       $(this).addClass("inview");
       } else {
       $(this).removeClass("inview");
       }
     });
-  console.log('im working');
   
   //function that is called for every pixel the user scrolls. Determines the position of the background
   /*arguments: 
@@ -154,7 +153,7 @@ $(".main-wrap").onepage_scroll({
 
 
     //if the first section is in view...
-    if($guitar.hasClass("inview")){
+    if($('#about').hasClass("inview")){
       //call the newPos function and change the background position
       $guitar.css({'top': newTop(windowHeight, pos, +200, -0.5)}); 
     }
