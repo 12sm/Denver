@@ -6,7 +6,9 @@
       <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?>
     </div>
   <![endif]-->
-  <?php
+  <?php if (!is_front_page()) {
+    # code...
+  }
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
     if (current_theme_supports('bootstrap-top-navbar')) {
@@ -14,6 +16,7 @@
     } else {
       get_template_part('templates/header');
     }
+  }
   ?>
 <?php if (!is_front_page()) { ?>
   <div class="wrap container-fluid" role="document">
