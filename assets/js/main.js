@@ -78,6 +78,121 @@ var Roots = {
               $('.music-wrapper p.song-title').text(newtext);
             });
 
+//SMOOTH SCROLL
+    $(function() {
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      $('html,body').animate({
+        scrollTop: target.offset().top
+     }, 1000);
+     return false;
+          }
+        }
+         });
+      });
+
+//OneScroll
+$(".main").onepage_scroll({
+   sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+   easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", 
+                                    // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+   animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
+   pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+   updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+   beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+   afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+   loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+   keyboard: true,                  // You can activate the keyboard controls
+   responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
+                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever 
+                                    // the browser's width is less than 600, the fallback will kick in.
+   direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+});
+
+
+//Begin Parallax
+  var $window = $(window);
+  var $firstBG = $('.music-body');
+  var $secondBG = $('.tour-body');
+  var $thirdBG = $('.blog-home-body');
+  var $fourthBG = $('.gallery-home-body');
+  var $fifthBG = $('.store-body');
+  
+  var windowHeight = $window.height(); //get the height of the window
+    
+  //apply the class "inview" to a section that is in the viewport
+  $('.music-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body').bind('inview', function (event, visible) {
+      if (visible == true) {
+      $(this).addClass("inview");
+      } else {
+      $(this).removeClass("inview");
+      }
+    });
+  
+  //function that is called for every pixel the user scrolls. Determines the position of the background
+  /*arguments: 
+    x = horizontal position of background
+    windowHeight = height of the viewport
+    pos = position of the scrollbar
+    adjuster = adjust the position of the background
+    inertia = how fast the background moves in relation to scrolling
+  */
+  function newPos(x, windowHeight, pos, adjuster, inertia){
+    return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "px";
+  }
+  
+  //function to be called whenever the window is scrolled or resized
+  function Move(){ 
+    var pos = $window.scrollTop(); //position of the scrollbar
+
+
+    //if the first section is in view...
+    if($firstBG.hasClass("inview")){
+      //call the newPos function and change the background position
+      $firstBG.css({'backgroundPosition': newPos(20, windowHeight, pos, -1000, -0.5)}); 
+    }
+    
+    //if the second section is in view...
+    if($secondBG.hasClass("inview")){
+      //call the newPos function and change the background position
+      $secondBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 100, -0.5)});
+    }
+    
+    //if the third section is in view...
+    if($thirdBG.hasClass("inview")){
+      //call the newPos function and change the background position
+      $thirdBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 800, -0.5)});
+    }
+    
+    //if the fourth section is in view...
+    if($fourthBG.hasClass("inview")){
+      //call the newPos function and change the background position
+      $fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 2000, -0.5)});   
+    }
+    
+    //if the fifth section is in view...
+    if($fifthBG.hasClass("inview")){
+      //call the newPos function and change the background position
+      $fifthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 2400, -0.5)});
+    }
+    
+  }
+  
+  enquire.register("screen and (min-width:50em)", function() {
+        $window.resize(function(){ //if the user resizes the window...
+      Move(); //move the background images in relation to the movement of the scrollbar
+    });   
+  
+    $window.bind('scroll', function(){ //when the user is scrolling...
+      Move(); //move the background images in relation to the movement of the scrollbar
+    });
+    // End Parallax
+    }, true);
+
+
     }
   },
   single_albums: {
