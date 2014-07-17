@@ -7,8 +7,7 @@
     </div>
   <![endif]-->
   <?php if (!is_front_page()) {
-    # code...
-  }
+
     do_action('get_header');
     // Use Bootstrap's navbar if enabled in config.php
     if (current_theme_supports('bootstrap-top-navbar')) {
