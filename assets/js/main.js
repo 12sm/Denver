@@ -134,6 +134,7 @@ $(".main-wrap").onepage_scroll({
       $(this).removeClass("inview");
       }
     });
+  console.log('im working');
   
   //function that is called for every pixel the user scrolls. Determines the position of the background
   /*arguments: 
