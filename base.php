@@ -29,6 +29,10 @@
     </div><!-- /.content -->
   </div><!-- /.wrap -->
   <?php get_template_part('templates/footer'); ?>
- <?php } ?>
+ <?php }
+ if (is_front_page()) {
+   include roots_template_path();  } 
+   ?>
+
 </body>
 </html>
