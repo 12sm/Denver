@@ -115,16 +115,19 @@ $(".main-wrap").onepage_scroll({
 
 //Begin Parallax
   var $window = $(window);
-  var $firstBG = $('.music-body');
-  var $secondBG = $('.tour-body');
-  var $thirdBG = $('.blog-home-body');
-  var $fourthBG = $('.gallery-home-body');
-  var $fifthBG = $('.store-body');
-  
+  var $guitar = $('.about-guitar');
+  var $trupet = $('.about-trumpet');
+  var $green = $('.mr-green');
+  var $grey = $('.mr-grey');
+  var $red = $('.mr-red');
+  var $stripe = $('.mr-stripe');
+
+
+
   var windowHeight = $window.height(); //get the height of the window
     
   //apply the class "inview" to a section that is in the viewport
-  $('.music-body, .tour-body, .blog-home-body, .gallery-home-body, .store-body').bind('inview', function (event, visible) {
+  $('#slider, #about, #news, #music, #tour, #store').bind('inview', function (event, visible) {
       if (visible == true) {
       $(this).addClass("inview");
       } else {
@@ -140,8 +143,8 @@ $(".main-wrap").onepage_scroll({
     adjuster = adjust the position of the background
     inertia = how fast the background moves in relation to scrolling
   */
-  function newPos(x, windowHeight, pos, adjuster, inertia){
-    return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "px";
+  function newTop(windowHeight, pos, adjuster, inertia){
+    return (-((windowHeight + pos) - adjuster) * inertia)  + "px";
   }
   
   //function to be called whenever the window is scrolled or resized
@@ -150,9 +153,9 @@ $(".main-wrap").onepage_scroll({
 
 
     //if the first section is in view...
-    if($firstBG.hasClass("inview")){
+    if($guitar.hasClass("inview")){
       //call the newPos function and change the background position
-      $firstBG.css({'backgroundPosition': newPos(20, windowHeight, pos, -1000, -0.5)}); 
+      $guitar.css({'top': newTop(windowHeight, pos, +200, -0.5)}); 
     }
     
     //if the second section is in view...
