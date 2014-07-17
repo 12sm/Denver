@@ -153,7 +153,7 @@ $(".main-wrap").onepage_scroll({
 
 
     //if the first section is in view...
-    if($('#about').hasClass("inview")){
+    //if($guitar.hasClass("inview")){
       //call the newPos function and change the background position
       $guitar.css({'top': newTop(windowHeight, pos, +200, -0.5)}); 
     }
