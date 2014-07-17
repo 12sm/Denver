@@ -3,7 +3,6 @@
   echo do_shortcode('[wpv-view name="HOME | TOP-SLIDER"]');
 }
 ?>
-</section>
 <header class="banner navbar navbar-default navbar-static-top" role="banner" data-spy="affix" data-offset-top="865">
   <div class="container">
     <div class="col">
@@ -27,3 +26,4 @@
     </div>
   </div>
 </header>
+</section>
