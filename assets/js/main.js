@@ -127,7 +127,7 @@ $(".main-wrap").onepage_scroll({
   var windowHeight = $window.height(); //get the height of the window
     
   //apply the class "inview" to a section that is in the viewport
-  $('#slider, #about, #news, #music, #tour, #store').bind('inview', function (event, visible) {
+  $('.about-guitar, .about-trumpet, #news, #music, #tour, #store').bind('inview', function (event, visible) {
       if (visible == true) {
       $(this).addClass("inview");
       } else {
