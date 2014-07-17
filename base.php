@@ -30,8 +30,13 @@
   </div><!-- /.wrap -->
   <?php get_template_part('templates/footer'); ?>
  <?php }
- if (is_front_page()) {
-   include roots_template_path();  } 
+ if (is_front_page()) { ?>
+  <div class="main-wrap">
+  <?php 
+   include roots_template_path();  
+   ?>
+   </div>
+   <?php } 
    ?>
 
 </body>
