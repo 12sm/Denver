@@ -158,7 +158,7 @@ $(".main-wrap").onepage_scroll({
       $guitar.css({'top': newTop(windowHeight, pos, +200, -0.5)}); 
     }
     
-    }
+    //}
     
   }
   
