@@ -152,13 +152,15 @@ $(window).scroll(function(){
   function Move(){ 
     var pos = $window.scrollTop(); //position of the scrollbar
     console.log('scrolling');
-});
+
+
     console.log('move');
     //if the first section is in view...
     //if($guitar.hasClass("inview")){
       //call the newPos function and change the background position
       $('.guitar').css({'top': newTop(windowHeight, pos, 200, -0.5)}); 
     }
+    });
     
     //}
     
