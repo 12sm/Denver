@@ -35,7 +35,7 @@ var Roots = {
     animation: "slide",
     });
   });
-
+console.log('home is firing');
 
  // Setup the player to autoplay the next track
         var a = audiojs.createAll({
