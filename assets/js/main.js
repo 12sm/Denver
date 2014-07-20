@@ -160,7 +160,7 @@ $(".main-wrap").onepage_scroll({
     
     //}
     
-  }
+  
   
   /*enquire.register("screen and (min-width:50em)", function() {
         $window.resize(function(){ //if the user resizes the window...
