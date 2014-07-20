@@ -106,8 +106,6 @@ $('a[href*=#]:not([href=#])').click(function() {
   var $red = $('.mr-red');
   var $stripe = $('.mr-stripe');
 
-console.log('line 109 is firing')
-
 
   var windowHeight = $window.height(); //get the height of the window
     
@@ -146,7 +144,17 @@ console.log('line 109 is firing')
     }
     });
     
-    //}
+    enquire.register("screen and (min-width:50em)", function() {
+        $window.resize(function(){ //if the user resizes the window...
+      Move(); //move the background images in relation to the movement of the scrollbar
+    });   
+  
+    $window.bind('scroll', function(){ //when the user is scrolling...
+      Move(); //move the background images in relation to the movement of the scrollbar
+    });
+    // End Parallax
+    }, true);
+
     
   
   
