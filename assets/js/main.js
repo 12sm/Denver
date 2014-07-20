@@ -151,7 +151,7 @@ $(".main-wrap").onepage_scroll({
   function Move(){ 
     var pos = $window.scrollTop(); //position of the scrollbar
 
-
+    console.log('move');
     //if the first section is in view...
     //if($guitar.hasClass("inview")){
       //call the newPos function and change the background position
