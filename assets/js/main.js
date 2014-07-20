@@ -151,6 +151,7 @@ $(window).scroll(function(){
   //function to be called whenever the window is scrolled or resized
   function Move(){ 
     var pos = $window.scrollTop(); //position of the scrollbar
+    console.log('scrolling');
 });
     console.log('move');
     //if the first section is in view...
