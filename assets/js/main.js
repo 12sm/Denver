@@ -155,9 +155,9 @@ $(window).scroll(function(){
       Move(); //move the background images in relation to the movement of the scrollbar
     });*/   
   
-    $wnidow.bind('scroll', function(){ //when the user is scrolling...
+    /*$wnidow.bind('scroll', function(){ //when the user is scrolling...
       Move(); //move the background images in relation to the movement of the scrollbar
-    });
+    });*/
     // End Parallax
     //}, true);
 
