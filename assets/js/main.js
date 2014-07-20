@@ -106,7 +106,7 @@ $('a[href*=#]:not([href=#])').click(function() {
   var $red = $('.mr-red');
   var $stripe = $('.mr-stripe');
 
-
+console.log('line 109 is firing')
 
 
   var windowHeight = $window.height(); //get the height of the window
@@ -135,7 +135,7 @@ $('a[href*=#]:not([href=#])').click(function() {
   //function to be called whenever the window is scrolled or resized
   function Move(){ 
     var pos = $window.scrollTop(); //position of the scrollbar
-    console.log('scrolling');
+    console.log('scbodyrolling');
 
 
     console.log('move');
