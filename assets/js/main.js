@@ -162,10 +162,10 @@ $(".main-wrap").onepage_scroll({
     
   }
   
-  enquire.register("screen and (min-width:50em)", function() {
+  /*enquire.register("screen and (min-width:50em)", function() {
         $window.resize(function(){ //if the user resizes the window...
       Move(); //move the background images in relation to the movement of the scrollbar
-    });   
+    });*/   
   
     $window.bind('scroll', function(){ //when the user is scrolling...
       Move(); //move the background images in relation to the movement of the scrollbar
