@@ -107,7 +107,7 @@ $('a[href*=#]:not([href=#])').click(function() {
   var $stripe = $('.mr-stripe');
 
 
-$(window).scroll(function(){
+
 
   var windowHeight = $window.height(); //get the height of the window
     
@@ -131,7 +131,7 @@ $(window).scroll(function(){
   function newTop(windowHeight, pos, adjuster, inertia){
     return (-((windowHeight + pos) - adjuster) * inertia)  + "px";
   }
-  
+  $(window).scroll(function(){
   //function to be called whenever the window is scrolled or resized
   function Move(){ 
     var pos = $window.scrollTop(); //position of the scrollbar
