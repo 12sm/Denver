@@ -171,7 +171,7 @@ $(".main-wrap").onepage_scroll({
       Move(); //move the background images in relation to the movement of the scrollbar
     });
     // End Parallax
-    }, true);
+    //}, true);
 
 
     }
