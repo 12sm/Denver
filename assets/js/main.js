@@ -123,6 +123,7 @@ $(".main-wrap").onepage_scroll({
   var $stripe = $('.mr-stripe');
 
 
+$(window).scroll(function(){
 
   var windowHeight = $window.height(); //get the height of the window
     
@@ -150,7 +151,7 @@ $(".main-wrap").onepage_scroll({
   //function to be called whenever the window is scrolled or resized
   function Move(){ 
     var pos = $window.scrollTop(); //position of the scrollbar
-
+});
     console.log('move');
     //if the first section is in view...
     //if($guitar.hasClass("inview")){
@@ -167,7 +168,7 @@ $(".main-wrap").onepage_scroll({
       Move(); //move the background images in relation to the movement of the scrollbar
     });*/   
   
-    $window.bind('scroll', function(){ //when the user is scrolling...
+    $wnidow.bind('scroll', function(){ //when the user is scrolling...
       Move(); //move the background images in relation to the movement of the scrollbar
     });
     // End Parallax
