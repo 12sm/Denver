@@ -128,7 +128,7 @@ $('a[href*=#]:not([href=#])').click(function() {
     $('.about-guitar').animate({top: '15px'},{duration: 600});
    };
    if (!$about.hasClass('active')) {
-    $('.about-guitar').animate({top: '45px'}, {duration: 600});
+    $('.about-guitar').animate({top: '80px'}, {duration: 600});
    };
     //if the first section is in view...
     //if($guitar.hasClass("inview")){
