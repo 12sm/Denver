@@ -125,6 +125,7 @@ $('a[href*=#]:not([href=#])').click(function() {
   function Move(){ 
    
    if ($about.hasClass('active')) {
+    console.log('about is active');
     $('.about-guitar').animate({top: '15px'}, 1200);
    };
     //if the first section is in view...
