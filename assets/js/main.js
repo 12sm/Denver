@@ -125,12 +125,12 @@ $('a[href*=#]:not([href=#])').click(function() {
   function Move(){ 
    
    if ($about.hasClass('active')) {
-    $('about-guitar').animate({top: '15px'}, 1200);
+    $('.about-guitar').animate({top: '15px'}, 1200);
    };
     //if the first section is in view...
     //if($guitar.hasClass("inview")){
       //call the newPos function and change the background position
-      $guitar.css({'top': newTop(windowHeight, pos, 300, -1)}); 
+      //$guitar.css({'top': newTop(windowHeight, pos, 300, -1)}); 
     }
 
 
