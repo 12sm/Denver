@@ -201,7 +201,10 @@ height: 375px;
 .song-list{
   list-style: none;
 }
-
+.album-img{
+  min-height: 300px;
+  min-width: 300px;
+}
   /*SoundManager Css*/
     .track-title {
     padding: 10px;
@@ -282,6 +285,7 @@ height: 375px;
     a.sm2_button.sm2_paused:hover {
      background-color:#666;
     }
+}
 }
 
 /* ==========================================================================
