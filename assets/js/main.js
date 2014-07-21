@@ -145,7 +145,7 @@ $(".main-wrap").onepage_scroll({
   function newTop(windowHeight, pos, adjuster, inertia){
     return (-((windowHeight + pos) - adjuster) * inertia)  + "px";
   }
-  $(document).scroll(function(){
+
   //function to be called whenever the window is scrolled or resized
   function Move(){ 
     var pos = $window.scrollTop(); //position of the scrollbar
@@ -158,14 +158,15 @@ $(".main-wrap").onepage_scroll({
       //call the newPos function and change the background position
       $('.guitar').css({'top': newTop(windowHeight, pos, 200, -0.5)}); 
     }
+
     });
     
     enquire.register("screen and (min-width:50em)", function() {
         $window.resize(function(){ //if the user resizes the window...
-      Move(); //move the background images in relation to the movement of the scrollbar
+        Move(); //move the background images in relation to the movement of the scrollbar
     });   
   
-    $window.bind('scroll', function(){ //when the user is scrolling...
+    $window.scroll(function(){ //when the user is scrolling...
       Move(); //move the background images in relation to the movement of the scrollbar
     });
     // End Parallax
