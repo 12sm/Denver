@@ -123,7 +123,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 
   //function to be called whenever the window is scrolled or resized
   function Move(){ 
-   
+   alert('move is firing');
    if ($about.hasClass('active')) {
     $('.about-guitar').animate({top: ['15px', 'linear']});
    };
