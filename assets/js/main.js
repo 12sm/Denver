@@ -99,8 +99,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 //Begin Parallax
   var $window = $(window);
-  var $guitar = $('.about-guitar');
-  var $trupet = $('.about-trumpet');
+  var $about = $('#about');
   var $green = $('.mr-green');
   var $grey = $('.mr-grey');
   var $red = $('.mr-red');
@@ -108,15 +107,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 
   var windowHeight = $window.height(); //get the height of the window
-    
-  //apply the class "inview" to a section that is in the viewport
-  $('.about-guitar, .about-trumpet, #about, #news, #music, #tour, #store').bind('inview', function (event, visible) {
-      if (visible == true) {
-      $(this).addClass("inview");
-      } else {
-      $(this).removeClass("inview");
-      }
-    });
+
   
   //function that is called for every pixel the user scrolls. Determines the position of the background
   /*arguments: 
@@ -132,8 +123,10 @@ $('a[href*=#]:not([href=#])').click(function() {
 
   //function to be called whenever the window is scrolled or resized
   function Move(){ 
-    var pos = $(window).scrollTop(); //position of the scrollbar
-    console.log(pos);
+   
+   if ($about.hasClass('active')) {
+    $('about-guitar').animate({top: '15px'}, 1200);
+   };
     //if the first section is in view...
     //if($guitar.hasClass("inview")){
       //call the newPos function and change the background position
