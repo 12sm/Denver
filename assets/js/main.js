@@ -129,7 +129,7 @@ $('a[href*=#]:not([href=#])').click(function() {
     $('.about-guitar').animate({top: '15px'}, 1200);
    };
    if (!$about.hasClass('active')) {
-    about is moving away
+    console.log('about is moving away');
     $('.about-guitar').animate({top: '45px'}, 1200);
    };
     //if the first section is in view...
