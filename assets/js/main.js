@@ -35,7 +35,6 @@ var Roots = {
     animation: "slide",
     });
   });
-console.log('home is firing');
 
  // Setup the player to autoplay the next track
         var a = audiojs.createAll({
@@ -123,17 +122,13 @@ $('a[href*=#]:not([href=#])').click(function() {
 
   //function to be called whenever the window is scrolled or resized
   function Move(){ 
-   alert('move is firing');
    if ($about.hasClass('active')) {
     $('.about-guitar').animate({top: ['15px', 'linear']});
    };
    if (!$about.hasClass('active')) {
     $('.about-guitar').animate({top: '80px'}, {duration: 600});
    };
-    //if the first section is in view...
-    //if($guitar.hasClass("inview")){
-      //call the newPos function and change the background position
-      //$guitar.css({'top': newTop(windowHeight, pos, 300, -1)}); 
+
     }
 
 
