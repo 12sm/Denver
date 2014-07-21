@@ -479,7 +479,7 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
 }
 
-body, html {
+body.home, html {
   margin: 0;
   overflow: hidden;
   -webkit-transition: opacity 400ms;
@@ -487,7 +487,7 @@ body, html {
   transition: opacity 400ms;
 }
 
-body, .onepage-wrapper, html {
+body.home, .onepage-wrapper, html {
   display: block;
   position: static;
   padding: 0;
