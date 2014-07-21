@@ -123,7 +123,7 @@ $(".main-wrap").onepage_scroll({
   var $stripe = $('.mr-stripe');
 
 
-   //get the height of the window
+  var windowHeight = $window.height(); //get the height of the window
     
   //apply the class "inview" to a section that is in the viewport
   $('.about-guitar, .about-trumpet, #about, #news, #music, #tour, #store').bind('inview', function (event, visible) {
@@ -148,20 +148,19 @@ $(".main-wrap").onepage_scroll({
 
   //function to be called whenever the window is scrolled or resized
   function Move(){ 
-    var windowHeight = $window.height();
     var pos = $window.scrollTop(); //position of the scrollbar
 
     //if the first section is in view...
     //if($guitar.hasClass("inview")){
       //call the newPos function and change the background position
-      $guitar.css({'top': newTop(windowHeight, pos, 200, -0.5)}); 
+      $guitar.css({'top': newTop(windowHeight, pos, 300, -1)}); 
     }
 
 
     
     enquire.register("screen and (min-width:50em)", function() {
         $window.resize(function(){ 
-        var windowHeight = $window.height();//if the user resizes the window...
+        //if the user resizes the window...
         Move(); //move the background images in relation to the movement of the scrollbar
     });   
   
