@@ -159,7 +159,7 @@ $(".main-wrap").onepage_scroll({
       $('.guitar').css({'top': newTop(windowHeight, pos, 200, -0.5)}); 
     }
 
-    });
+
     
     enquire.register("screen and (min-width:50em)", function() {
         $window.resize(function(){ //if the user resizes the window...
