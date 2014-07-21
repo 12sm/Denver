@@ -308,6 +308,7 @@
 		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
 	[/wpv-no-items-found]
 [wpv-layout-end]
+
 <!-------------- VIDEO | SINGLE | VIDEO GALLERIES ---------------->
 <wpv-loop>
 	<div class='col-sm-3'>
@@ -324,3 +325,54 @@
 	</div>
 </wpv-loop>
 
+<!----------VIDEO GALLERIES | SINGLE ---------->
+<div class="row">
+	<div class='col-sm-12'>
+		[wpv-view name='VIDEOS | ARCHIVE | FEATURED' wpvprchildof='[wpv-post-id]']
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-10 col-sm-offset-1">
+	      <div class='row video-list'>
+	      [wpv-view name='VIDEO | SINGLE | VIDEO GALLERIES' wpvprchildof='[wpv-post-id]']
+		</div>
+  </div>
+</div>
+
+
+
+<!-------- MUSIC | ALBUMS ARCHIVE ------------>
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<wpv-loop>
+   <div class="row row-prod">
+	<div class="col-sm-4">
+			<a href="[wpv-post-url]">
+			<div class="img-container">
+				[types field="album-image" size="medium" url="true" resize="proportional"][/types]
+			</div>
+			</a>
+	</div>
+	<div class="col-sm-8">
+		<h3 class='prod-title'>[wpv-post-title]</h3>
+		<p class="price">[wpv-view name='ALBUM | PRODUCT | PRICE']</p>
+		<p class='prod-desc'>[wpv-post-excerpt]</p>
+		<div class='buy-opt'>
+		[wpv-woo-buy-or-select add_to_cart_text="" link_to_product_text=""]
+			<a href="[wpv-post-url]" class='btn btn-med'>
+			Read More
+			</a>
+		</div>
+	</div>
+</div>
+		</wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
+
+<!------------------ ALBUM | PRODUCT | PRICE ------------------>
+[wpv-woo-product-price]
