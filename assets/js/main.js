@@ -126,11 +126,11 @@ $('a[href*=#]:not([href=#])').click(function() {
    
    if ($about.hasClass('active')) {
     console.log('about is active');
-    $('.about-guitar').animate({top: '15px'},{duration: 1200});
+    $('.about-guitar').animate({top: '15px'},{duration: 600});
    };
    if (!$about.hasClass('active')) {
     console.log('about is moving away');
-    $('.about-guitar').animate({top: '45px'}, {duration: 1200});
+    $('.about-guitar').animate({top: '45px'}, {duration: 600});
    };
     //if the first section is in view...
     //if($guitar.hasClass("inview")){
