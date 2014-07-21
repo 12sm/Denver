@@ -229,24 +229,98 @@
 
 <!---------------------- VIDEOS | ARCHIVE | FEATURED ------------------>
 
-	<h2>[wpv-post-title]</h2>
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		<wpv-loop>
+          <h2>[wpv-post-title]</h2>
 		<div class='vid-container'>
-		VIDEO EMBED
-		</div>	
-
+		[types field="video-url"][/types]
+		</div>
+		</wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
 
 <!-------------- VIDEOS | ARCHIVE | VIDEOS ---------->
-<div class='row video-list'>
-	<div class='col-sm-3'>
-		<a href="[wpv-post-url]">
-			<div class="vid-thumb">
-			[wpv-if thumb='wpcf-thumbnail-options' evaluate="$thumb = 1"]
-				[wpv-post-thumbnail]
-			[/wpv-if]
-			[wpv-if thumb='wpcf-thumbnail-options' evaluate="$thumb = 2"]
-				Custom thumbnail
-			[/wpv-if]
-			</div>
-		</a>
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		
+          <div class="row">
+	<div class='col-sm-12'>
+		[wpv-view name='VIDEOS | ARCHIVE | FEATURED']
 	</div>
 </div>
+<div class="row">
+	<div class="col-sm-10 col-sm-offset-1">
+      <div class='row video-list'>
+        <wpv-loop>
+			<div class='col-sm-3'>
+				<a href="[wpv-post-url]">
+				<div class="vid-thumb">
+			[wpv-if thumb='wpcf-thumbnail-options' evaluate="$thumb = 1"]
+				[wpv-post-featured-image class='img-responsive' size='thumbnail']
+			[/wpv-if]
+			[wpv-if thumb='wpcf-thumbnail-options' evaluate="$thumb = 2"]
+				[types field="custom-video-thumbnail" size="thumbnail" align="none" resize="proportional" style="img-responsive"][/types]
+			[/wpv-if]
+			</div>
+			</a>
+		</div>
+	</wpv-loop>
+</div>	
+
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No posts found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
+
+
+<!-------------- VIDEO | SINGLE -------------------->
+
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+	<wpv-loop>
+		<div class="row">
+			<div class="col-sm-12">
+		          <h2>[wpv-post-title]</h2>
+				<div class='vid-container'>
+				[types field="video-url"][/types]
+				</div>
+			</div>
+		</div>
+          <div class="col-sm-10 col-sm-offset-1">
+      <div class='row video-list'>
+      [wpv-view name='VIDEO | SINGLE | VIDEO GALLERIES' wpvprchildof='[wpv-post-id id="$video-galleries"]']
+  </div>
+</div>
+		</wpv-loop>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
+<!-------------- VIDEO | SINGLE | VIDEO GALLERIES ---------------->
+<wpv-loop>
+	<div class='col-sm-3'>
+		<a href="[wpv-post-url]">
+		<div class="vid-thumb">
+		[wpv-if thumb='wpcf-thumbnail-options' evaluate="$thumb = 1"]
+			[wpv-post-featured-image class='img-responsive' size='thumbnail']
+		[/wpv-if]
+		[wpv-if thumb='wpcf-thumbnail-options' evaluate="$thumb = 2"]
+			[types field="custom-video-thumbnail" size="thumbnail" align="none" resize="proportional" style="img-responsive"][/types]
+		[/wpv-if]
+		</div>
+		</a>
+	</div>
+</wpv-loop>
+
