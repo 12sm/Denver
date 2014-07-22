@@ -31,7 +31,10 @@
     </div><!-- /.content -->
   </div><!-- /.wrap -->
   <?php get_template_part('templates/footer'); ?>
- <?php }
+ <?php } ?>
+ <?php
+ 
+
  if (is_front_page()) { ?>
   <div class="main-wrap">
   <?php 
