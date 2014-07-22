@@ -41,8 +41,10 @@
 			</div>
 			<div class="col-sm-6">
 			<h1>Who are <span class='huge'>We?</span></h1>
-				<?php echo do_shortcode('[about]'); ?>
-				<a href="/about/" class="btn btn-about">Click to Find Out More </a>
+				<div class="round-box">
+					<?php echo do_shortcode('[about]'); ?>
+					<a href="/about/" class="btn btn-about">Click to Find Out More </a>
+				</div>
 			</div>
 		</div>
 	  </main>

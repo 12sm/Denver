@@ -32,14 +32,22 @@
 [wpv-layout-end]
 
 <!----------------- HOME | NEWS -------------->
-<div class="row">
-	<div class="col-sm-12">
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
 		<h2 class='uppercase'>News</h2>
+      		<wpv-loop>
 		<h3>[wpv-post-title]</h3>
 		<p class='round-box'>[wpv-post-excerpt]</p>
 		<a href="[wpv-post-url]" class='btn btn-click'>Click For More News</a>
-	</div>
-</div>
+              		</wpv-loop>
+
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
 
 
 <!----------------- HOME | MUSIC PLAYER | ALBUMS ------------>

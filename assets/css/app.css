@@ -16,7 +16,8 @@ h1,h2,h3,h4,h5,h6,p{
 p{
   font-size: 18px;
   color: #f84848;
-  font-style: bold;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 h1 {
