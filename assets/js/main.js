@@ -135,7 +135,7 @@ $('a[href*=#]:not([href=#])').click(function() {
         $('.about-trumpet').animate({top: ['345px', 'linear']});
        };
        if (!$about.hasClass('active')) {
-        $('.about-trumpet').animate({top: '285px'}, {duration: 600});
+        $('.about-trumpet').animate({top: '250px'}, {duration: 600});
        };
     }
 
