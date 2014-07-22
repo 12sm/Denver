@@ -143,8 +143,9 @@ $('a[href*=#]:not([href=#])').click(function() {
         $('.mr-green').animate({top: ['85px', 'swing']}, {duration: 1000});
        };
        if (!$news.hasClass('active')) {
+        setTimeout(function(){
         $('.mr-green').css({top: '-10000px'});
-       };
+       };}, 1200);
     }
 
 
