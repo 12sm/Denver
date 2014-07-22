@@ -20,15 +20,18 @@ p{
 
 h1 {
 color: #79d1ff;
-font-size: 120px;
+font-size: 126px;
 font-weight: 900;
 text-transform: uppercase;
+letter-spacing: 8px;
+line-height: .5;
 }
 h2{
   color: #79d1ff;
 }
 .huge{
-  font-size: 180px;
+  font-size: 278px;
+  line-height: 1;
 }
 /* ==========================================================================
    Audio Player
