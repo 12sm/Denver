@@ -142,11 +142,10 @@ $('a[href*=#]:not([href=#])').click(function() {
      if ($news.hasClass('active')) {
         $('.mr-green').animate({top: ['85px', 'swing']}, {duration: 1000});
        };
-       setTimeout(function(){
        if (!$news.hasClass('active')) {
         $('.mr-green').css({top: '-10000px'});
         };
-        }, 1200);
+
     }
 
 
