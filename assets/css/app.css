@@ -18,13 +18,17 @@ p{
   color: #f84848;
 }
 
-h1{
-  color: #79d1ff;
-  font-size: 32px;
-  font-weight: 800px;
+h1 {
+color: #79d1ff;
+font-size: 120px;
+font-weight: 900;
+text-transform: uppercase;
 }
 h2{
   color: #79d1ff;
+}
+.huge{
+  font-size: 180px;
 }
 /* ==========================================================================
    Audio Player

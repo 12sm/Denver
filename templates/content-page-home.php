@@ -40,7 +40,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-			<h1>Who are We?</h1>
+			<h1>Who are <span class='huge'>We?</span></h1>
 				<?php echo do_shortcode('[about]'); ?>
 				<a href="/about/" class="btn btn-about">Click to Find Out More </a>
 			</div>
