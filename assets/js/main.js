@@ -125,14 +125,14 @@ $('a[href*=#]:not([href=#])').click(function() {
   function Move(){ 
     //guitar
    if ($about.hasClass('active')) {
-    $('.about-guitar').animate({top: ['-35px', 'linear']}, {duration: 1200});
+    $('.about-guitar').animate({top: ['-35px', 'linear']}, {duration: 1000});
    };
    if (!$about.hasClass('active')) {
     $('.about-guitar').animate({top: '185px'}, {duration: 600});
    };
    //trumpet
     if ($about.hasClass('active')) {
-        $('.about-trumpet').animate({top: ['345px', 'linear']}, {duration: 800});
+        $('.about-trumpet').animate({top: ['345px', 'linear']}, {duration: 700});
        };
        if (!$about.hasClass('active')) {
         $('.about-trumpet').animate({top: '195px'}, {duration: 600});
