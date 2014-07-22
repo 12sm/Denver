@@ -125,7 +125,7 @@ $('a[href*=#]:not([href=#])').click(function() {
   function Move(){ 
     //guitar
    if ($about.hasClass('active')) {
-    $('.about-guitar').animate({top: ['-35px', 'linear']}, {duration: 1000});
+    $('.about-guitar').animate({top: ['-35px', 'linear']}, {duration: 700});
    };
    if (!$about.hasClass('active')) {
     $('.about-guitar').animate({top: '185px'}, {duration: 600});
