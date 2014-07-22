@@ -132,7 +132,12 @@ p.pause:before{
     position: absolute;
     top: 125px;
     }
-
+.round-box {
+background: #fff;
+padding: 35px;
+border-radius: 15px;
+box-shadow: 2px 2px 1px rgba(0,0,0,.2);
+}
   /* [MUSIC] */
   .album-img {
   overflow: hidden;
