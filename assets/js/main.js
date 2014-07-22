@@ -123,13 +123,20 @@ $('a[href*=#]:not([href=#])').click(function() {
 
   //function to be called whenever the window is scrolled or resized
   function Move(){ 
+    //guitar
    if ($about.hasClass('active')) {
-    $('.about-guitar').animate({top: ['15px', 'linear']});
+    $('.about-guitar').animate({top: ['-35px', 'linear']});
    };
    if (!$about.hasClass('active')) {
     $('.about-guitar').animate({top: '80px'}, {duration: 600});
    };
-
+   //trumpet
+    if ($about.hasClass('active')) {
+        $('.about-trumpet').animate({top: ['345px', 'linear']});
+       };
+       if (!$about.hasClass('active')) {
+        $('.about-trumpet').animate({top: '305px'}, {duration: 500});
+       };
     }
 
 
