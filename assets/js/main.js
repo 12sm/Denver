@@ -132,10 +132,10 @@ $('a[href*=#]:not([href=#])').click(function() {
    };
    //trumpet
     if ($about.hasClass('active')) {
-        $('.about-trumpet').animate({top: ['345px', 'linear']}, {duration: 700});
+        $('.about-trumpet').animate({top: ['195px', 'linear']}, {duration: 700});
        };
        if (!$about.hasClass('active')) {
-        $('.about-trumpet').animate({top: '195px'}, {duration: 600});
+        $('.about-trumpet').animate({top: '345px'}, {duration: 600});
        };
     }
 
