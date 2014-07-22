@@ -137,12 +137,12 @@ $('a[href*=#]:not([href=#])').click(function() {
        if (!$about.hasClass('active')) {
         $('.about-trumpet').animate({top: '345px'}, {duration: 600});
        };
-    }
+    
     //mr green
      if ($news.hasClass('active')) {
         $('.mr-green').animate({top: ['85px', 'swing']}, {duration: 1000});
        };
-       if (!$about.hasClass('active')) {
+       if (!$newshasClass('active')) {
         $('.mr-green').animate({top: '-10000px'}, {duration: 600});
        };
     }
