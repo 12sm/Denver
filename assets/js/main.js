@@ -145,7 +145,8 @@ $('a[href*=#]:not([href=#])').click(function() {
        if (!$news.hasClass('active')) {
         setTimeout(function(){
         $('.mr-green').css({top: '-10000px'});
-       };}, 1200);
+       }, 1200);
+        };
     }
 
 
