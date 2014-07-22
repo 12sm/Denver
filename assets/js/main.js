@@ -140,7 +140,7 @@ $('a[href*=#]:not([href=#])').click(function() {
     
     //mr green
      if ($news.hasClass('active')) {
-        $('.mr-green').animate({top: ['85px', 'swing']}, {duration: 1000});
+        $('.mr-green').animate({top: ['85px', 'swing']}, {duration: 1500});
        };
        if (!$news.hasClass('active')) {
         $('.mr-green').css({top: '-10000px'});
