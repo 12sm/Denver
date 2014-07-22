@@ -378,3 +378,24 @@
 [wpv-woo-product-price]
 
 <!-------------------- PHOTOS | GALLERIES ---------------->
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+		
+		<wpv-loop>
+        <div class='row gallery'>
+          <div class='col-sm-12'>
+            <h3>[wpv-post-link]</h3>
+            [wpv-post-body view_template="None"]
+          </div>
+          </div>
+		</wpv-loop>
+          
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		[wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+	[/wpv-no-items-found]
+[wpv-layout-end]
+
+<!----------------- PHOTOS | GALLERY LINKS ---------->
