@@ -100,9 +100,9 @@ $('a[href*=#]:not([href=#])').click(function() {
 //Begin Parallax
   var $window = $(window);
   var $about = $('#about');
-  var $green = $('.mr-green');
-  var $grey = $('.mr-grey');
-  var $red = $('.mr-red');
+  var $news = $('#news');
+  var $tour = $('#tour');
+  var $music = $('#music');
   var $stripe = $('.mr-stripe');
 
 
@@ -136,6 +136,14 @@ $('a[href*=#]:not([href=#])').click(function() {
        };
        if (!$about.hasClass('active')) {
         $('.about-trumpet').animate({top: '345px'}, {duration: 600});
+       };
+    }
+    //mr green
+     if ($news.hasClass('active')) {
+        $('.mr-green').animate({top: ['85px', 'swing']}, {duration: 1000});
+       };
+       if (!$about.hasClass('active')) {
+        $('.mr-green').animate({top: '-10000px'}, {duration: 600});
        };
     }
 
