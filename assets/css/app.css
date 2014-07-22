@@ -159,6 +159,11 @@ background-size: 60%;
 padding-top: 10%;
 background-position: 50% 50%;
 }
+.music-wrapper{
+  background: #fff;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
   /* [TOUR]*/
   #tour{
     background: url(../img/bg-red.jpg) no-repeat;
