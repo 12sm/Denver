@@ -140,10 +140,10 @@ $('a[href*=#]:not([href=#])').click(function() {
     
     //mr Green
      if ($news.hasClass('active')) {
-        $('.mr-red').animate({top: ['85px', 'swing']}, {duration: 1500});
+        $('.mr-green').animate({top: ['85px', 'swing']}, {duration: 1500});
        };
        if (!$news.hasClass('active')) {
-        $('.mr-red').css({top: '-10000px'});
+        $('.mr-green').css({top: '-10000px'});
         };
     //mr Red
     if ($news.hasClass('active')) {
