@@ -153,6 +153,13 @@ $('a[href*=#]:not([href=#])').click(function() {
        if (!$news.hasClass('active')) {
         $('.mr-red').css({top: '-10000px'});
         };
+    //gret
+    if ($news.hasClass('active')) {
+        $('.mr-grey').animate({top: ['85px', 'swing']}, {duration: 1000});
+       };
+       if (!$news.hasClass('active')) {
+        $('.mr-grey').css({top: '-10000px'});
+        };
 
     }
 
