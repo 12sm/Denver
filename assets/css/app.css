@@ -269,7 +269,7 @@ display: none;
 height: 375px;
 }
 .song-list{
-  list-style: none;
+  display: none;
 }
 
   /*SoundManager Css*/
