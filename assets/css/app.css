@@ -16,6 +16,7 @@ h1,h2,h3,h4,h5,h6,p,a{
 a{
   color: #f84848;
   text-decoration: none;
+  font-weight: 700;
 }
 
 p{
@@ -189,7 +190,9 @@ background-position: 50% 50%;
   left: 22%;
   position: absolute;
   }
-
+  .round-box.tour-box {
+  margin-top: 25px;
+  }
   /* [STORE] */
   .store-title-wrap {
   text-align: center;
