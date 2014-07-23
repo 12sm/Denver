@@ -26,6 +26,7 @@ var Roots = {
       $('.img-container').imgLiquid();
       $('.vid-container').fitVids();
       $('.img-thumbnail').colorbox();
+      alert('stuff is working');
     }
   },
   // Home page
