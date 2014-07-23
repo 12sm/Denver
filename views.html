@@ -413,32 +413,36 @@
 [wpv-layout-start]
 	[wpv-items-found]
 	<!-- wpv-loop-start -->
+<div class='round-box tour-box'>
 <div class="row">
 		<div class="col-sm-3">
 			<h4 class="grey"> Date</h4>
 		</div>
-		<div class="col-sm-6">
+		<div class="col-sm-5">
 			<h4 class="grey">Event</h4>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-4">
 			<h4 class="grey">Read More</h4>
 		</div>
 	</div>
+
 		<wpv-loop>
          <div class='row'>
 	<a href="[wpv-post-url]">
 		<div class="col-sm-3">
 			[wpv-post-date]
 		</div>
-		<div class="col-sm-6">
+		<div class="col-sm-5">
 		<h4> [wpv-post-title]</h4>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-4">
 			<button class='btn-tix btn'>Read More</button>
 		</div>
 	</a>
 </div> 
+          
 		</wpv-loop>
+</div>
 	<!-- wpv-loop-end -->
 	[/wpv-items-found]
 	[wpv-no-items-found]
