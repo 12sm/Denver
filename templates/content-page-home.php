@@ -98,7 +98,7 @@
 				<div class="col-sm-8">
 				<img src='/wp-content/themes/denver/assets/img/People.png' class="img-responsive people">
 				</div>
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 				<h1> Tour</h1>
 					<?php echo do_shortcode('[wpv-view name="HOME | TOUR"]'); ?>
 				</div>
