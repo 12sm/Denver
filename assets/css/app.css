@@ -278,6 +278,18 @@ font-size: 64px;
 font-weight: 900;
 color: #f84848;
 }
+.blog .round-box {
+background: #fff;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 2px 2px 1px rgba(0,0,0,.2);
+border: 1px solid rgb(238, 238, 238);
+min-height: 375px;
+}
+.page-header {
+text-align: center;
+border: transparent;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
