@@ -122,8 +122,10 @@ p.pause:before{
     font-family: 'proxima-nova';
     font-style: italic;
     font-size: 18px;
-    color: #fff;
     font-weight: 700;
+  }
+  #menu-primary-navigation> li>a{
+    color: #fff;
   }
 
 /* ==========================================================================
