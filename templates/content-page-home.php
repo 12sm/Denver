@@ -100,7 +100,7 @@
 				</div>
 				<div class="col-sm-3">
 				<h1> Tour</h1>
-					<?php echo do_shortcode('[wpv-view name="HOME | TOUR EMBED"]'); ?>
+					<?php echo do_shortcode('[wpv-view name="HOME | TOUR"]'); ?>
 				</div>
 			</div>
 		</main>
