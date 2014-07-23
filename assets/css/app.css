@@ -387,6 +387,9 @@ nav.collapse.navbar-collapse {
 width: 45%;
 float: left;
 }
+ul#menu-primary-navigation {
+margin-top: 25px;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
