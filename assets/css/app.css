@@ -204,6 +204,7 @@ background-position: 50% 50%;
   }
   img.img-responsive.people {
   left: 22%;
+  top: -30px;
   position: absolute;
   }
   .round-box.tour-box {
