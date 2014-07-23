@@ -87,17 +87,17 @@ function roots_gallery($attr) {
   foreach ($attachments as $id => $attachment) {
     switch($link) {
       case 'file':
-        $image = wp_get_attachment_link($id, $size, true, false);
+        $image = wp_get_attachment_link($id, $size, true, false, ture);
         break;
       case 'none':
         $image = wp_get_attachment_image($id, $size, false, array('class' => 'thumbnail test img-thumbnail'));
         break;
       default:
-        $image = wp_get_attachment_link($id, $size, true, false);
+        $image = wp_get_attachment_link($id, $size, true, false, true);
         break;
     }
     $output .= ($i % $columns == 0) ? '<div class="row gallery-row">': '';
-    $output .= '<div class="test ' . $grid .'">' . $image;
+    $output .= '<div class="' . $grid .'">' . $image;
 
     if (trim($attachment->post_excerpt)) {
       $output .= '<div class="caption hidden">' . wptexturize($attachment->post_excerpt) . '</div>';
