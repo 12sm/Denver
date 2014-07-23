@@ -272,6 +272,7 @@ font-weight: bold;
 letter-spacing: 2px;
 }
 
+
 /* ==========================================================================
    Photos
    ========================================================================== */
@@ -345,8 +346,11 @@ border: transparent;
 .store-prod-img {
 height: 375px;
 }
-.song-list{
+.home .song-list{
   display: none;
+}
+.song-list{
+  list-style: none;
 }
 
   /*SoundManager Css*/
