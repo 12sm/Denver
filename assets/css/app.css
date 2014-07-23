@@ -40,6 +40,11 @@ line-height: .5;
 h2{
   color: #79d1ff;
 }
+h3 {
+font-weight: 700;
+color: #f84848;
+font-size: 34px;
+}
 .huge{
   font-size: 278px;
   line-height: 1;
