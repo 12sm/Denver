@@ -4,7 +4,7 @@
 }
 ?>
 <header class="banner navbar navbar-default navbar-static-top" role="banner" data-spy="affix" data-offset-top="0">
-  <div class="container">
+  <div class="container-fluid">
     <div class="col">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
