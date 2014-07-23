@@ -87,13 +87,13 @@ function roots_gallery($attr) {
   foreach ($attachments as $id => $attachment) {
     switch($link) {
       case 'file':
-        $image = wp_get_attachment_link($id, $size, true, false, true);
+        $image = wp_get_attachment_link($id, $size, true, false, false);
         break;
       case 'none':
         $image = wp_get_attachment_image($id, $size, false, array('class' => 'thumbnail test img-thumbnail'));
         break;
       default:
-        $image = wp_get_attachment_link($id, $size, true, false, true);
+        $image = wp_get_attachment_link($id, $size, true, false, false);
         break;
     }
     $output .= ($i % $columns == 0) ? '<div class="row gallery-row">': '';
