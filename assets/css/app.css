@@ -212,6 +212,10 @@ background: #f84848;
 font-size: 36px;
 margin-top: 25px;
 }
+.store-title-wrap h1 {
+line-height: .8;
+}
+
 /* [NEWS] */
 #news{
   z-index: 5;
