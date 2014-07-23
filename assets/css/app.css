@@ -191,7 +191,7 @@ margin: 0 auto;
    Header
    ========================================================================== */
 
-.banner {background: #f84848; height: 75px; }
+.banner {background: #f84848; height: 75px; width: 100%;}
 
 
 
@@ -383,9 +383,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .affix{
    transition: top .7s ease;
    top: 0;
-   margin-left: 6%;
-   margin-top: 33px;
 }
+
  }
 
 /* Large devices (large desktops, 1200px and up) */
