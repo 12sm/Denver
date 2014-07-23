@@ -90,7 +90,7 @@ function roots_gallery($attr) {
         $image = wp_get_attachment_link($id, $size, true, false);
         break;
       case 'none':
-        $image = wp_get_attachment_image($id, $size, true, array('class' => 'thumbnail img-thumbnail'));
+        $image = wp_get_attachment_image($id, $size, false, array('class' => 'thumbnail test img-thumbnail'));
         break;
       default:
         $image = wp_get_attachment_link($id, $size, true, false);
