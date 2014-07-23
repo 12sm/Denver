@@ -1,6 +1,6 @@
 
 <header class="banner navbar navbar-default navbar-static-top" role="banner" data-spy="affix" data-offset-top="25">
-  <div class="container">
+  <div class="container-fluid">
     <div class="col">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      
+
       <a class="navbar-brand" href="<?php echo home_url(); ?>/"><img src="/assets/img/logo.png" class="img-responsive"></a>
     </div>
 
