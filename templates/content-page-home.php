@@ -134,4 +134,7 @@ body.home, .onepage-wrapper, html {
   width: 100%;
   height: 100%;
 }
+html.js.canvas.svg{
+  margin-top: 0px!important;
+}
 </style>
