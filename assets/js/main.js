@@ -168,10 +168,26 @@ $('a[href*=#]:not([href=#])').click(function() {
    if (!$news.hasClass('active')) {
     $('.mr-blue').css({top: '-10000px'});
     };
-
     }
 
-
+function Hide(){
+//mr Green
+       if (!$news.hasClass('active')) {
+        $('.mr-green').css({top: '-10000px'});
+        };
+    //mr Red
+       if (!$news.hasClass('active')) {
+        $('.mr-red').css({top: '-10000px'});
+        };
+    //grey
+       if (!$news.hasClass('active')) {
+        $('.mr-grey').css({top: '-10000px'});
+        };
+        //mr blue
+   if (!$news.hasClass('active')) {
+    $('.mr-blue').css({top: '-10000px'});
+    };
+}
 
     
   //OneScroll
@@ -185,7 +201,9 @@ $(".main-wrap").onepage_scroll({
    beforeMove: function(index) {
     Move();
    },              // This option accepts a callback function. The function will be called before the page moves.
-   afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+   afterMove: function(index) {
+    Hide();
+   },   // This option accepts a callback function. The function will be called after the page moves.
    loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
    keyboard: true,                  // You can activate the keyboard controls
    responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
