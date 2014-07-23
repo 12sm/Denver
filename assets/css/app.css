@@ -378,8 +378,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-.navbar-brand{
-  width: 48%;
+
+.navbar-header {
+width: 50%;
+height: 100px;
+}
+nav.collapse.navbar-collapse {
+width: 45%;
 }
 }
 
