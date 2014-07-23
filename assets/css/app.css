@@ -196,6 +196,7 @@ margin: 0 auto;
 
 
 
+
 /* ==========================================================================
    Music
    ========================================================================== */
@@ -376,7 +377,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) { 
+.navbar-brand{
+  width: 48%;
+}
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -384,6 +389,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    transition: top .7s ease;
    top: 0;
 }
+
 
  }
 
