@@ -193,6 +193,11 @@ background-position: 50% 50%;
   .round-box.tour-box {
   margin-top: 25px;
   }
+  button.btn-tix.btn {
+color: #fff;
+font-weight: 700;
+background: #79d1ff;
+}
   /* [STORE] */
   .store-title-wrap {
   text-align: center;
@@ -200,12 +205,14 @@ background-position: 50% 50%;
 .store-img {
 margin: 0 auto;
 }
-button.btn-tix.btn {
+a.btn.btn-click {
+width: 20%;
 color: #fff;
 font-weight: 700;
-background: #79d1ff;
+background: #f84848;
+font-size: 36px;
+margin-top: 25px;
 }
-
 /* [NEWS] */
 #news{
   z-index: 5;
