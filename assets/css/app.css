@@ -118,7 +118,7 @@ p.pause:before{
   margin: 0 auto;
   }
 
-  li.active{
+  #menu-primary-navigation li{
     font-family: 'proxima-nova';
     font-style: italic;
     font-size: 18px;
