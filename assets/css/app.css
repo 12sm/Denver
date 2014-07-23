@@ -200,6 +200,11 @@ background-position: 50% 50%;
 .store-img {
 margin: 0 auto;
 }
+button.btn-tix.btn {
+color: #fff;
+font-weight: 700;
+background: #79d1ff;
+}
 
 /* [NEWS] */
 #news{
