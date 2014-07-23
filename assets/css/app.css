@@ -385,6 +385,7 @@ height: 100px;
 }
 nav.collapse.navbar-collapse {
 width: 45%;
+float: left;
 }
 }
 
