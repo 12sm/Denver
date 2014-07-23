@@ -87,7 +87,7 @@ function roots_gallery($attr) {
   foreach ($attachments as $id => $attachment) {
     switch($link) {
       case 'file':
-        $image = wp_get_attachment_link($id, $size, true, false, ture);
+        $image = wp_get_attachment_link($id, $size, true, false, true);
         break;
       case 'none':
         $image = wp_get_attachment_image($id, $size, false, array('class' => 'thumbnail test img-thumbnail'));
