@@ -269,7 +269,7 @@ a.btn.btn-click {
 color: #fff;
 font-weight: 700;
 background: #f84848;
-font-size: 36px;
+font-size: 26px;
 margin-top: 25px;
 }
 a.btn.btn-click.small {
@@ -525,9 +525,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-
-ul.onepage-pagination {
-display: block;
+a.btn.btn-click {
+font-size: 36px;
 }
 
 a.navbar-brand {
