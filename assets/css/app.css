@@ -575,6 +575,15 @@ padding-left: 7%;
 #music {
 background-position: -340% 0%;
 }
+
+/*[TOUR]*/
+img.img-responsive.people {
+left: 43%;
+top: 250px;
+}
+#tour h1 {
+text-align: center;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
