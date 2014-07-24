@@ -52,6 +52,7 @@ color: #79d1ff;
 }
 section {
 overflow: hidden;
+width: 100%;
 }
 .italic{
   font-style: italic;
