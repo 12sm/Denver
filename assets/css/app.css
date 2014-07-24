@@ -640,6 +640,16 @@ font-size: 212px;
 line-height: 1;
 }
 /*[about-home]*/
+.navbar img {
+width: 70%;
+}
+.navbar-header {
+width: 50%;
+height: 65px;
+}
+ul#menu-primary-navigation {
+margin-top: 15px;
+}
   .home section {
   height: 920px;
   }
