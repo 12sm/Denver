@@ -593,8 +593,15 @@ text-align: center;
    transition: top .7s ease;
    top: 0;
 }
-
-
+img.img-responsive.people {
+left: 22%;
+top: -30px;
+width: 100%;
+position: absolute;
+}
+#music {
+background-position: -44% 0%;
+}
  }
 
 /* Large devices (large desktops, 1200px and up) */
