@@ -517,6 +517,8 @@ margin-top: 25px;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 .affix{
+   transition: top .7s ease;
+   top: 0;
 }
 
 
