@@ -608,7 +608,7 @@ text-align: center;
    transition: top .7s ease;
    top: 0;
 }
-
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
