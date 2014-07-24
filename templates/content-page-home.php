@@ -1,8 +1,3 @@
-<section id='slider'>
-<?php if (is_front_page()) {
-  echo do_shortcode('[wpv-view name="HOME | TOP-SLIDER"]');
-}
-?>
 <header class="banner navbar navbar-default navbar-static-top" role="banner" data-spy="affix" data-offset-top="0">
   <div class="container-fluid">
     <div class="col">
@@ -26,6 +21,11 @@
     </div>
   </div>
 </header>
+<section id='slider'>
+<?php if (is_front_page()) {
+  echo do_shortcode('[wpv-view name="HOME | TOP-SLIDER"]');
+}
+?>
 </section>
 <section id='about'>
  <div class="wrap container-fluid full-height" role="document">
