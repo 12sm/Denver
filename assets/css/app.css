@@ -602,7 +602,22 @@ position: absolute;
 #music {
 background-position: -44% 0%;
 }
+img.mr-green {
+right: 0px;
+width: initial;
  }
+ img.mr-blue {
+width: initial;
+}
+img.mr-grey {
+width: initial;
+}
+img.mr-red {
+width: initial;
+}
+img.mr-stripe {
+width: initial;
+}
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
