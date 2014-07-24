@@ -152,6 +152,10 @@ p.pause:before{
    Home
    ========================================================================== */  
   /* [ABOUT] */
+  img.about-denver {
+    left: 18%;
+    bottom: 0;
+    }
   .full-height{
     height: 100%;
   }
@@ -511,6 +515,13 @@ float: left;
 }
 ul#menu-primary-navigation {
 margin-top: 25px;
+}
+h1 {
+font-size: 82px;
+}
+.huge {
+font-size: 200px;
+line-height: 1;
 }
 }
 
