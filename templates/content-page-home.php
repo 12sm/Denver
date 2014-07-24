@@ -54,11 +54,11 @@
     <div class="content row">
       	<main class="main <?php echo roots_main_class(); ?>" role="main">
 			<div class='row music-player'>
-				<div class='col-sm-4'>
+				<div class='col-lg-4 col-md-3'>
 				</div>
-				<div class='col-sm-8 circles'>
+				<div class='col-lg-8 col-md-9 circles'>
 					<div class="row">
-						<div class="col-sm-4 col-sm-offset-4">
+						<div class="col-lg-4 col-lg-offset-4 col-md-5 col-md-offset-3">
 							<?php echo do_shortcode('[wpv-view name="HOME | MUSIC PLAYER | ALBUMS"]');  ?>
 						</div>
 					</div>
