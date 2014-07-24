@@ -28,6 +28,7 @@
 </header>
 </section>
 <section id='about'>
+<img src="/wp-content/themes/denver/assets/img/denver.png" class='about-denver'>
  <div class="wrap container-fluid" role="document">
     <div class="content row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
@@ -36,7 +37,6 @@
 				<div class="about-imgs-container">
 					<img src="/wp-content/themes/denver/assets/img/trumpet.png" class='about-trumpet'>
 					<img src="/wp-content/themes/denver/assets/img/guitar.png" class='about-guitar'>
-					<img src="/wp-content/themes/denver/assets/img/denver.png" class='about-denver'>
 				</div>
 			</div>
 			<div class="col-sm-6">
