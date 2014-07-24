@@ -29,11 +29,11 @@
 </section>
 <section id='about'>
  <div class="wrap container-fluid" role="document">
-    <div class="content row">
-      <main class="main <?php echo roots_main_class(); ?>" role="main">
-		<div class="row home-about">
-			<div class='col-sm-6'>
-				<div class="about-imgs-container">
+    <div class="content row full-height">
+      <main class="main full-height <?php echo roots_main_class(); ?>" role="main">
+		<div class="row home-about full-height">
+			<div class='col-sm-6 full-height'>
+				<div class="about-imgs-container full-height">
 					<img src="/wp-content/themes/denver/assets/img/trumpet.png" class='about-trumpet'>
 					<img src="/wp-content/themes/denver/assets/img/guitar.png" class='about-guitar'>
 					<img src="/wp-content/themes/denver/assets/img/denver.png" class='about-denver'>
