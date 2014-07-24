@@ -171,6 +171,12 @@ width: 75%;
    Home
    ========================================================================== */  
   /* [ABOUT] */
+  img.about-guitar{
+    display: none;
+  }
+  img.about-trumpet{
+    display: none;
+  }
   img.about-denver {
     left: 18%;
     bottom: 0;
@@ -549,9 +555,11 @@ img.about-trumpet {
 width: 65%;
 z-index: 1;
 left: -150px;
+display: block
 }
 img.about-guitar {
 right: -75px;
+display: block;
 }
 img.about-denver {
 left: 2%;
