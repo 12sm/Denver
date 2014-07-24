@@ -578,8 +578,9 @@ background-position: -340% 0%;
 
 /*[TOUR]*/
 img.img-responsive.people {
-left: 43%;
+left: 22%;
 top: 250px;
+width: 60%;
 }
 #tour h1 {
 text-align: center;
