@@ -572,7 +572,9 @@ margin-top: 0%;
 min-height: 485px;
 padding-left: 7%;
 }
-
+#music {
+background-position: -340% 0%;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */
