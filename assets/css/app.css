@@ -530,7 +530,13 @@ margin-top: 25px;
 margin-left: 9%;
 margin-right: 9%;
 }
-
+h1 {
+font-size: 126px;
+}
+.huge {
+font-size: 212px;
+line-height: 1;
+}
 /*[about-home]*/
   .home section {
   height: 920px;
