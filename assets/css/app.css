@@ -203,6 +203,12 @@ border-radius: 15px;
 box-shadow: 2px 2px 1px rgba(0,0,0,.2);
 padding: 10px;
 }
+.about-wrap p {
+display: none;
+}
+.about-wrap > p:nth-child(2) {
+display: block;
+}
   /* [MUSIC] */
   .music .album-img{
   width: 100%;
