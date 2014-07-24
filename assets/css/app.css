@@ -50,6 +50,9 @@ color: #79d1ff;
   font-size: 278px;
   line-height: 1;
 }
+section {
+overflow: hidden;
+}
 /* ==========================================================================
    Audio Player
    ========================================================================== */
@@ -525,6 +528,7 @@ margin-left: 9%;
 margin-right: 9%;
 }
 
+.top-slider{margin-top: 95px;}
 /*[about-home]*/
   .home section {
   height: 920px;
