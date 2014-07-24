@@ -28,7 +28,7 @@
 </header>
 </section>
 <section id='about'>
- <div class="wrap container-fluid" role="document">
+ <div class="wrap container-fluid full-height" role="document">
     <div class="content row full-height">
       <main class="main full-height <?php echo roots_main_class(); ?>" role="main">
 		<div class="row home-about full-height">
