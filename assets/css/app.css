@@ -596,7 +596,11 @@ text-align: center;
    transition: top .7s ease;
    top: 0;
 }
-img.img-responsive.people {
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  img.img-responsive.people {
 left: 22%;
 top: -30px;
 width: 100%;
@@ -621,9 +625,6 @@ width: initial;
 img.mr-stripe {
 width: initial;
 }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
   .onepage-wrapper .section {
   width: 100%;
   height: 100%;
