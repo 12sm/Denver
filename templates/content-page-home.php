@@ -1,4 +1,4 @@
-<header class="banner navbar navbar-default navbar-static-top" role="banner" data-spy="affix" data-offset-top="0">
+<header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container-fluid">
     <div class="col">
     <div class="navbar-header">
