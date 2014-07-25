@@ -157,6 +157,10 @@ width: 75%;
   .navbar{
     margin-bottom: 0px!important;
   }
+  .top-slider {
+margin-left: -15px;
+margin-right: -15px;
+}
 
   .flex-direction-nav {*height: 0;}
 .flex-direction-nav a  { display: block; width: 40px; height: 50px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(185, 185, 185, 0.4); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
@@ -525,6 +529,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+  .top-slider {
+margin-left: 0px;
+margin-right: 0px;
+}
 a.btn.btn-click {
 font-size: 36px;
 }
