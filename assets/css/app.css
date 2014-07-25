@@ -50,6 +50,16 @@ color: #79d1ff;
   font-size: 140px;
   line-height: 1;
 }
+.mobile-top h2 {
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+line-height: .5;
+}
+.mobile-top h1{
+  font-size: 46px;
+}
 section {
 overflow: hidden;
 width: 100%;
@@ -347,7 +357,9 @@ padding-bottom: 15px;
 
 .banner {background: #f84848; width: 100%;}
 
-
+.home-top-banner {
+display: none;
+}
 
 
 
@@ -563,6 +575,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+  .home-top-banner {
+display: block;
+}
   .mobile-top{
     display: none;
   }
