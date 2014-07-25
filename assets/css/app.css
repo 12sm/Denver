@@ -383,7 +383,12 @@ letter-spacing: 2px;
 .photo-gal header {
 display: none;
 }
-
+.gal-links {
+list-style: none;
+}
+.gal-links li {
+display: inline-block;
+}
 
 /* ==========================================================================
    News
@@ -646,6 +651,9 @@ background: url(../img/about-denver.jpg) no-repeat;
 background-position: -5% 100%;
 }
 /*[NEWS]*/
+.blog h1 {
+font-size: 74px;
+}
 #news .btn-click{
   margin-top: 25px;
 }
@@ -760,6 +768,9 @@ section#about{
 .col {
 margin-left: 9%;
 margin-right: 9%;
+}
+.blog h1 {
+font-size: 126px;
 }
 h1 {
   font-size: 126px;
