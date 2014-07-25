@@ -54,6 +54,15 @@ section {
 overflow: hidden;
 width: 100%;
 }
+section#music{
+  z-index: 5;
+}
+section#tour{
+  z-index: 6;
+}
+section#store{
+  z-index: 7;
+}
 .italic{
   font-style: italic;
 }
