@@ -303,7 +303,7 @@ text-align: center;
 font-size: 28px;
 }
   /* [STORE] */
-.add_to_cart_button, .single_add_to_cart_button {
+.add_to_cart_button, .single_add_to_cart_button, .wc-forward {
 font-family: 'proxima-nova'!important;
 font-size: 36px!important;
 color: #fff!important;
