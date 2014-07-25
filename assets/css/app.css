@@ -703,7 +703,7 @@ top: -30px;
 width: 100%;
 position: absolute;
 }
-#music {
+.music-wrap {
 background-position: -44% 0%;
 }
 img.mr-green {
