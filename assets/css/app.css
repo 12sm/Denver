@@ -692,7 +692,8 @@ padding-left: 7%;
   z-index: 5;
   background: url(../img/denver-album.png) no-repeat;
 background-size: contain;
-background-position: -340% 0%;
+background-position: -300% 51%;
+height: 100%;
 }
 
 /*[TOUR]*/
