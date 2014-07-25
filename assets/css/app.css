@@ -390,7 +390,9 @@ list-style: none;
 display: inline-block;
 padding: 0px 20px;
 }
-
+.photos h1 {
+font-size: 42px;
+}
 /* ==========================================================================
    News
    ========================================================================== */
@@ -613,6 +615,9 @@ float: left;
 ul#menu-primary-navigation {
 margin-top: 25px;
 }
+.photos h1 {
+font-size: 82px;
+}
 h1 {
 font-size: 82px;
 }
@@ -771,6 +776,9 @@ margin-left: 9%;
 margin-right: 9%;
 }
 .blog h1 {
+font-size: 126px;
+}
+.photos h1 {
 font-size: 126px;
 }
 h1 {
