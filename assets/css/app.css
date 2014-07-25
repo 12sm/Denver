@@ -272,6 +272,12 @@ background: #79d1ff;
 #tour h1 {
 text-align: center;
 }
+.tour-box {
+text-align: center;
+}
+.tour-box h4 {
+font-size: 28px;
+}
   /* [STORE] */
   .store-title-wrap {
   text-align: center;
