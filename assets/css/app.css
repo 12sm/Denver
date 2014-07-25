@@ -59,6 +59,7 @@ line-height: .5;
 }
 .mobile-top h1{
   font-size: 46px;
+  margin-top: 50px;
 }
 section {
 overflow: hidden;
@@ -360,7 +361,10 @@ padding-bottom: 15px;
 .home-top-banner {
 display: none;
 }
-
+img.mobile-denver {
+bottom: -355px;
+position: absolute;
+}
 
 
 /* ==========================================================================
