@@ -277,6 +277,9 @@ background: #f84848;
 font-size: 26px;
 margin-top: 25px;
 }
+#news .btn-click{
+  margin-top: 15px;
+}
 a.btn.btn-click.small {
 font-size: 18px;
 }
@@ -295,7 +298,7 @@ color: #F84848;
 display: none;
 }
 .news-mobile{
-  padding-bottom: 10px;
+padding-bottom: 15px;
 }
 /* ==========================================================================
    About
@@ -592,6 +595,12 @@ max-width: 112%;
 display: block;
 }
 /*[NEWS]*/
+#news .btn-click{
+  margin-top: 25px;
+}
+.news-mobile{
+  padding-bottom: 0px;
+}
 .home-people {
 display: block;
 }
