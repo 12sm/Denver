@@ -303,14 +303,16 @@ text-align: center;
 font-size: 28px;
 }
   /* [STORE] */
-  .add_to_cart_button {
+.add_to_cart_button {
 font-family: 'proxima-nova'!important;
 font-size: 36px!important;
 color: #fff!important;
 background: #79d1ff!important;
 border: 0px!important;
-box-shadow: transparent!important;
 border-radius: 4px!important;
+line-height: 1.428571429!important;
+margin-top: 25px!important;
+vertical-align: middle!important;
 }
   .store-title-wrap {
   text-align: center;
