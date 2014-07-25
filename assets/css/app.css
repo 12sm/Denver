@@ -719,10 +719,14 @@ display: block;
    transition: top .7s ease;
    top: 0;
 }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .about-bg {
+  background-position: -5% 3%;
+}
   img.img-responsive.people {
 left: 22%;
 top: -30px;
