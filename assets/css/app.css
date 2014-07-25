@@ -490,6 +490,9 @@ height: 375px;
 .albums h1 {
 margin-top: 0px;
 }
+.post-type-archive-product h1 {
+font-size: 40px;
+}
   /*SoundManager Css*/
     .track-title {
     padding: 10px;
@@ -645,6 +648,9 @@ ul#menu-primary-navigation {
 margin-top: 25px;
 }
 .photos h1 {
+font-size: 82px;
+}
+.post-type-archive-product h1 {
 font-size: 82px;
 }
 h1 {
@@ -809,6 +815,9 @@ margin-right: 9%;
 font-size: 126px;
 }
 .photos h1 {
+font-size: 126px;
+}
+.post-type-archive-product h1 {
 font-size: 126px;
 }
 h1 {
