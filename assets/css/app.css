@@ -606,6 +606,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .song-list-head{
+    margin-left: 55px;
+  }
   h2{
     font-size: 68px;
   }
