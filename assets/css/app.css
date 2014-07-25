@@ -294,7 +294,9 @@ color: #F84848;
 .home-people {
 display: none;
 }
-
+.news-mobile{
+  padding-bottom: 10px;
+}
 /* ==========================================================================
    About
    ========================================================================== */
@@ -533,6 +535,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+  .news-mobile{
+  padding-bottom: 0px;
+}
   .top-slider {
 margin-left: 0px;
 margin-right: 0px;

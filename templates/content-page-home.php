@@ -34,7 +34,7 @@
     <div class="content row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
 		<div class="row home-news">
-			<div class="col-sm-4">
+			<div class="col-sm-4 news-mobile">
 				<?php echo do_shortcode('[wpv-view name="HOME | NEWS"]'); ?>
 			</div>
 			<div class="col-sm-8 home-people">
