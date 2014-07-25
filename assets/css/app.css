@@ -339,10 +339,8 @@ padding-bottom: 15px;
 /* ==========================================================================
    About
    ========================================================================== */
-   .about-bg{
-    background: url(../img/about-denver.jpg) no-repeat;
-   }
   .about-bg {
+    display: none;
   background: url(../img/about-denver.jpg) no-repeat;
   background-attachment: fixed;
   background-position: -5% 3%;
@@ -645,6 +643,7 @@ max-width: 112%;
 display: block;
 }
 .about-bg {
+  display: block;
 background-position: -5% 100%;
 }
 /*[NEWS]*/
