@@ -601,11 +601,11 @@ width: 100%;
 }
 
 .navbar-header {
-width: 50%;
+width: 45%;
 height: 100px;
 }
 nav.collapse.navbar-collapse {
-width: 45%;
+width: 50%;
 float: left;
 }
 ul#menu-primary-navigation {
