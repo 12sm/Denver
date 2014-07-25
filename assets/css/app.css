@@ -653,6 +653,7 @@ min-height: 485px;
 padding-left: 7%;
 }
 #music {
+  z-index: 5;
   background: url(../img/denver-album.png) no-repeat;
 background-size: contain;
 background-position: -340% 0%;
