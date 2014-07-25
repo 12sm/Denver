@@ -62,6 +62,7 @@ section#tour{
 }
 section#store{
   z-index: 7;
+  background: #fff;
 }
 .italic{
   font-style: italic;
@@ -661,7 +662,11 @@ margin-top: 0%;
 min-height: 485px;
 padding-left: 7%;
 }
-#music {
+#music{
+  background: #fff;
+  z-index: 4;
+}
+.wrap-music{
   z-index: 5;
   background: url(../img/denver-album.png) no-repeat;
 background-size: contain;
