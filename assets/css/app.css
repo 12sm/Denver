@@ -777,6 +777,7 @@ margin-top: 75px;
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .about-bg {
+  background-size: 50%;
   background-position: -5% 3%;
 }
   img.img-responsive.people {
