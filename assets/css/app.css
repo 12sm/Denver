@@ -255,8 +255,7 @@ background-position: 50% 0%;
     background-size: cover;
   }
   img.img-responsive.people {
-  left: 22%;
-  top: -30px;
+  display: none;
   position: absolute;
   }
   .round-box.tour-box {
@@ -649,7 +648,9 @@ img.img-responsive.people {
 left: 22%;
 top: 250px;
 width: 60%;
+display: block;
 }
+
 #tour h1 {
 text-align: center;
 }
