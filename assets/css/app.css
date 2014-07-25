@@ -291,6 +291,9 @@ line-height: .8;
 h1.news {
 color: #F84848;
 }
+.home-people {
+display: none;
+}
 
 /* ==========================================================================
    About
@@ -584,6 +587,10 @@ max-width: 112%;
 display: block;
 }
 /*[NEWS]*/
+.home-people {
+display: block;
+}
+
 img.mr-blue {
 right: 0px;
 width: 175px;
