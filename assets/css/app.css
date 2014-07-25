@@ -563,6 +563,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+  .mobile-top{
+    display: none;
+  }
   .news-mobile{
   padding-bottom: 0px;
 }
