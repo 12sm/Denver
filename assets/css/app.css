@@ -35,8 +35,8 @@ letter-spacing: 8px;
 line-height: .8;
 }
 h2{
-  color: #79d1ff;
-  font-size: 68px;
+color: #79d1ff;
+font-size: 32px;
 font-weight: 900;
 text-transform: uppercase;
 }
@@ -594,7 +594,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
+  h2{
+    font-size: 68px;
+  }
   .home-top-banner {
 display: block;
 }
