@@ -50,6 +50,10 @@ font-weight: 700;
 color: #79d1ff;
 font-size: 30px;
 }
+h5{
+  color: #79d1ff;
+  font-weight: 700;
+}
 .huge{
   font-size: 140px;
   line-height: 1;
@@ -613,7 +617,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+.related-prod .buy-opt > * {
+font-size: 16px!important;
+}
   .song-list-head{
     margin-left: 55px;
   }
