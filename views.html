@@ -23,7 +23,7 @@
 	</div>
 </div>
 
-		
+
 	<!-- wpv-loop-end -->
 	[/wpv-items-found]
 	[wpv-no-items-found]
@@ -61,7 +61,7 @@
 <div class="row">
 	<div class="col-sm-12">
 		<ul class="tracks">
-			[wpv-view name='HOME | MUSIC PLAYER | TRACKS' wpvprchildof='[wpv-post-id]']	
+			[wpv-view name='HOME | MUSIC PLAYER | TRACKS' wpvprchildof='[wpv-post-id]']
 		</ul>
 	</div>
 </div>
@@ -71,7 +71,7 @@
 	[wpv-items-found]
 	<!-- wpv-loop-start -->
 		<div class='player'>
-          
+
   <div class='title'>
     <ol class='titles'>
 [wpv-view name="home-music-player-track-titles" wpvprchildof='[wpv-post-id id='$albums']']
@@ -105,7 +105,7 @@
               	</a>
             </li>
 		</wpv-loop>
-</ol> 
+</ol>
 	[/wpv-items-found]
 	[wpv-no-items-found]
         [wpml-string context="wpv-views"]<strong>N/A</strong>[/wpml-string]
@@ -141,8 +141,8 @@
               [wpv-view name="HOME | MUSIC PLAYER | TRACKS" wpvprchildof="[wpv-post-id]"]
           </div>
           </div>
-        </div>    
-		
+        </div>
+
         </div>
 		</wpv-loop>
 	[/wpv-items-found]
@@ -176,44 +176,48 @@
 [wpv-layout-start]
 	[wpv-items-found]
 	<!-- wpv-loop-start -->
+	<div class="row">
 		<wpv-loop>
-   <div class="row row-prod">
-	<div class="col-sm-4">
-		[wpv-if album="_wpcf_belongs_albums_id" evaluate='!empty($album)']
-			<a href="[wpv-post-url id='$albums']">
-			<div class="img-container">
-				[wpv-woo-product-image]
+			<div class="col-md-4 col-sm-6">
+			   <div class="row row-prod">
+				<div class="col-sm-6">
+					[wpv-if album="_wpcf_belongs_albums_id" evaluate='!empty($album)']
+						<a href="[wpv-post-url id='$albums']">
+						<div class="img-container store-prod-img">
+							[wpv-woo-product-image]
+						</div>
+						</a>
+					[/wpv-if]
+					[wpv-if album="_wpcf_belongs_albums_id" evaluate='empty($album)']
+						<a href="[wpv-post-url]">
+						<div class="img-container store-prod-img">
+							[wpv-woo-product-image]
+						</div>
+						</a>
+					[/wpv-if]
+				</div>
+				<div class="col-sm-6">
+					<h3 class='prod-title'>[wpv-post-title]</h3>
+					<p class="price">[wpv-woo-product-price]</p>
+					<p class='prod-desc'>[wpv-post-excerpt]</p>
+					<div class='buy-opt'>
+					[wpv-woo-buy-or-select add_to_cart_text="" link_to_product_text=""]
+					[wpv-if album="_wpcf_belongs_album_id" evaluate='!empty($album)']
+						<a href="[wpv-post-url id='$albums']" class='btn btn-click'>
+						Read More
+						</a>
+					[/wpv-if]
+					[wpv-if album="_wpcf_belongs_album_id" evaluate='empty($album)']
+						<a href="[wpv-post-url]" class='btn btn-click'>
+						Read More
+						</a>
+					[/wpv-if]
+					</div>
+				</div>
 			</div>
-			</a>
-		[/wpv-if]
-		[wpv-if album="_wpcf_belongs_albums_id" evaluate='empty($album)']
-			<a href="[wpv-post-url]">
-			<div class="img-container">
-				[wpv-woo-product-image]
-			</div>
-			</a>
-		[/wpv-if]
-	</div>
-	<div class="col-sm-8">
-		<h3 class='prod-title'>[wpv-post-title]</h3>
-		<p class="price">[wpv-woo-product-price]</p>
-		<p class='prod-desc'>[wpv-post-excerpt]</p>
-		<div class='buy-opt'>
-		[wpv-woo-buy-or-select add_to_cart_text="" link_to_product_text=""]
-		[wpv-if album="_wpcf_belongs_album_id" evaluate='!empty($album)']
-			<a href="[wpv-post-url id='$album']" class='btn btn-med'>
-			Read More
-			</a>
-		[/wpv-if]
-		[wpv-if album="_wpcf_belongs_album_id" evaluate='empty($album)']
-			<a href="[wpv-post-url]" class='btn btn-med'>
-			Read More
-			</a>
-		[/wpv-if]
 		</div>
-	</div>
-</div>
 		</wpv-loop>
+	</div>
 	<!-- wpv-loop-end -->
 	[/wpv-items-found]
 	[wpv-no-items-found]
@@ -231,7 +235,7 @@
 	<div class="col-sm-10 col-sm-offset-1">
 		[wpv-view name='VIDEOS | ARCHIVE | VIDEOS']
 	</div>
-</div>	
+</div>
 
 
 
@@ -257,7 +261,7 @@
 [wpv-layout-start]
 	[wpv-items-found]
 	<!-- wpv-loop-start -->
-		
+
           <div class="row">
 	<div class='col-sm-12'>
 		[wpv-view name='VIDEOS | ARCHIVE | FEATURED']
@@ -280,7 +284,7 @@
 			</a>
 		</div>
 	</wpv-loop>
-</div>	
+</div>
 
 	<!-- wpv-loop-end -->
 	[/wpv-items-found]
@@ -389,7 +393,7 @@
 [wpv-layout-start]
 	[wpv-items-found]
 	<!-- wpv-loop-start -->
-		
+
 		<wpv-loop>
         <div class='row gallery'>
           <div class='col-sm-12'>
@@ -398,7 +402,7 @@
           </div>
           </div>
 		</wpv-loop>
-          
+
 	<!-- wpv-loop-end -->
 	[/wpv-items-found]
 	[wpv-no-items-found]
@@ -439,8 +443,8 @@
 			<button class='btn-tix btn'>Read More</button>
 		</div>
 	</a>
-</div> 
-          
+</div>
+
 		</wpv-loop>
 </div>
 	<!-- wpv-loop-end -->

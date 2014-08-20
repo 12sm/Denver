@@ -480,7 +480,7 @@ margin-top: 50px;
    Store
    ========================================================================== */
 .store-prod-img {
-height: 375px;
+height: 300px;
 }
 .home .song-list{
   display: none;
@@ -760,6 +760,11 @@ display: block;
 /*[STORE]*/
 .row-prod {
 margin-top: 45px;
+background: #fff;
+padding: 10px;
+border-radius: 15px;
+box-shadow: 2px 2px 1px rgba(0,0,0,.2);
+border: 1px solid rgb(238, 238, 238);
 }
 
 }
