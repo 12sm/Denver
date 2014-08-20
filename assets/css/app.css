@@ -782,6 +782,9 @@ min-height: 420px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .store-prod-img {
+height: 300px;
+}
   .row-prod a.btn.btn-click {
 font-size: 36px;
 }
