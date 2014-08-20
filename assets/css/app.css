@@ -765,6 +765,7 @@ padding: 10px;
 border-radius: 15px;
 box-shadow: 2px 2px 1px rgba(0,0,0,.2);
 border: 1px solid rgb(238, 238, 238);
+min-height: 350px;
 }
 
 }
