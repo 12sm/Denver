@@ -315,6 +315,9 @@ line-height: 1.428571429!important;
 margin-top: 25px!important;
 vertical-align: middle!important;
 }
+h3.prod-title {
+  font-size: 26px;
+}
   .store-title-wrap {
   text-align: center;
   }
@@ -775,6 +778,9 @@ min-height: 420px;
 @media (min-width: 992px) {
   .add_to_cart_button, .single_add_to_cart_button, .wc-forward, .button {
 font-size: 36px!important;
+}
+h3.prod-title {
+  font-size: 34px;
 }
   .row-prod {
 min-height: 350px;
