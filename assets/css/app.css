@@ -779,6 +779,9 @@ min-height: 420px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .row-prod a.btn.btn-click {
+font-size: 36px;
+}
   .add_to_cart_button, .single_add_to_cart_button, .wc-forward, .button {
 font-size: 36px!important;
 }
