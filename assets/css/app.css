@@ -483,7 +483,7 @@ margin-top: 50px;
    Store
    ========================================================================== */
 .store-prod-img {
-height: 300px;
+height: 250px;
 }
 .home .song-list{
   display: none;
@@ -613,6 +613,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .store-prod-img {
+height: 150px;
+}
   .song-list-head{
     margin-left: 55px;
   }
