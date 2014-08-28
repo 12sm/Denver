@@ -184,7 +184,7 @@ width: 75%;
 	color: #fff;
 }
 #menu-primary-navigation> li>a:hover,
-#menu-primary-navigation> li>a:active {
+#menu-primary-navigation> li.active a {
 color: #79D1FF;
 }
 .navbar{
