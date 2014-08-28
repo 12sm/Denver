@@ -649,6 +649,13 @@ a.navbar-brand img.img-responsive {
 height: 25px;
 }
 	
+#menu-primary-navigation> li>a {
+color: #fff;
+text-align: center;
+font-size: 35px;
+padding: 15px;
+}	
+	
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -685,7 +692,12 @@ font-size: 24px;
 a.navbar-brand {
 width: 100%;
 }
-
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #FFF;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #DD2A2A;
+}
 .navbar-header {
 width: 45%;
 height: 100px;
