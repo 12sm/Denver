@@ -188,6 +188,14 @@ width: 75%;
 #menu-primary-navigation> li.active a {
 color: #79D1FF;
 }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+background-color: #FF6F6F;
+}
+.dropdown-menu {
+background-color: #FF6F6F;
+border:none;
+box-shadow:none;
+}
 .navbar{
     margin-bottom: 0px!important;
 }
