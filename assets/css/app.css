@@ -677,6 +677,10 @@ background-color: #FF6F6F!important;
 
 .navbar-collapse {
 max-height: 480px;
+}
+
+.cart-tab.right a.cart-parent {
+top: 50px;
 }	
 	
 }
