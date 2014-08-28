@@ -361,11 +361,7 @@ font-size: 26px;
 margin-top: 25px;
 transition:background-color .3s ease;
 }
-a.btn.btn-click:hover {
-color: #fff;
-font-weight: 700;
-background: #FF2D3E;
-}
+a.btn.btn-click:hover {background: #F09D20;}
 #news .btn-click{
   margin-top: 15px;
 }
