@@ -657,13 +657,18 @@ padding: 15px;
 }
 
 .dropdown-menu>li>a {
-
-text-align:center;
+text-align: center;
 color: #F7F7F7!important;
+font-size: 32px;
+padding: 15px!important;
 }
 
 .dropdown-menu {
 background-color: #FF6F6F!important;
+}
+
+.navbar-collapse {
+max-height: 480px;
 }	
 	
 }
