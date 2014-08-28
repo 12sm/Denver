@@ -196,6 +196,15 @@ background-color: #FF6F6F;
 border:none;
 box-shadow:none;
 }
+.dropdown-menu>li>a {
+font-weight: bold;
+color: #F7F7F7;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+text-decoration: none;
+color: #79D1FF;
+background-color: rgba(255,255,255,.1);
+}
 .navbar{
     margin-bottom: 0px!important;
 }
