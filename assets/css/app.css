@@ -327,6 +327,7 @@ background-position: 50% 0%;
 color: #fff;
 font-weight: 700;
 background: #79d1ff;
+transition: background .3s ease;
 }
 button.btn-tix.btn:hover {
 background: #21A9F0;
