@@ -181,7 +181,11 @@ width: 75%;
     font-weight: 700;
 }
 #menu-primary-navigation> li>a{
-    color: #fff;
+	color: #fff;
+}
+#menu-primary-navigation> li>a:hover,
+#menu-primary-navigation> li>a:active {
+color: #79D1FF;
 }
 .navbar{
     margin-bottom: 0px!important;
