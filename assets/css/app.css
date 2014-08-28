@@ -328,6 +328,9 @@ color: #fff;
 font-weight: 700;
 background: #79d1ff;
 }
+button.btn-tix.btn:hover {
+background: #21A9F0;
+}
 #tour h1 {
 text-align: center;
 }
