@@ -467,6 +467,11 @@ font-size: 42px;
 color: #FFF;
 }
 
+.gal-links li a:hover {
+text-decoration: none;
+color: #79D1FF;
+}
+
 .well {
 min-height: 20px;
 padding: 19px;
