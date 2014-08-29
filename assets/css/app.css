@@ -463,6 +463,10 @@ padding: 0px 20px;
 font-size: 42px;
 }
 
+.gal-links li a {
+color: #FFF;
+}
+
 .well {
 min-height: 20px;
 padding: 19px;
