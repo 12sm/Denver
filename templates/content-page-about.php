@@ -1,4 +1,4 @@
-<div class='row about-bg'>
+<div class='row about-bg col'>
 	<div class="col-sm-7 col-md-6">
 	</div>
 	<div class="col-sm-5 col-md-6">
