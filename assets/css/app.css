@@ -937,6 +937,14 @@ margin-top: 75px;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
+.nav>li>a {
+padding: 10px 15px!important;
+}
+#menu-primary-navigation li {
+font-size: 18px;
+}  
+  
   .about-bg {
   background-size: 50%;
   background-position: -5% 3%;
