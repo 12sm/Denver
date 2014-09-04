@@ -675,9 +675,14 @@ border: 1px solid rgb(230, 230, 230);
 
 footer.content-info.container {
 width: 100%!important;
-background-color: #6F6F6F;
-padding: 5px 10px 0px 10px;
+background-color: #f84747;
+padding: 10px;
 text-align:center;
+}
+
+p.credits, p.credits a {
+color: #FFF!important;
+font-weight: bold!important;
 }
 
 /* ==========================================================================
