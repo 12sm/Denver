@@ -678,6 +678,7 @@ width: 100%!important;
 background-color: #f84747;
 padding: 10px;
 text-align:center;
+overflow:hidden;
 }
 
 p.credits, p.credits a {
