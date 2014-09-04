@@ -683,6 +683,10 @@ text-align:center;
 overflow:hidden;
 }
 
+footer p {
+background: none!important;
+}
+
 p.credits, p.credits a {
 color: #FFF!important;
 font-weight: bold!important;
