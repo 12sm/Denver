@@ -935,6 +935,14 @@ margin-top: 75px;
 }
 }
 
+@media (max-width:1199px) to (min-width:992px) {
+
+.wrap-music {
+background-position: -90% 51%;
+}
+	
+}
+
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
