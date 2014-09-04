@@ -673,7 +673,10 @@ border: 1px solid rgb(230, 230, 230);
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
-
+footer.content-info.container {
+width: 100%!important;
+background-color: #6F6F6F;
+}
 
 /* ==========================================================================
    WordPress Generated Classes
