@@ -387,6 +387,7 @@ padding: 50px 0px;
 body.woocommerce .row-prod {
 margin: 5px;
 }
+body.store .img-container .store-prod-img {background-size:contain;}
 /* [NEWS] */
 #news{
   z-index: 5;
