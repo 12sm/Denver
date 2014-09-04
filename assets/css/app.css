@@ -729,6 +729,9 @@ top: 50px;
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+.nav>li>a {
+padding: 10px 5px!important;
+}
 
 .related-prod .buy-opt > * {
 font-size: 16px!important;
