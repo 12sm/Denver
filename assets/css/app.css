@@ -739,8 +739,12 @@ max-height: 480px;
 }
 
 .cart-tab.right a.cart-parent {
-top: 50px;
+top: 30px;
 }	
+
+.cart-tab a.cart-parent {
+padding: 10px;
+}
 	
 }
 
