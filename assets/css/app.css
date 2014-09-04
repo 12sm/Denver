@@ -732,6 +732,9 @@ top: 50px;
 .nav>li>a {
 padding: 10px 5px!important;
 }
+#menu-primary-navigation li {
+font-size: 16px;
+}
 
 .related-prod .buy-opt > * {
 font-size: 16px!important;
