@@ -180,7 +180,7 @@ display: none;
 a.navbar-brand {
 width: 75%;
 }
-.navbar-default {border-color:none!important;}
+.navbar-default {border-color:transparent!important;}
 #menu-primary-navigation li{
     font-family: 'proxima-nova';
     font-style: italic;
