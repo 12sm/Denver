@@ -180,6 +180,7 @@ display: none;
 a.navbar-brand {
 width: 75%;
 }
+.navbar-default {border-color:none!important;}
 #menu-primary-navigation li{
     font-family: 'proxima-nova';
     font-style: italic;
@@ -774,7 +775,6 @@ background-color: #FFF;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 background-color: #DD2A2A;
 }
-.navbar-default {border-color:none!important;}
 .navbar-header {
 width: 45%;
 height: 100px;
