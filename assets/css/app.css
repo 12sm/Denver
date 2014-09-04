@@ -773,6 +773,7 @@ background-color: #FFF;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 background-color: #DD2A2A;
+border-color:none;
 }
 .navbar-header {
 width: 45%;
