@@ -91,7 +91,14 @@ section#store{
 margin-left: 3%;
 margin-right: 3%;
 }
-
+#background, #background iframe, #background_show {
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+display: block;
+z-index: 2;
+}
 /* ==========================================================================
    Audio Player
    ========================================================================== */
