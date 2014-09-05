@@ -398,6 +398,7 @@ body.woocommerce .row-prod {
 margin: 5px;
 }
 body.store .img-container .store-prod-img {background-size:contain;}
+
 /* [NEWS] */
 #news{
   z-index: 5;
@@ -410,6 +411,9 @@ display: none;
 }
 .news-mobile{
 padding-bottom: 15px;
+}
+.home-news h3 {
+margin-top: 0;
 }
 /* ==========================================================================
    About
