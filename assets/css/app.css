@@ -875,7 +875,7 @@ display: block;
 }
 img.about-denver {
 left: 2%;
-top: 0;
+bottom: 0;
 width: 112%;
 max-width: 112%;
 display: block;
@@ -1101,7 +1101,7 @@ margin-top: 15px;
     }
     img.about-denver {
     left: 18%;
-    top: 0;
+    bottom: 0;
     width: 100%;
     }
 /*[news-home]*/
