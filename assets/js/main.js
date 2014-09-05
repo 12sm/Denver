@@ -241,6 +241,15 @@ $(".main-wrap").onepage_scroll({
     // optional: enable MPEG-4/AAC support (requires flash 9)
     flashVersion: 9
     });
+      $(".disco-carou").owlCarousel({
+
+      autoPlay: false, //Set AutoPlay to 3 seconds
+      items : 4,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3],
+      itemsMobile: [479, 2]
+
+  });
 
 
   soundManager.onready(function() {
