@@ -870,6 +870,7 @@ bottom: 0;
 width: 112%;
 max-width: 112%;
 display: block;
+z-index: 0;
 }
 .about-bg {
 background: url(../img/about-denver.jpg) no-repeat;
