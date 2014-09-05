@@ -9,7 +9,7 @@
 
 body { }
 html{text-rendering: optimizeLegibility;}
-
+body.home, html{overflow: scroll;}
 h1,h2,h3,h4,h5,h6,p,a{
   font-family: 'proxima-nova'
 }
@@ -413,7 +413,7 @@ padding-bottom: 15px;
   margin-bottom: 35px;
   margin-top: 30px;
   }
-  
+
 body.about p {
 font-weight: normal;
 color: #B91515;
@@ -716,10 +716,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width: 767px) {
+  body.home, html{overflow: hidden;}
+
 a.navbar-brand img.img-responsive {
 height: 25px;
 }
-	
+
 #menu-primary-navigation> li>a {
 color: #fff;
 text-align: center;
@@ -744,7 +746,7 @@ max-height: 480px;
 
 .cart-tab.right a.cart-parent {
 top: 20px;
-}	
+}
 
 .cart-tab a.cart-parent {
 padding: 10px;
@@ -758,7 +760,7 @@ width: 5.402328em;
 h2.post-title {
 font-size: 40px;
 }
-	
+
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -974,7 +976,7 @@ margin-top: 75px;
 .wrap-music {
 background-position: -90% 51%;
 }
-	
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -985,8 +987,8 @@ padding: 10px 15px!important;
 }
 #menu-primary-navigation li {
 font-size: 18px;
-}  
-  
+}
+
   .about-bg {
   background-size: 50%;
   background-position: -5% 3%;
