@@ -588,7 +588,7 @@ height: 250px;
 .song-list{
   list-style: none;
 }
-.albums .song-list{
+.single-albums .song-list{
    -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
@@ -968,7 +968,7 @@ background-position: 0% 10%;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  
+
   .wrap-music {
 background-position:left;
 }
