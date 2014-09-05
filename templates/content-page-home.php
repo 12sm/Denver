@@ -29,7 +29,7 @@
 			<div class="col-sm-6">
 				<div class="about-wrap">
 					<h1 class='about'>Who are <span class='huge'>We?</span></h1>
-						<?php echo do_shortcode('[about]'); ?>
+						<div class="round-box"><?php echo do_shortcode('[about]'); ?></div>
 						<a href="/about/" class="btn btn-click italic">Click to Find Out More </a>
 				</div>
 			</div>
