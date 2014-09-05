@@ -9,7 +9,7 @@
 
 body { }
 html{text-rendering: optimizeLegibility;}
-body.home, html{overflow: scroll;}
+body.home, html{overflow: auto!important;}
 h1,h2,h3,h4,h5,h6,p,a{
   font-family: 'proxima-nova'
 }
@@ -726,7 +726,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width: 767px) {
-  body.home, html{overflow: hidden;}
+  body.home, html{overflow: hidden!important;}
 
 a.navbar-brand img.img-responsive {
 height: 25px;
