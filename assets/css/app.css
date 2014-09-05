@@ -469,7 +469,7 @@ min-width: 150px;
 min-height: 150px;
 height: 300px;
 width: 300px;
-transition:opacity;
+transition:opacity .3s ease;
 }
 body.music .item .img-container:hover {
 opacity: .9;
