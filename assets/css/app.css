@@ -1039,6 +1039,11 @@ margin-top: 75px;
 background-position: -90% 51%;
 }
 
+body.music .item .img-container {
+height: 150px;
+width: 100%;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
