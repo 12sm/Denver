@@ -460,7 +460,10 @@ color: #f84848;
 font-weight: bold;
 letter-spacing: 2px;
 }
-
+.item .img-container {
+min-width: 300px;
+min-height: 300px;
+}
 
 /* ==========================================================================
    Photos
