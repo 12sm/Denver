@@ -6,7 +6,7 @@
  * replace the dash with an underscore when adding it to the object below.
  *
  * .noConflict()
- * The routing is enclosed within an anonymous function so that you can 
+ * The routing is enclosed within an anonymous function so that you can
  * always reference jQuery with $, even when in .noConflict() mode.
  *
  * Google CDN, Latest jQuery
@@ -16,7 +16,7 @@
 
 (function($) {
 
-// Use this variable to set up the common and page specific functions. If you 
+// Use this variable to set up the common and page specific functions. If you
 // rename this variable, you will also need to rename the namespace below.
 var Roots = {
   // All pages
@@ -25,7 +25,7 @@ var Roots = {
       // JavaScript to be fired on all pages
       $('.img-container').imgLiquid();
       $('.vid-container').fitVids();
-      $('.img-thumbnail').colorbox({rel: 'gal'});    
+      $('.img-thumbnail').colorbox({rel: 'gal'});
     }
   },
   // Home page
@@ -48,7 +48,7 @@ var Roots = {
             audio.play();
           }
         });
-        
+
         // Load in the first track
         var audio = a[0];
             first = $('ol a').attr('data-src');
@@ -64,7 +64,7 @@ var Roots = {
           audio.load($('a', this).attr('data-src'));
           audio.play();
         });
-        
+
             $('.next').click(function() {
               var next = $('li.playing').next();
               next.click()
@@ -73,7 +73,7 @@ var Roots = {
               var prev = $('li.playing').prev();
               prev.click()
             });
-            
+
             $('.song-list li').click(function(){
               var newtext = $('li.playing a').text();
               $('.music-wrapper p.song-title').text(newtext);
@@ -109,9 +109,9 @@ $('a[href*=#]:not([href=#])').click(function() {
 
   var windowHeight = $window.height(); //get the height of the window
 
-  
+
   //function that is called for every pixel the user scrolls. Determines the position of the background
-  /*arguments: 
+  /*arguments:
     x = horizontal position of background
     windowHeight = height of the viewport
     pos = position of the scrollbar
@@ -123,7 +123,7 @@ $('a[href*=#]:not([href=#])').click(function() {
   }
 
   //function to be called whenever the window is scrolled or resized
-  function Move(){ 
+  function Move(){
     //guitar
    if ($about.hasClass('active')) {
     $('.about-guitar').animate({top: ['-35px', 'swing']}, {duration: 1000});
@@ -138,7 +138,7 @@ $('a[href*=#]:not([href=#])').click(function() {
        if (!$about.hasClass('active')) {
         $('.about-trumpet').animate({top: '345px'}, {duration: 600});
        };
-    
+
     //mr Green
      if ($news.hasClass('active')) {
         $('.mr-green').animate({top: ['85px', 'swing']}, {duration: 1550});
@@ -189,11 +189,12 @@ function Hide(){
     };
 }
 
-    
+
   //OneScroll
+  if ($(window).width() >= 768){
 $(".main-wrap").onepage_scroll({
    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
-   easing: "ease-out",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in", 
+   easing: "ease-out",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
                                     // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
    animationTime: 1200,             // AnimationTime let you define how long each section takes to animate
    pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
@@ -207,16 +208,17 @@ $(".main-wrap").onepage_scroll({
    loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
    keyboard: true,                  // You can activate the keyboard controls
    responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
-                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever 
+                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
                                     // the browser's width is less than 600, the fallback will kick in.
-   direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+   direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".
 });
-  
+
+}
   /*enquire.register("screen and (min-width:50em)", function() {
         $window.resize(function(){ //if the user resizes the window...
       Move(); //move the background images in relation to the movement of the scrollbar
-    });*/   
-  
+    });*/
+
     /*$wnidow.bind('scroll', function(){ //when the user is scrolling...
       Move(); //move the background images in relation to the movement of the scrollbar
     });*/
@@ -297,7 +299,7 @@ soundManager.onready(function() {
   about_us: {
     init: function() {
       // JavaScript to be fired on the about us page
-    
+
     }
   }
 };
