@@ -726,7 +726,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width: 767px) {
-  body.home, html{overflow: hidden!important;}
+
 
 a.navbar-brand img.img-responsive {
 height: 25px;
@@ -775,7 +775,7 @@ font-size: 40px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  body.home, html{overflow: hidden!important;}
 .nav>li>a {
 padding: 10px 5px!important;
 }
