@@ -9,7 +9,7 @@
 
 body { }
 html{text-rendering: optimizeLegibility;}
-body.home, html{overflow: auto!important;}
+body.home{overflow: auto!important;}
 h1,h2,h3,h4,h5,h6,p,a{
   font-family: 'proxima-nova'
 }
