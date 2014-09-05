@@ -478,7 +478,7 @@ opacity: .9;
 .item h4 {
 text-align: center;
 margin-left: -10%;
-text-weight:700;
+text-weight:700!important;
 }
 .buy-box a.btn-click {
 margin-top: 0!important;
