@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,h6,p,a{
 
 a{
   color: #f84848;
-  text-decoration: none;
+  text-decoration: none!important;
   font-weight: 100;
 }
 
@@ -485,6 +485,8 @@ font-size: 14px!important;
 margin-bottom: 5px;
 }
 .margin-bottom {margin-bottom:25px;}
+
+.item a h4:hover {text-decoration: none;}
 
 /* ==========================================================================
    Photos
