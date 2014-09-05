@@ -470,7 +470,7 @@ min-height: 150px;
 height: 300px;
 width: 300px;
 transition:opacity .3s ease;
-border: 2px solid #ECECEC;
+border: 1px solid #CCCCCC;
 }
 body.music .item .img-container:hover {
 opacity: .9;
