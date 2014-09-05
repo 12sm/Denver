@@ -333,6 +333,16 @@ transition: background .3s ease;
 button.btn-tix.btn:hover {
 background: #21A9F0;
 }
+.btn-tix {
+color: #fff;
+font-weight: 700;
+background: #79d1ff;
+transition: background .3s ease;
+}
+.btn-tix:hover {
+color: #79d1ff;
+background: #FFF;
+}
 #tour h1 {
 text-align: center;
 }
