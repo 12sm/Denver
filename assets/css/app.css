@@ -775,7 +775,7 @@ font-size: 40px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  body.home, html{overflow: hidden!important;}
+  body.home{overflow: hidden!important;}
 .nav>li>a {
 padding: 10px 5px!important;
 }
