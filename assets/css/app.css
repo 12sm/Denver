@@ -960,7 +960,7 @@ padding: 10px;
 
 
 .wrap-music {
-background-position: 230% 10%;
+background-position: 0% 10%;
 }
 
 
@@ -970,7 +970,7 @@ background-position: 230% 10%;
 @media (min-width: 992px) {
   
   .wrap-music {
-background-position: -210% 10%;
+background-position:left;
 }
   .store-prod-img {
 height: 300px;
