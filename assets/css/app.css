@@ -464,14 +464,14 @@ color: #f84848;
 font-weight: bold;
 letter-spacing: 0px;
 }
-body.music .item .img-container {
+/* body.music .item .img-container {
 min-width: 150px;
 min-height: 150px;
 height: 300px;
 width: 300px;
 transition:opacity .3s ease;
 border: 1px solid #CCCCCC;
-}
+}*/
 body.music .item .img-container:hover {
 opacity: .9;
 }
