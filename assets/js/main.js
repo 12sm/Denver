@@ -244,7 +244,7 @@ $(".main-wrap").onepage_scroll({
       $(".disco-carou").owlCarousel({
 
       autoPlay: false, //Set AutoPlay to 3 seconds
-      items : 4,
+      items : 3,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3],
       itemsMobile: [479, 2]
