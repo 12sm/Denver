@@ -22,9 +22,9 @@ a{
 
 p {
 font-size: 16px;
-color: #f84848;
-font-weight: bold;
-letter-spacing: 1px;
+color: #8D5959;
+font-weight: normal;
+letter-spacing: .3px;
 }
 
 h1 {
@@ -373,9 +373,9 @@ margin: 0 auto;
 }
 a.btn.btn-click {
 color: #fff;
-font-weight: 700;
+font-weight: 100;
 background: #f84848;
-font-size: 26px;
+font-size: 18px;
 margin-top: 25px;
 transition:background-color .3s ease;
 }
@@ -813,10 +813,10 @@ margin-left: 0px;
 margin-right: 0px;
 }
 a.btn.btn-click {
-font-size: 36px;
+font-size: 18px;
 }
 .row-prod a.btn.btn-click {
-font-size: 24px;
+font-size: 18px;
 }
 
 a.navbar-brand {
@@ -978,7 +978,7 @@ background-position:left;
 height: 300px;
 }
   .row-prod a.btn.btn-click {
-font-size: 36px;
+font-size: 18px;
 }
   .add_to_cart_button, .single_add_to_cart_button, .wc-forward, .button {
 font-size: 36px!important;
