@@ -185,9 +185,9 @@ width: 75%;
 .navbar-default {border-color:transparent!important;}
 #menu-primary-navigation li{
     font-family: 'proxima-nova';
-    font-style: italic;
+    font-style: normal;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 200;
 }
 #menu-primary-navigation> li>a{
 	color: #fff;
