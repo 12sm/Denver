@@ -65,7 +65,7 @@
 			<div class='row music-player'>
 				<div class='col-lg-4 col-md-3'>
 				</div>
-				<div class='col-lg-8 col-md-9 col-sm-6 circles'>
+				<div class='col-lg-8 col-md-9 col-sm-6 col-sm-offset-6 circles'>
 					<div class="row">
 						<div class="col-lg-5 col-lg-offset-3 col-md-5 col-md-offset-3">
 							<?php echo do_shortcode('[wpv-view name="HOME | MUSIC PLAYER | ALBUMS"]');  ?>
