@@ -254,9 +254,7 @@ height: initial;
     bottom: 0;
     display: none;
     }
-  .full-height{
-    height: 100%;
-  }
+
   .about-imgs-container img {
   position: absolute;
   }
