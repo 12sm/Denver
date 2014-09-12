@@ -560,6 +560,14 @@ margin-bottom: 25px;
 line-height: 1.2em;
 }
 
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button {
+border-radius: 0px;
+color: #FFFFFF;
+text-shadow: none;
+border: none;
+background: #F84747;
+}
+
 /* ==========================================================================
    Video
    ========================================================================== */
