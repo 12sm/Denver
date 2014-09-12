@@ -568,6 +568,10 @@ border: none;
 background: #F84747;
 }
 
+.woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce #content input.button:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page #content input.button:hover {
+background: #F09D20;
+}
+
 /* ==========================================================================
    Video
    ========================================================================== */
