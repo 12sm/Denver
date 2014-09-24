@@ -855,6 +855,12 @@ border: 1px solid #CCCCCC;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+	
+body.music .item .img-container {
+width: 50px;
+height: 50px;
+margin: 0 auto;
+}
   body.home{overflow: hidden!important;}
 .nav>li>a {
 padding: 10px 5px!important;
