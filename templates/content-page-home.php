@@ -10,8 +10,9 @@
       <h2>The Mile High</h2>
       <h2>Orchestra</h2>
       <img src="/wp-content/themes/denver/assets/img/denver.png" class='mobile-denver'>
-SCROLL TEST
+
   </main>
+  SCROLL TEST
 </div>
 </section>
 <section id='about'>
