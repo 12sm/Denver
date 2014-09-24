@@ -353,6 +353,9 @@ font-size: 28px;
 border-bottom: 1px solid #CCC;
 margin: 10px;
 }
+.individual-show:first-child {
+border: none;
+}
 
   /* [STORE] */
 .add_to_cart_button, .single_add_to_cart_button, .wc-forward, .button {
