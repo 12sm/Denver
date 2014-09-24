@@ -13,7 +13,7 @@ body.home{overflow: auto!important;}
 h1,h2,h3,h4,h5,h6,p,a{
   font-family: 'proxima-nova'
 }
-section {padding:0 5%;}
+
 a{
   color: #f84848;
   text-decoration: none!important;
@@ -1076,6 +1076,8 @@ border: 1px solid #CCCCCC;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+	
+	section {padding:0 5%;}
 
 .nav>li>a {
 padding: 10px 15px!important;
