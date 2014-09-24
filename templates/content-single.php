@@ -1,6 +1,6 @@
 <?php while (have_posts()) : the_post(); ?>
-  <div class="row col">
-  	<div class="col-sm-12 col-xs-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+  <div class="row">
+  	<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
 		  <article <?php post_class(); ?>>
 			<div class="entry-content">
 			  <?php the_content(); ?>
