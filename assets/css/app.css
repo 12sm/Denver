@@ -799,8 +799,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (max-width: 767px) {
 
 body.music .item .img-container {
-width: 50px;
-height: 50px;
+width: 20px;
+height: 20px;
 margin: 0 auto;
 }
 
