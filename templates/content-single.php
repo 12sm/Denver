@@ -14,5 +14,6 @@
 		  </article>
 		</div>
 	</div>
-				<?php comments_template('/templates/comments.php'); ?>
+				
 <?php endwhile; ?>
+<?php comments_template('/templates/comments.php'); ?>
