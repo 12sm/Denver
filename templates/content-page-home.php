@@ -83,10 +83,10 @@
     <div class="content row">
       	<main class="main <?php echo roots_main_class(); ?>" role="main">
 			<div class='row tour-home'>
-				<div class="col-lg-6">
+				<div class="col-lg-8">
 				<img src='/wp-content/themes/denver/assets/img/People.png' class="img-responsive people">
 				</div>
-				<div class="col-lg-4 col-lg-offset-1 col-md-12">
+				<div class="col-lg-4 col-md-12">
 				<h1>Tour</h1>
 					<div class="round-box"><?php echo do_shortcode('[wpv-view name="HOME | TOUR"]'); ?></div>
 				</div>
