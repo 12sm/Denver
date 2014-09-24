@@ -352,6 +352,13 @@ text-align: left;
 }
 
   /* [STORE] */
+  
+
+/* Enable when Store Launches */
+.cart-tab {
+display: none;
+}  
+  
 .add_to_cart_button, .single_add_to_cart_button, .wc-forward, .button {
 font-family: 'proxima-nova'!important;
 font-size: 26px!important;
