@@ -1089,6 +1089,12 @@ border: 1px solid #CCCCCC;
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	
+body.music .item .img-container {
+width: 50px;
+height: 50px;
+margin: 0 auto;
+}	
+	
 	section {padding:0 5%;}
 
 .nav>li>a {
