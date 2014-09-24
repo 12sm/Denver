@@ -260,7 +260,8 @@ $(".main-wrap").onepage_scroll({
       items : 4,
       itemsDesktop : [1199,4],
       itemsDesktopSmall : [979,4],
-      itemsMobile: [479, 4]
+      itemsMobile: [479, 4],
+	  responsive: true
 
   });
 
