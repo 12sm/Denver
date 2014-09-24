@@ -234,9 +234,9 @@ $(".main-wrap").onepage_scroll({
 
             autoPlay: false, //Set AutoPlay to 3 seconds
             items : 4,
-            itemsDesktop : [1199,3],
-            itemsDesktopSmall : [979,3],
-            itemsMobile: [479, 2]
+            itemsDesktop : [1199,4],
+            itemsDesktopSmall : [979,4],
+            itemsMobile: [479, 4]
 
         });
     }
@@ -257,10 +257,10 @@ $(".main-wrap").onepage_scroll({
       $(".disco-carou").owlCarousel({
 
       autoPlay: false, //Set AutoPlay to 3 seconds
-      items : 3,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3],
-      itemsMobile: [479, 2]
+      items : 4,
+      itemsDesktop : [1199,4],
+      itemsDesktopSmall : [979,4],
+      itemsMobile: [479, 4]
 
   });
 
