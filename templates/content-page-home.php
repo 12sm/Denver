@@ -88,7 +88,7 @@
 				</div>
 				<div class="col-lg-4 col-md-12">
 				<h1>Tour</h1>
-					<div class="round-box"><?php echo do_shortcode('[wpv-view name="HOME | TOUR"]'); ?></div>
+					<div><?php echo do_shortcode('[wpv-view name="HOME | TOUR"]'); ?></div>
 				</div>
 			</div>
 		</main>
