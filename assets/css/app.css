@@ -349,13 +349,6 @@ text-align: center;
 .tour-box h4 {
 font-size: 28px;
 }
-.individual-show {
-border-bottom: 1px solid #CCC;
-margin: 10px;
-}
-.individual-show:first-child {
-border: none;
-}
 
   /* [STORE] */
 .add_to_cart_button, .single_add_to_cart_button, .wc-forward, .button {
