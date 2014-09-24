@@ -798,6 +798,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+	
+.single-albums .song-list, .music .song-list {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+}
 
 a.navbar-brand img.img-responsive {
 height: 25px;
@@ -855,12 +861,6 @@ border: 1px solid #CCCCCC;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	
-.single-albums .song-list, .music .song-list {
--webkit-column-count: 1;
--moz-column-count: 1;
-column-count: 1;
-}
 	
 body.music .item .img-container {
 width: 50px;
