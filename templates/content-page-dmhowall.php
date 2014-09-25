@@ -1,8 +1,5 @@
-<div class='row about-bg'>
-	<div class="col-sm-6 col-md-6">
-	</div>
-	<div class="col-sm-6 col-md-6">
-	<h1>ABOUT</h1>
+<div class='row col'>
+	<div class="col-sm-12">
 	<?php the_content(); ?>
 	</div>
 </div>
