@@ -549,6 +549,16 @@ box-shadow: inset 0 0px 5px rgba(0,0,0,0.2);
 
 body.dmho-wall-of-fame h1 {text-align:center;}
 
+body.dmho-wall-of-fame h3 {
+font-size: 22px;
+width: 80%;
+text-align: center!important;
+margin: 0 auto;
+font-weight: normal;
+border-bottom: 1px solid #ECECEC;
+padding-bottom: 50px;
+}
+
 /* ==========================================================================
    News
    ========================================================================== */
