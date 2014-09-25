@@ -541,10 +541,15 @@ box-shadow: inset 0 0px 5px rgba(0,0,0,0.2);
    ========================================================================== */
    
 .list-of-hall-of-famers {
-	 -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-	text-align:center;
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+color: rgb(153, 61, 61);
+padding-top: 10px;
+line-height: 1.7em;
 }
 
 body.dmho-wall-of-fame h1 {text-align:center;}
@@ -821,6 +826,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+.list-of-hall-of-famers {
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+font-size:13px;
+}	
+
 body.music .item .img-container {
 width: 20px;
 height: 20px;
@@ -889,6 +901,12 @@ border: 1px solid #CCCCCC;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+	
+.list-of-hall-of-famers {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+}		
 	
 body.music .item .img-container {
 width: 50px;
@@ -1082,6 +1100,12 @@ background-position: 0% 10%;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+.list-of-hall-of-famers {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+}	
+
 body.music .item .img-container {
 width: 50px;
 height: 50px;
@@ -1117,6 +1141,12 @@ margin-top: 75px;
 
 @media (max-width:1199px) to (min-width:992px) {
 
+.list-of-hall-of-famers {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+}	
+
 body.music .item .img-container {
 width: 50px;
 height: 50px;
@@ -1140,6 +1170,12 @@ border: 1px solid #CCCCCC;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+	
+.list-of-hall-of-famers {
+-webkit-column-count: 4;
+-moz-column-count: 4;
+column-count: 4;
+}	
 	
 body.music .item .img-container {
 width: 50px;
