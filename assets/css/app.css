@@ -1011,7 +1011,7 @@ z-index: 0;
 .about-bg {
 background: url(../img/about-denver.jpg) no-repeat;
   background-attachment: fixed;
-background-position: -5% 100%;
+background-position: bottom left;
 background-size: contain;
 }
 /*[NEWS]*/
@@ -1194,7 +1194,7 @@ font-size: 18px;
 
   .about-bg {
   background-size: 50%;
-  background-position: -5% 173%;
+  background-position: bottom left;
 }
   img.img-responsive.people {
 left: 22%;
