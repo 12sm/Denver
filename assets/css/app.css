@@ -1220,11 +1220,12 @@ font-size: 18px;
   background-size: 50%;
   background-position: bottom left;
 }
-  img.img-responsive.people {
+img.img-responsive.people {
 left: 22%;
-top: -30px;
-width: 100%;
+top: 0px;
+width: 130%;
 position: absolute;
+max-width: 130%;
 }
 .wrap-music {
 background-position: -60% 0%;
@@ -1326,6 +1327,8 @@ top: inherit;
   padding-bottom: 5%;
   background-position: 50% 50%;
   }
+  
+  #tour .tour-dates {margin-top: 13%;}
 
  }
 
