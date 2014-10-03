@@ -1216,9 +1216,9 @@ position: absolute;
 background-position: -60% 0%;
 }
 img.mr-green {
-left: 0px;
+left: -8%;
 width: initial;
- }
+}
  img.mr-blue {
 width: initial;
 }
@@ -1291,20 +1291,21 @@ top: inherit;
 }
 /*[news-home]*/
   img.mr-blue {
-  right: 10%;
+  right: -11%;
   }
   img.mr-grey {
-  right: 15%;
+  right: 6%;
   top: 50px;
   }
   img.mr-red {
-  right: 40%;
+  right: 38%;
   top: 80px;
   }
   img.mr-stripe {
-right: 49%;
-top: 110px;
-}
+  left:12%;
+  top: 110px;
+  z-index: -1;
+  }
   /*[MUSIC-HOME]*/
   .circles {
   background: url(../img/circles.png) no-repeat;
