@@ -910,6 +910,11 @@ transition: opacity .3s ease;
 border: 1px solid #CCCCCC;
 }
 
+.tour-people {
+position: absolute;
+width: 100%;
+}
+
 }
 
 /* Small devices (tablets, 768px and up) */
