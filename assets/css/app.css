@@ -975,7 +975,7 @@ width: 50%;
 float: left;
 }
 ul#menu-primary-navigation {
-margin-top: 25px;
+margin-top: 20px;
 }
 .photos h1 {
 font-size: 82px;
@@ -1279,9 +1279,6 @@ height:100%;
 .navbar-header {
 width: 50%;
 height: 80px;
-}
-ul#menu-primary-navigation {
-margin-top: 15px;
 }
   .home section {
   height: 920px;
