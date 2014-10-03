@@ -12,7 +12,7 @@ function event_date( $atts ) {
 	);
 
 	// Code
-return substr($eventtime, 6, 5 );
+return substr($eventtime, 5, 5 );
 }
 add_shortcode( 'eventdate', 'event_date' );
 
