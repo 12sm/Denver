@@ -1104,7 +1104,7 @@ padding: 10px;
 background-position: 0% 10%;
 }
 
-.round-box {
+#news .round-box {
 position: absolute;
 bottom: 18%;
 z-index: 1;
