@@ -79,14 +79,14 @@
 </div>
 </section>
 <section id='tour'>
-	 <div class="wrap container-fluid" role="document">
-    <div class="content row">
-      	<main class="main <?php echo roots_main_class(); ?>" role="main">
-			<div class='row tour-home'>
-				<div class="col-lg-8">
+	 <div class="wrap container-fluid full-height" role="document">
+    <div class="content row full-height">
+      	<main class="main <?php echo roots_main_class(); ?> full-height" role="main">
+			<div class='row tour-home full-height'>
+				<div class="col-md-6 col-sm-12">
 				<img src='/wp-content/themes/denver/assets/img/People.png' class="img-responsive people">
 				</div>
-				<div class="col-lg-4 col-md-12">
+				<div class="col-md-6 col-sm-12">
 				<h1>Tour</h1>
 					<div><?php echo do_shortcode('[wpv-view name="HOME | TOUR"]'); ?></div>
 				</div>
