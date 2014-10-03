@@ -1105,8 +1105,8 @@ background-position: 0% 10%;
 }
 
 .round-box {
-position: relative;
-bottom: inherit;
+position: absolute;
+bottom: 18%;
 z-index: 1;
 }
 
@@ -1153,9 +1153,10 @@ min-height: 350px;
 .row.video-list {
 margin-top: 75px;
 }
+
 .round-box {
-position: absolute;
-bottom: 18%;
+position: relative;
+bottom: inherit;
 z-index: 1;
 }
 
