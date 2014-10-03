@@ -178,9 +178,7 @@ p.pause:before{
   width: 85%;
   margin: 0 auto;
   }
-ul.onepage-pagination {
-display: none;
-}
+  
 a.navbar-brand {
 width: 75%;
 }
@@ -910,6 +908,8 @@ border: 1px solid #CCCCCC;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.navbar>.container-fluid .navbar-brand {height:100%;display:block;}
 	
 .list-of-hall-of-famers {
 -webkit-column-count: 3;
@@ -1273,7 +1273,8 @@ line-height: 1;
 }
 /*[about-home]*/
 .navbar img {
-width: 70%;
+width: auto;
+height:100%;
 }
 .navbar-header {
 width: 50%;
@@ -1448,7 +1449,7 @@ display: none;
 .onepage-pagination {
   position: absolute;
   right: 10px;
-  top: 50%;
+  top: 40%;
   z-index: 5;
   list-style: none;
   margin: 0;
