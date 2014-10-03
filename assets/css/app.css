@@ -1154,7 +1154,7 @@ min-height: 350px;
 margin-top: 75px;
 }
 
-.round-box {
+#news .round-box {
 position: relative;
 bottom: inherit;
 z-index: 1;
