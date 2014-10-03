@@ -261,8 +261,12 @@ height: initial;
   position: absolute;
   }
   #news{
-    background: url(../img/BG.jpg);
-    background-size: cover;
+    background-image: -moz-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: -webkit-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: -ms-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: -o-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    
   }
   .home-people img {
     position: absolute;
@@ -308,8 +312,11 @@ background-position: 50% 0%;
 }
   /* [TOUR]*/
   #tour{
-    background: url(../img/bg-red.jpg) no-repeat;
-    background-size: cover;
+    background-image: -moz-radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
+    background-image: -webkit-radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
+    background-image: -ms-radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
+    background-image: -o-radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
+    background-image: radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
   }
   img.img-responsive.people {
   display: none;
@@ -1002,7 +1009,8 @@ display: block;
 }
 img.about-denver {
 left: 2%;
-top: 0;
+top: inherit;
+bottom:0px;
 width: 112%;
 max-width: 112%;
 display: block;
@@ -1273,11 +1281,12 @@ margin-top: 15px;
     right: -8%;
     top: 100px;
     }
-    img.about-denver {
-    left: 18%;
-    top: 0;
-    width: 100%;
-    }
+img.about-denver {
+left: 18%;
+bottom: 0px;
+width: 100%;
+top: inherit;
+}
 /*[news-home]*/
   img.mr-blue {
   right: 10%;
