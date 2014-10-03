@@ -323,6 +323,7 @@ left: 22%;
 bottom: 0px;
 width: 60%;
 display: block;
+position: absolute;
 }
 
 .tour-people {position:absolute;}
