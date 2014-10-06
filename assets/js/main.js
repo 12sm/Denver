@@ -230,7 +230,7 @@ $(".main-wrap").onepage_scroll({
   },
   single_videos:{
     init: function(){
-      $('.entry-content').removeClass('col-sm-6 col-sm-offset-3').addClass('col');
+      $('.entry-content').removeClass('col-sm-6 col-sm-offset-3');
     }
   },
 
@@ -249,7 +249,7 @@ $(".main-wrap").onepage_scroll({
   },
   single_albums: {
       init: function() {
-        $('.entry-content').removeClass('col-sm-6 col-sm-offset-3');
+        $('.entry-content').removeClass('col-sm-6 col-sm-offset-3').addClass('col');
 
       soundManager.setup({
     // disable or enable debug output
