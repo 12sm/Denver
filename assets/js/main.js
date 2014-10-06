@@ -228,6 +228,11 @@ $(".main-wrap").onepage_scroll({
 
     }
   },
+  single_videos:{
+    init: function(){
+      $('.entry-content').removeClass('col-sm-6 col-sm-offset-3').addClass('col');
+    }
+  }
   music:{
     init: function(){
       $(".disco-carou").owlCarousel({
