@@ -497,3 +497,55 @@
 		<a href="[wpv-post-url]"><button class='btn-tix btn'>Read More</button></a>
 	</div>
 </div>
+
+
+
+<!----ALBUM CONTENT TEMPLATE <!-->
+[wpv-layout-start]
+	[wpv-items-found]
+<div class="row album-header">
+  <div class='col-sm-12'>
+    <h1>[wpv-post-title]</h1>
+  </div>
+</div>
+<div class="row album-header">
+      <div class="col-md-4">
+        <div class="featured-thumb">
+            [types field="album-image" size="medium" align="none" resize="proportional" class="img-responsive"][/types]
+          </div>
+      </div>
+  	  <div class="col-md-5">
+       </div> 
+  	   <div class="col-md-3">
+         <div class="buy-panel">
+         [wpv-view name="ALBUM | CART BTN" wpvprchildof="[wpv-post-id]"]
+           <h3>Digital:</h3>
+         <div class="row">
+           <div class="col-md-6">
+           	<a href="[types field="amazon-url" output="raw"][/types]" class="btn btn-sm"><i class="fa fa-cloud-download"></i>  Amazon</a>
+           </div>
+           <div class="col-md-6">
+           	 <a href="[types field="itunes-url" output="raw"][/types]" class="btn btn-sm"><i class="fa fa-music"></i>  iTunes</a>
+        	</div>
+         </div>
+         </div>
+  </div>
+</div>
+<div class='row'>
+  <div class="col-sm-12">
+    <div class="album-desc">
+        	[types field="album-description"][/types]
+        </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+  	[wpv-view name="ALBUM | TRACKS" wpvprchildof="[wpv-post-id]"] 
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <h3>More Albums</h3>
+  	[wpv-view name="album-album-slider"] 
+  </div>
+</div>
