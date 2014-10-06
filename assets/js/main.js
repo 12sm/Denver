@@ -233,7 +233,7 @@ $(".main-wrap").onepage_scroll({
       $('.entry-content').removeClass('col-sm-6 col-sm-offset-3').addClass('col');
     }
   },
-  
+
   music:{
     init: function(){
       $(".disco-carou").owlCarousel({
@@ -249,7 +249,7 @@ $(".main-wrap").onepage_scroll({
   },
   single_albums: {
       init: function() {
-        $('.entry-content').removeClass('col-sm-6 col-sm-offset-3').addClass('col');
+        $('.entry-content').removeClass('col-sm-6 col-sm-offset-3');
 
       soundManager.setup({
     // disable or enable debug output
