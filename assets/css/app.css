@@ -1076,8 +1076,8 @@ width: 100%;
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-.col-posts {
-max-width: 768px;
+body.single-post .col-posts {
+max-width: 1300px;
 margin: 0 auto;
 }
 
