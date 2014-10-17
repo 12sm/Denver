@@ -855,7 +855,18 @@ p.credits, p.credits a {
 color: #FFF!important;
 font-weight: bold!important;
 }
-
+footer .fa {
+color: #fff;
+font-size: 26px;
+}
+#menu-socials li {
+display: inline-block;
+padding: 15px;
+float: right;
+}
+.row.footer-nav {
+max-width: 1170px;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
