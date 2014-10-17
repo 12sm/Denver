@@ -21,7 +21,8 @@ background-repeat: no-repeat;
 
 body.archive.post-type-archive.post-type-archive-videos.logged-in.admin-bar.tribe-bar-is-disabled.tribe-theme-denver.page-template-index-php.customize-support.woocommerce {
 background: url("/assets/img/videos-bg.jpg") #f9f9f9;
-background-repeat: no-repeat;
+background-repeat: repeat-y;
+background-position:fixed;
 }
 
 .centered {
