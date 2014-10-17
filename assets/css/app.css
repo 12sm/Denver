@@ -509,7 +509,7 @@ padding:5px;
 background-color:rgba(255,255,255,.8);
 }
 .backstretch img {
-width: 40% !important;
+width: 45% !important;
 height: auto !important;
 bottom: -15px;
 right: 0px !important;
@@ -1427,7 +1427,9 @@ border: 1px solid #CCCCCC;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+.backstretch img {
+width: 45% !important;
+}
 .list-of-hall-of-famers {
 -webkit-column-count: 4;
 -moz-column-count: 4;
