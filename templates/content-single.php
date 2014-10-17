@@ -1,5 +1,5 @@
 <?php while (have_posts()) : the_post(); ?>
-  <div class="row">
+  <div class="row col-posts">
   	<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12">
 		  <article <?php post_class(); ?>>
 				<div class="entry-content">

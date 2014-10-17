@@ -100,6 +100,13 @@ margin:0px auto;
 
 .btn {border-radius:0px!important;}
 
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+display: block;
+max-width: 100%;
+height: auto;
+width: 100%;
+}
+
 /* ==========================================================================
    Audio Player
    ========================================================================== */
@@ -666,6 +673,43 @@ padding-bottom: 56.25%;
 -webkit-box-shadow: 0 0 5px 3px rgba(0,0,0,1);
 box-shadow: 0 0 5px 0px rgba(0,0,0,.3);
 }
+
+/* ==========================================================================
+   Tour
+   ========================================================================== */
+
+#tribe-events {
+max-width: 1300px;
+margin: 0px auto;	
+}
+
+.events-list.tribe-bar-is-disabled #tribe-events-content-wrapper {
+max-width: 1300px !important;
+margin: 0 auto;
+}
+
+.events-list .tribe-events-loop, .tribe-events-day .tribe-events-loop, .single-tribe_venue .tribe-events-loop, .single-tribe_organizer .tribe-events-loop {
+max-width: 1300px !important;
+margin: 0 auto;
+}
+
+.tribe-bar-disabled {
+float: none !important;
+position: relative;
+z-index: 101;
+}
+
+.tribe-bar-is-disabled .tribe-events-page-title {
+line-height: 85px;
+text-align: center;
+clear: none;
+margin: 0;
+display: block;
+margin-top: 30px;
+font-size: 86px;
+}
+
+
 /* ==========================================================================
    Content
    ========================================================================== */
@@ -724,7 +768,7 @@ body.blog {
 background: url("/assets/img/news-bg.jpg") #f9f9f9;
 background-repeat: no-repeat;
 background-position: top center;
-}
+} 
 
 /* ==========================================================================
    Store
@@ -892,6 +936,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
+.col-posts {
+ margin:0 5%; 
+}
+
 .list-of-hall-of-famers {
 -webkit-column-count: 2;
 -moz-column-count: 2;
@@ -972,6 +1020,11 @@ width: 100%;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.col-posts {
+ margin:0 5%; 
+}
+
 .blog .round-box {
 height: 600px;
 }
@@ -1171,6 +1224,11 @@ z-index: 1;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+.col-posts {
+ margin:0 15%; 
+}
+  
 .blog .round-box {
 height: 575px;
 }
@@ -1233,6 +1291,10 @@ top: 12vh;
 
 @media (max-width:1199px) to (min-width:992px) {
 
+.col-posts {
+ margin:0 25%; 
+}
+
 .list-of-hall-of-famers {
 -webkit-column-count: 3;
 -moz-column-count: 3;
@@ -1263,6 +1325,10 @@ border: 1px solid #CCCCCC;
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	
+.col-posts {
+ margin:0 20%; 
+}
+  
 .list-of-hall-of-famers {
 -webkit-column-count: 4;
 -moz-column-count: 4;
