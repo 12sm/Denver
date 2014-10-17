@@ -628,6 +628,12 @@ border-bottom: 1px solid #ECECEC;
 padding-bottom: 50px;
 }
 
+body.dmho-wall-of-fame time,
+body.dmho-wall-of-fame .addthis_sharing_toolbox {
+  display:none;
+  
+}
+
 /* ==========================================================================
    News
    ========================================================================== */
