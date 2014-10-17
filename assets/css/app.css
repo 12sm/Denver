@@ -316,11 +316,11 @@ background-position: 50% 0%;
 }
   /* [TOUR]*/
   #tour{
-    background-image: -moz-radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
-    background-image: -webkit-radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
-    background-image: -ms-radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
-    background-image: -o-radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
-    background-image: radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
+    background-image: -moz-radial-gradient(48% 40%%, circle closest-corner, white 84%, white 50%, white 0px, rgb(248,72,72) 50%);
+    background-image: -webkit-radial-gradient(48% 40%%, circle closest-corner, white 84%, white 50%, white 0px, rgb(248,72,72) 50%);
+    background-image: -ms-radial-gradient(48% 40%%, circle closest-corner, white 84%, white 50%, white 0px, rgb(248,72,72) 50%);
+    background-image: -o-radial-gradient(48% 40%%, circle closest-corner, white 84%, white 50%, white 0px, rgb(248,72,72) 50%);
+    background-image: radial-gradient(48% 40%%, circle closest-corner, white 84%, white 50%, white 0px, rgb(248,72,72) 50%);
   }
 img.img-responsive.people {
 left: 32%;
@@ -343,6 +343,7 @@ color: #fff;
 font-weight: 700;
 background: #79d1ff;
 transition: background .3s ease;
+margin-bottom: 10px;
 }
 button.btn-tix.btn:hover {
 background: #21A9F0;
