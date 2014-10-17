@@ -721,7 +721,7 @@ background: rgb(250, 250, 250);
 }
 
 body.blog {
-background: url("/assets/img/news-bg.jpg") #DDDDDD;
+background: url("/assets/img/news-bg.jpg") #f9f9f9;
 background-repeat: no-repeat;
 background-position: top center;
 }
