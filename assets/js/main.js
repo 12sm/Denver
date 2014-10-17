@@ -335,7 +335,7 @@ soundManager.onready(function() {
       // JavaScript to be fired on the about us page
       $('.menu-news').removeClass('active');
     }
-  }
+  },
   // About us page, note the change from about-us to about_us.
   about_us: {
     init: function() {
