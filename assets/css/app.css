@@ -739,9 +739,7 @@ height: 250px;
   list-style: none;
 }
 .single-albums .song-list, .music .song-list{
-   -webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+
 }
 .albums h1 {
 margin-top: 0px;
