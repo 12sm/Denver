@@ -702,7 +702,10 @@ box-shadow: 0 0 5px 0px rgba(0,0,0,.3);
 .hentry header { }
 .hentry time { }
 .hentry .byline { }
-.hentry .entry-content { }
+.hentry .entry-content {
+max-width: 1170px;
+margin: 0 auto;
+ }
 .hentry footer { }
 
 blockquote p {
