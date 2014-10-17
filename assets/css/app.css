@@ -363,6 +363,9 @@ text-align: center;
 }
 .tour-box {
 text-align: center;
+background: #FFF;
+border-radius: 30px;
+padding: 20px;
 }
 .tour-box h4 {
 font-size: 20px;
