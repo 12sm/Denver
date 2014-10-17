@@ -1665,6 +1665,9 @@ width: 100%;
 height: 0px;
 color: #fff!important;
 }
+.owl-controls .fa{
+  color: #f84747;
+}
 /* clearfix */
 .owl-carousel .owl-wrapper:after {
    content: ".";
