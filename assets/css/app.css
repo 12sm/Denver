@@ -477,10 +477,6 @@ line-height: 1.2em;
 margin-top: 20px;
 }
 
-.news-thumb {
-max-width:50% !important;	
-}
-
 /* ==========================================================================
    About
    ========================================================================== */
@@ -1086,6 +1082,11 @@ width: 100%;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.news-thumb {
+max-width:50% !important;	
+}
+
 
 body.single-post .col-posts {
 max-width: 1300px;
