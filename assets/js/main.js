@@ -247,7 +247,10 @@ $(".main-wrap").onepage_scroll({
             items : 4,
             itemsDesktop : [1199,4],
             itemsDesktopSmall : [979,4],
-            itemsMobile: [479, 4]
+            itemsMobile: [479, 4],
+            navigation : true,
+            navigationText: ['<i class="fa fa-arrow-circle-left fa-3x"></i>','<i class="fa fa-arrow-circle-right fa-3x"></i>'],
+            pagination: false
 
         });
     }
