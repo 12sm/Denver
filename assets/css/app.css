@@ -621,6 +621,8 @@ margin-bottom: 5%;
 .page-header {
 text-align: center;
 border: transparent;
+margin: 30px 0px;
+padding: 0px;
 }
 
 body.single p {
@@ -664,6 +666,7 @@ body.post-type-archive-videos .video-list h1 {
 font-size: 24px;
 font-weight: 100;
 letter-spacing:0;
+text-align:center;
 }
 .vid-thumb {
 padding-bottom: 56.25%;
@@ -672,6 +675,15 @@ padding-bottom: 56.25%;
   border: 8px solid #FFFFFF ;
 -webkit-box-shadow: 0 0 5px 3px rgba(0,0,0,1);
 box-shadow: 0 0 5px 0px rgba(0,0,0,.3);
+}
+
+.vid-container {
+max-width: 960px;
+margin: 0px auto;	
+}
+
+.vid-container .fluid-width-video-wrapper {
+padding-top: 65% !important;	
 }
 
 /* ==========================================================================
@@ -700,14 +712,15 @@ z-index: 101;
 }
 
 .tribe-bar-is-disabled .tribe-events-page-title {
-line-height: 85px;
+line-height: 45px;
 text-align: center;
 clear: none;
 margin: 0;
 display: block;
 margin-top: 30px;
-font-size: 86px;
+font-size: 46px;
 }
+
 
 
 /* ==========================================================================
@@ -936,9 +949,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 @media (max-width: 767px) {
 
-.col-posts {
- margin:0 5%; 
-}
 
 .list-of-hall-of-famers {
 -webkit-column-count: 2;
@@ -1020,10 +1030,6 @@ width: 100%;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
-.col-posts {
- margin:0 5%; 
-}
 
 .blog .round-box {
 height: 600px;
@@ -1220,14 +1226,17 @@ bottom: 18%;
 z-index: 1;
 }
 
+.tribe-bar-is-disabled .tribe-events-page-title {
+line-height: 85px;
+font-size: 86px;
+}
+
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-.col-posts {
- margin:0 15%; 
-}
   
 .blog .round-box {
 height: 575px;
@@ -1291,9 +1300,6 @@ top: 12vh;
 
 @media (max-width:1199px) to (min-width:992px) {
 
-.col-posts {
- margin:0 25%; 
-}
 
 .list-of-hall-of-famers {
 -webkit-column-count: 3;
@@ -1324,11 +1330,7 @@ border: 1px solid #CCCCCC;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-	
-.col-posts {
- margin:0 20%; 
-}
-  
+
 .list-of-hall-of-famers {
 -webkit-column-count: 4;
 -moz-column-count: 4;
