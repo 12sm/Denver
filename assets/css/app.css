@@ -323,9 +323,9 @@ background-position: 50% 0%;
     background-image: radial-gradient(48% 40%%, circle closest-corner, white 72%, white 50%, white 0px, rgb(248,72,72) 50%);
   }
 img.img-responsive.people {
-left: 22%;
-bottom: 0px;
-width: 60%;
+left: 32%;
+bottom: 25px;
+width: 40%;
 display: block;
 position: absolute;
 }
@@ -1176,9 +1176,9 @@ z-index: 1;
 img.img-responsive.people {
 display: block;
 left: 0px;
-width: 120%;
+width: 106%;
 max-width: 120%;
-top: 20px;
+top: 12vh;
 }
 
 .tour-people {position:relative;}
@@ -1243,9 +1243,8 @@ font-size: 18px;
   background-position: bottom left;
 }
 img.img-responsive.people {
-left: 22%;
-top: 0px;
-width: 130%;
+top: 8vh;
+width: 107%;
 position: absolute;
 max-width: 130%;
 }
