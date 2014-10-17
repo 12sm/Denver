@@ -1242,9 +1242,8 @@ font-size: 86px;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  
 .blog .round-box {
-height: 575px;
+min-height: 575px;
 }
 .list-of-hall-of-famers {
 -webkit-column-count: 3;
