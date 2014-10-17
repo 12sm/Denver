@@ -18,6 +18,7 @@ body.archive.post-type-archive.post-type-archive-videos.logged-in.admin-bar.trib
 background: url("/assets/img/news-bg.jpg") #f9f9f9;
 background-repeat: no-repeat;
 background-size: contain;
+background-position: top center;
 }
 
 body.archive.post-type-archive.post-type-archive-videos.logged-in.admin-bar.tribe-bar-is-disabled.tribe-theme-denver.page-template-index-php.customize-support.woocommerce {
@@ -828,12 +829,6 @@ margin-bottom: 0!important;
 
 blockquote {
 background: rgb(250, 250, 250);
-}
-
-body.blog {
-background: url("/assets/img/news-bg.jpg") #f9f9f9;
-background-repeat: no-repeat;
-background-position: top center;
 }
 
 .addthis_sharing_toolbox, time {
