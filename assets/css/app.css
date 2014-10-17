@@ -10,6 +10,17 @@
 body { }
 html{text-rendering: optimizeLegibility;}
 body.home{overflow: auto!important;}
+
+body.single,
+body.blog,
+body.page-template-template-photos-php,
+body.post-type-archive-videos,
+body.page-template-template-music-php
+body.events-list, {
+background: url("/assets/img/news-bg.jpg") #f9f9f9;
+background-repeat: no-repeat;
+}
+
 h1,h2,h3,h4,h5,h6,p,a{
   font-family: 'proxima-nova'
 }
