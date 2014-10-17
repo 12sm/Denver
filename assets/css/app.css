@@ -1011,6 +1011,7 @@ float: right;
 }
 ul#menu-primary-navigation {
 margin-top: 20px;
+float: right;
 }
 .photos h1 {
 font-size: 82px;
