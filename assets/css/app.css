@@ -1656,7 +1656,7 @@ body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
  */
 /*Owl Control positioning*/
 .owl-theme .owl-controls .owl-buttons .owl-prev {position:absolute; left:0px;}
-.owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:0px;}
+.owl-theme .owl-controls .owl-buttons .owl-next {position:absolute; right:right: 36px;}
 .owl-theme .owl-controls {
 text-align: center;
 position: absolute;
@@ -1679,6 +1679,9 @@ color: #fff!important;
 }
 .owl-item{
    padding: 10px;
+}
+.owl-buttons div {
+top: -25px;
 }
 /* display none until init */
 .owl-carousel{
