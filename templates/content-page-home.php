@@ -29,7 +29,7 @@
 			<div class="col-sm-5">
 				<div class="about-wrap">
 					<!-- <h1 class='about'>Who are <span class='huge'>We?</span></h1> -->
-          <img src="/wp-content/themes/denver/assets/img/who-are-we.png" />
+          <img src="/assets/img/who-are-we.png" />
 						<div><?php echo do_shortcode('[about]'); ?></div>
 						<a href="/about/" class="btn btn-click italic">Click to Find Out More </a>
 				</div>
