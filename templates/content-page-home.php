@@ -28,8 +28,8 @@
       <div class="col-sm-1"></div>
 			<div class="col-sm-5">
 				<div class="about-wrap">
-					<!-- <h1 class='about'>Who are <span class='huge'>We?</span></h1> -->
-          <img src="/assets/img/who-are-we.jpg" />
+					<h1 class="about hidden-lg hidden-md hidden-sm visible-xs">Who are <span class='huge'>We?</span></h1>
+          <img src="/assets/img/who-are-we.jpg" class="hidden-xs visible-sm visible-md visible-lg" />
 						<div><?php echo do_shortcode('[about]'); ?></div>
 						<a href="/about/" class="btn btn-click italic">Click to Find Out More </a>
 				</div>
