@@ -436,8 +436,9 @@ padding-bottom: 15px;
 }
 .home-news h3 {
 margin-top: 15vh;
-color: #F84848;
-font-size: 27px;
+color: #FFFFFF;
+font-size: 46px;
+line-height: .9em;
 }
 .single-home-news-post p {
 font-size: 16px;
