@@ -234,6 +234,7 @@ $(".main-wrap").onepage_scroll({
   single_videos:{
     init: function(){
       $('.entry-content').removeClass('col-sm-6 col-sm-offset-3');
+      $('.menu-news').removeClass('active');
     }
   },
 
@@ -252,6 +253,7 @@ $(".main-wrap").onepage_scroll({
   },
   single_albums: {
       init: function() {
+        $('.menu-news').removeClass('active');
         $('.entry-content').removeClass('col-sm-6 col-sm-offset-3').addClass('col');
 
       soundManager.setup({
@@ -287,7 +289,7 @@ $(".main-wrap").onepage_scroll({
 
   albums: {
       init: function() {
-
+        $('.menu-news').removeClass('active');
       soundManager.setup({
     // disable or enable debug output
     debugMode: true,

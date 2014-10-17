@@ -662,6 +662,11 @@ letter-spacing:0;
 .vid-thumb {
 padding-bottom: 56.25%;
 }
+.video-list > div{
+  border: 8px solid #FFFFFF ;
+-webkit-box-shadow: 0 0 5px 3px rgba(0,0,0,1);
+box-shadow: 0 0 5px 0px rgba(0,0,0,.3);
+}
 /* ==========================================================================
    Content
    ========================================================================== */
