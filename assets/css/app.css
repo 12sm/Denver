@@ -18,6 +18,10 @@ background: url("/assets/img/news-bg.jpg") #f9f9f9;
 background-repeat: no-repeat;
 }
 
+.centered {
+text-align: center;	
+}
+
 h1,h2,h3,h4,h5,h6,p,a{
   font-family: 'proxima-nova'
 }
