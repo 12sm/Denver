@@ -44,7 +44,7 @@
     <div class="content row full-height">
       <main class="main <?php echo roots_main_class(); ?> full-height" role="main">
 		<div class="row home-news full-height">
-			<div class="col-md-4 col-sm-6 news-mobile full-height">
+			<div class="col-md-3 col-sm-6 news-mobile full-height">
 				<?php echo do_shortcode('[wpv-view name="HOME | NEWS"]'); ?>
 			</div>
 			<div class="col-md-8 col-sm-6 home-people full-height">
