@@ -1007,7 +1007,7 @@ height: 80px;
 }
 nav.collapse.navbar-collapse {
 width: 65%;
-float: left;
+float: right;
 }
 ul#menu-primary-navigation {
 margin-top: 20px;
