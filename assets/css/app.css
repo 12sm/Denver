@@ -720,6 +720,11 @@ blockquote {
 background: rgb(250, 250, 250);
 }
 
+body.blog {
+background: url("/assets/img/news-bg.jpg") #DDDDDD;
+background-repeat: no-repeat;
+}
+
 /* ==========================================================================
    Store
    ========================================================================== */
