@@ -82,6 +82,7 @@ function roots_gallery($attr) {
 
   $unique = (get_query_var('page')) ? $instance . '-p' . get_query_var('page'): $instance;
   $output = '<div class="gallery gallery-' . $id . '-' . $unique . '">';
+  $output .= '<div class="row gallery-row">';
 
   $i = 0;
   foreach ($attachments as $id => $attachment) {
@@ -96,7 +97,7 @@ function roots_gallery($attr) {
         $image = wp_get_attachment_link($id, $size, true, false);
         break;
     }
-    $output .= ($i % $columns == 0) ? '<div class="row gallery-row">': '';
+    //$output .= ($i % $columns == 0) ? '<div class="row gallery-row">': '';
     $output .= '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">' . $image;
 
     if (trim($attachment->post_excerpt)) {
@@ -105,9 +106,10 @@ function roots_gallery($attr) {
 
     $output .= '</div>';
     $i++;
-    $output .= ($i % $columns == 0) ? '</div>' : '';
+    //$output .= ($i % $columns == 0) ? '</div>' : '';
   }
-
+  
+  $output .= '</div>';
   $output .= ($i % $columns != 0 ) ? '</div>' : '';
   $output .= '</div>';
 
