@@ -666,6 +666,7 @@ background: #F09D20;
 .row.video-list {
 margin-top: 50px;
 margin-bottom: 20px;
+text-align:center;
 }
 
 body.post-type-archive-videos h2,
