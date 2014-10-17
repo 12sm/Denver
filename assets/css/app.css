@@ -587,7 +587,9 @@ padding: 0px 20px;
 .photos h1 {
 font-size: 42px;
 }
-
+body.single-photo-gal h1 {
+  text-align:center;
+}
 .gal-links li a {
 color: #FFF;
 }
