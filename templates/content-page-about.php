@@ -4,5 +4,7 @@
 	  <?php the_content(); ?>
 	</div>
   <div class="col-sm-6 col-md-6">
+  <div class="about-bstretch">
+  </div>
 	</div>
 </div>
