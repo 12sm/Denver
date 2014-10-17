@@ -84,12 +84,13 @@
     <div class="content row full-height">
       	<main class="main <?php echo roots_main_class(); ?> full-height" role="main">
 			<div class='row tour-home full-height'>
-				<div class="col-md-6 col-sm-12 full-height tour-people">
-				<img src='/wp-content/themes/denver/assets/img/People.png' class="img-responsive people">
-				</div>
-				<div class="col-md-6 col-sm-12 tour-dates">
+				
+        <div class="col-md-6 col-sm-12 tour-dates">
 				<h1>Tour</h1>
 					<div><?php echo do_shortcode('[wpv-view name="HOME | TOUR"]'); ?></div>
+				</div>
+        <div class="col-md-6 col-sm-12 full-height tour-people">
+				<img src='/wp-content/themes/denver/assets/img/People.png' class="img-responsive people">
 				</div>
 			</div>
 		</main>
