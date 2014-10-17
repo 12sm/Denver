@@ -673,6 +673,43 @@ padding-bottom: 56.25%;
 -webkit-box-shadow: 0 0 5px 3px rgba(0,0,0,1);
 box-shadow: 0 0 5px 0px rgba(0,0,0,.3);
 }
+
+/* ==========================================================================
+   Tour
+   ========================================================================== */
+
+#tribe-events {
+max-width: 1300px;
+margin: 0px auto;	
+}
+
+.events-list.tribe-bar-is-disabled #tribe-events-content-wrapper {
+max-width: 1300px !important;
+margin: 0 auto;
+}
+
+.events-list .tribe-events-loop, .tribe-events-day .tribe-events-loop, .single-tribe_venue .tribe-events-loop, .single-tribe_organizer .tribe-events-loop {
+max-width: 1300px !important;
+margin: 0 auto;
+}
+
+.tribe-bar-disabled {
+float: none !important;
+position: relative;
+z-index: 101;
+}
+
+.tribe-bar-is-disabled .tribe-events-page-title {
+line-height: 85px;
+text-align: center;
+clear: none;
+margin: 0;
+display: block;
+margin-top: 30px;
+font-size: 86px;
+}
+
+
 /* ==========================================================================
    Content
    ========================================================================== */
