@@ -63,7 +63,6 @@
 <section id='music'>
  <div class="wrap container-fluid wrap-music" role="document">
     <div class="content row">
-      <h1>NEW MUSIC</h1>
       	<main class="main <?php echo roots_main_class(); ?>" role="main">
 			<div class='row music-player'>
 				<div class='col-lg-4 col-md-3'>
