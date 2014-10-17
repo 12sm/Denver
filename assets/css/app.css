@@ -681,6 +681,10 @@ margin-bottom: 20px;
 text-align:center;
 }
 
+.video-list h4 {
+text-shadow: 1px 1px 1px #FAF9F5;
+}
+
 body.single-videos .col-posts {
 max-width:1300px !important;
 }
