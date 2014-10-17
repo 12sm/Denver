@@ -1083,11 +1083,7 @@ width: 100%;
 @media (min-width: 768px) {
 
 body.single-post .col-posts {
-<<<<<<< HEAD
 max-width: 1300px;
-=======
-max-width: 768px;
->>>>>>> FETCH_HEAD
 margin: 0 auto;
 }
 
