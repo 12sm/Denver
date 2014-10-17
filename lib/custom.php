@@ -27,7 +27,7 @@ function event_state( $atts ) {
   );
 
   // Code
-tribe_get_stateprovine($id);
+tribe_get_stateprovince($id);
 }
 add_shortcode( 'eventstate', 'event_state' );
 
