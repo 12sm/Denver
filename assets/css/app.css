@@ -1051,7 +1051,7 @@ z-index: 0;
 .about-bg {
 background: url(../img/about-denver.jpg) no-repeat;
   background-attachment: fixed;
-background-position: bottom left;
+background-position: bottom right;
 background-size: contain;
 }
 /*[NEWS]*/
