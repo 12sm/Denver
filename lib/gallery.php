@@ -44,7 +44,7 @@ function roots_gallery($attr) {
     'size'       => 'thumbnail',
     'include'    => '',
     'exclude'    => '',
-    'link'       => ''
+    'link'       => 'file'
   ), $attr));
 
   $id = intval($id);
