@@ -1243,8 +1243,8 @@ font-size: 18px;
 }
 
   .about-bg {
-  background-size: 50%;
-  background-position: bottom left;
+  background-size: 45%;
+  background-position: bottom right;
 }
 img.img-responsive.people {
 top: 8vh;
