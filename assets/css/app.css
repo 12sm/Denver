@@ -753,7 +753,7 @@ font-size: 46px;
 
 
 /* ==========================================================================
-   Posts
+   NEWS & Posts
    ========================================================================== */
 
 .hentry header { }
@@ -781,6 +781,10 @@ body.blog {
 background: url("/assets/img/news-bg.jpg") #f9f9f9;
 background-repeat: no-repeat;
 background-position: top center;
+}
+
+.addthis_sharing_toolbox {
+margin-top: 20px;
 } 
 
 /* ==========================================================================
