@@ -53,7 +53,8 @@ letter-spacing: .3px;
 }
 
 h1 {
-color: #79d1ff;
+/* color: #79d1ff; */
+color: #3CA0D3;
 font-size: 50px;
 font-weight: 900;
 text-transform: uppercase;
