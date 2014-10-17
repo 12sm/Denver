@@ -786,6 +786,11 @@ background-position: top center;
 margin-top: 20px;
 } 
 
+body.single {
+background: url("/assets/img/news-bg.jpg") #f9f9f9;
+background-repeat: no-repeat;
+}
+
 /* ==========================================================================
    Store
    ========================================================================== */
