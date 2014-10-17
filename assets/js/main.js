@@ -35,6 +35,9 @@ var Roots = {
       $(window).load(function() {
   $('.top-slider').flexslider({
     animation: "slide",
+    start: function(){
+      $('#about').removeClass('hidden');
+    }
     });
   });
 

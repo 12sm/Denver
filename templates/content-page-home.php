@@ -13,7 +13,7 @@
   </main>
 </div>
 </section>
-<section id='about'>
+<section id='about' class='hidden'>
  <div class="wrap container-fluid full-height" role="document">
     <div class="content row full-height">
       <main class="main full-height <?php echo roots_main_class(); ?>" role="main">
