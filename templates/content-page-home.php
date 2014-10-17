@@ -47,6 +47,7 @@
 			<div class="col-md-3 col-sm-6 news-mobile full-height">
 				<?php echo do_shortcode('[wpv-view name="HOME | NEWS"]'); ?>
 			</div>
+      <div class="col-md-1"></div>
 			<div class="col-md-8 col-sm-6 home-people full-height">
 				<img src="/wp-content/themes/denver/assets/img/mr-blue.png" class='mr-blue'>
 				<img src="/wp-content/themes/denver/assets/img/mr-green.png" class='mr-green'>
