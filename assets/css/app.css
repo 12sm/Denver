@@ -703,7 +703,7 @@ box-shadow: 0 0 5px 0px rgba(0,0,0,.3);
 .hentry time { }
 .hentry .byline { }
 .hentry .entry-content {
-max-width: 1170px;
+max-width: 1300px;
 margin: 0 auto;
  }
 .hentry footer { }
@@ -871,7 +871,7 @@ padding: 15px;
 float: right;
 }
 .row.footer-nav {
-max-width: 1170px;
+max-width: 1300px;
 }
 /* ==========================================================================
    WordPress Generated Classes
