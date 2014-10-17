@@ -25,10 +25,11 @@
 					<img src="/wp-content/themes/denver/assets/img/denver.png" class='about-denver'>
 				</div>
 			</div>
-			<div class="col-sm-6">
+      <div class="col-sm-1"></div>
+			<div class="col-sm-5">
 				<div class="about-wrap">
 					<h1 class='about'>Who are <span class='huge'>We?</span></h1>
-						<div class="round-box"><?php echo do_shortcode('[about]'); ?></div>
+						<div><?php echo do_shortcode('[about]'); ?></div>
 						<a href="/about/" class="btn btn-click italic">Click to Find Out More </a>
 				</div>
 			</div>
