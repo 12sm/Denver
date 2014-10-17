@@ -348,7 +348,7 @@ soundManager.onready(function() {
   about: {
     init: function() {
       // JavaScript to be fired on the about us page
-      $('.about-bstretch').backstretch('../assets/img/about-denver.jpg');
+      $('.about-bg').backstretch('../assets/img/about-denver.jpg');
     }
   }
 };
