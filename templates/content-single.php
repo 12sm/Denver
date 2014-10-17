@@ -4,7 +4,7 @@
 		  <article <?php post_class(); ?>>
 				<div class="entry-content">
 				  <?php the_content(); ?>
-				  <?php echo get_the_post_thumbnail( 'large' );  ?>
+				  <?php echo get_the_post_thumbnail( 'full' );  ?>
 				</div>
 			</article>
 			</div>
