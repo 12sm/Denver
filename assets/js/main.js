@@ -221,7 +221,7 @@ $(".main-wrap").onepage_scroll({
 }
 function matchFunc(){
   console.log('match');
-  $.fn.transformPage = null;
+  //$.fn.transformPage = null;
 }
 function theSetup(){
   /*var wid = window.innerWidth;
