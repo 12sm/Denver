@@ -1466,7 +1466,15 @@ top: 12vh;
 }
 
 @media (max-width:1199px) to (min-width:992px) {
-
+.music-bg {
+position: absolute;
+z-index: 0;
+background: url(../img/denver-album.png) no-repeat;
+background-size: contain;
+background-position: 0% 10%;
+width: 100%;
+padding-bottom: 100%;
+}
 
 .list-of-hall-of-famers {
 -webkit-column-count: 3;
