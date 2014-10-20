@@ -1403,7 +1403,7 @@ right: 315px;
   background: url(../img/denver-album.png) no-repeat;
   background-size: contain;
   height: 100%;
-  background-position: 0% 10%;
+  background-position: -110% 10%;
   width: 50%;
 }
 .blog .round-box {
@@ -1515,10 +1515,7 @@ border: 1px solid #CCCCCC;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .music-bg {
-background-position: -110% 10%;
-width: 50%;
-}
+
 .backstretch img {
 width: 45% !important;
 }
