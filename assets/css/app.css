@@ -1281,23 +1281,23 @@ display: block;
 
 
 img.mr-blue {
-right: 25px;
+right: 0px;
 width: 110px;
 }
 img.mr-stripe {
-width: 185px;
+width: 160px;
 right: 250px;
 }
 img.mr-red {
-width: 115px;
+width: 90px;
 right: 200px;
 }
 img.mr-green {
-right: 350px;
+right: 325px;
 width: 165px;
 }
 img.mr-grey {
-width: 175px;
+width: 150px;
 right: 60px;
 }
 /*[MUSIC]*/
