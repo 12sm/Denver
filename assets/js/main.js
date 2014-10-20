@@ -221,10 +221,13 @@ $(".main-wrap").onepage_scroll({
 });
 
 }
+function match(){
+  console.log('match');
+}
 enquire.register("only screen and (max-width : 992px), only screen and (max-width : 992px) and (orientation : landscape), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px)", {
 
     match : function() {
-      console.log('match');
+      match();
     },      // OPTIONAL
                                 // If supplied, triggered when the media query transitions 
                                 // *from an unmatched to a matched state*
