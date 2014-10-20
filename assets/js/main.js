@@ -195,7 +195,6 @@ function Hide(){
 
 
   //OneScroll
-  debugger;
   function oneScroll(){
     console.log('oneScroll firing');
 $(".main-wrap").onepage_scroll({
