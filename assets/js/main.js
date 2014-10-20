@@ -250,12 +250,6 @@ enquire.register("only screen and (max-width : 992px), only screen and (max-widt
       theSetup();
     },      // OPTIONAL
                                 // If supplied, triggered once immediately upon registration of the handler
-
-    destroy : function() {
-      
-    },    // OPTIONAL
-                                // If supplied, triggered when handler is unregistered. Place cleanup code here
-
     deferSetup : true           // OPTIONAL, defaults to false
                                 // If set to true, defers execution the setup function 
                                 // until the media query is first matched. still triggered just once
