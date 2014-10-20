@@ -33,14 +33,12 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
-      $(window).load(function() {
   $('.top-slider').flexslider({
     animation: "slide",
     start: function(){
       $('#about').removeClass('hidden');
     }
     });
-  });
 
       
 
