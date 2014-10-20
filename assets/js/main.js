@@ -231,6 +231,7 @@ function theSetup(){
 }
 function unMatch(){
   console.log('shits not matching bro');
+  oneScroll();
 }
 
 enquire.register("only screen and (max-width : 992px), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px)", {
