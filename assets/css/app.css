@@ -101,7 +101,6 @@ line-height: .5;
   margin-top: 50px;
 }
 section {
-overflow: hidden;
 width: 100%;
 }
 section#music{
@@ -1354,6 +1353,9 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  section {
+    overflow: hidden;
+  }
 .music-bg{
   position: absolute;
   top: 0;
