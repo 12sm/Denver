@@ -221,12 +221,13 @@ $(".main-wrap").onepage_scroll({
 }
 function matchFunc(){
   console.log('match');
+  $.fn.transformPage = null;
 }
 function theSetup(){
-  var wid = window.innerWidth;
+  /*var wid = window.innerWidth;
   if (wid > 992 ){
     oneScroll();
-  };
+  };*/
 }
 
 enquire.register("only screen and (max-width : 992px), only screen and (min-width : 992px) and (orientation : landscape), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px)", {
