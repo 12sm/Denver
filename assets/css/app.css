@@ -1317,7 +1317,7 @@ position: absolute;
 z-index: 0;
 background: url(../img/denver-album.png) no-repeat;
 background-size: contain;
-background-position: 0% 10%;
+background-position: -110% 10%;
 width: 100%;
 padding-bottom: 100%;
 }
@@ -1404,6 +1404,7 @@ right: 315px;
   background-size: contain;
   height: 100%;
   background-position: 0% 10%;
+  width: 50%;
 }
 .blog .round-box {
 min-height: 575px;
@@ -1514,6 +1515,10 @@ border: 1px solid #CCCCCC;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .music-bg {
+background-position: -110% 10%;
+width: 50%;
+}
 .backstretch img {
 width: 45% !important;
 }
