@@ -223,6 +223,7 @@ function matchFunc(){
   console.log('match');
 }
 function theSetup(){
+  debugger;
   var wid = window.innerWidth;
     if (wid > 992 ){
       oneScroll();
@@ -245,11 +246,10 @@ enquire.register("only screen and (max-width : 992px)", {
                                 // Also may be called when handler is unregistered (if destroy is not available)
 
     setup : function() {
-      debugger;
       theSetup();
     },      // OPTIONAL
                                 // If supplied, triggered once immediately upon registration of the handler
-    deferSetup : true           // OPTIONAL, defaults to false
+    deferSetup : false           // OPTIONAL, defaults to false
                                 // If set to true, defers execution the setup function 
                                 // until the media query is first matched. still triggered just once
 });
