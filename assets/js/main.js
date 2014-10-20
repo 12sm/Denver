@@ -217,11 +217,20 @@ $(".main-wrap").onepage_scroll({
                                     // the browser's width is less than 600, the fallback will kick in.
    direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".
 });
-
 }
+
 function matchFunc(){
   console.log('match');
-  //$.fn.transformPage = null;
+   $(document).bind('mousewheel DOMMouseScroll MozMousePixelScroll', function (event) {
+        //This i added one line 
+         if ($('body').hasClass('scroll-disabled')) {
+             return;
+         }
+
+        event.preventDefault();
+        var delta = event.originalEvent.wheelDelta || -event.originalEvent.detail;
+        if (!$("body").hasClass("disabled-onepage-scroll")) init_scroll(event, delta);
+    });
 }
 function theSetup(){
   var wid = window.innerWidth;
