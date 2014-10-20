@@ -351,15 +351,13 @@ background-position: 50% 0%;
     background-image: -o-radial-gradient(48% 40%%, circle closest-corner, white 84%, white 50%, white 0px, rgb(248,72,72) 50%);
     background-image: radial-gradient(48% 40%%, circle closest-corner, white 84%, white 50%, white 0px, rgb(248,72,72) 50%);
   }
+
 img.img-responsive.people {
-left: 32%;
-bottom: 25px;
-width: 40%;
+width: 55%;
 display: block;
-position: absolute;
+margin: 0 auto;
 }
 
-.tour-people {position:absolute;}
 
   .tour-header{
     display: none;
@@ -1117,6 +1115,14 @@ width: 100%;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .tour-people {position:absolute;}
+  img.img-responsive.people {
+    left: 32%;
+    bottom: 25px;
+    width: 40%;
+    display: block;
+    position: absolute;
+  }
   .photos h1 {
     font-size: 42px;
   }
