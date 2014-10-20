@@ -1315,7 +1315,7 @@ padding-left: 7%;
 }
 .music-bg {
 position: absolute;
-z-index: 5;
+z-index: 0;
 background: url(../img/denver-album.png) no-repeat;
 background-size: contain;
 background-position: 0% 10%;
