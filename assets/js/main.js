@@ -221,16 +221,7 @@ $(".main-wrap").onepage_scroll({
 
 function matchFunc(){
   console.log('match');
-   $(document).bind('mousewheel DOMMouseScroll MozMousePixelScroll', function (event) {
-        //This i added one line 
-         if ($('body').hasClass('scroll-disabled')) {
-             return;
-         }
-
-        event.preventDefault();
-        var delta = event.originalEvent.wheelDelta || -event.originalEvent.detail;
-        if (!$("body").hasClass("disabled-onepage-scroll")) init_scroll(event, delta);
-    });
+    $(".main-wrap").disable_onepage_scroll({sectionContainer: 'section'});
 }
 function theSetup(){
   var wid = window.innerWidth;
