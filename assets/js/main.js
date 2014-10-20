@@ -223,11 +223,10 @@ function matchFunc(){
   console.log('match');
 }
 function theSetup(){
-  debugger;
   var wid = window.innerWidth;
-    if (wid > 992 ){
-      oneScroll();
-    };
+  if (wid > 992 ){
+    oneScroll();
+  };
 }
 
 enquire.register("only screen and (max-width : 992px), only screen and (max-width : 992px) and (orientation : landscape), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px)", {
