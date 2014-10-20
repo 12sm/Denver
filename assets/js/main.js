@@ -195,8 +195,9 @@ function Hide(){
 
 
   //OneScroll
-  debugger;
+
   function oneScroll(){
+      debugger;
     console.log('oneScroll firing');
 $(".main-wrap").onepage_scroll({
    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
@@ -229,46 +230,7 @@ function theSetup(){
       oneScroll();
     };
 }
-
-enquire.register("only screen and (max-width : 992px), only screen and (max-width : 992px) and (orientation : landscape), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px)", {
-
-    match : function() {
-      matchFunc();
-    },      // OPTIONAL
-                                // If supplied, triggered when the media query transitions 
-                                // *from an unmatched to a matched state*
-
-    unmatch : function() {
-      oneScroll();
-    },    // OPTIONAL
-                                // If supplied, triggered when the media query transitions 
-                                // *from a matched state to an unmatched state*.
-                                // Also may be called when handler is unregistered (if destroy is not available)
-
-    setup : function() {
-      theSetup();
-    },      // OPTIONAL
-                                // If supplied, triggered once immediately upon registration of the handler
-
-    destroy : function() {
-      
-    },    // OPTIONAL
-                                // If supplied, triggered when handler is unregistered. Place cleanup code here
-
-    deferSetup : true           // OPTIONAL, defaults to false
-                                // If set to true, defers execution the setup function 
-                                // until the media query is first matched. still triggered just once
-});
-  /*enquire.register("screen and (min-width:50em)", function() {
-        $window.resize(function(){ //if the user resizes the window...
-      Move(); //move the background images in relation to the movement of the scrollbar
-    });*/
-
-    /*$wnidow.bind('scroll', function(){ //when the user is scrolling...
-      Move(); //move the background images in relation to the movement of the scrollbar
-    });*/
-    // End Parallax
-    //}, true);
+oneScroll();
 
 
     }
