@@ -1122,11 +1122,11 @@ width: 100%;
   }
   #news{
     background-color: transparent;
-    background-image: -moz-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
-    background-image: -webkit-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
-    background-image: -ms-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
-    background-image: -o-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
-    background-image: radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: -moz-radial-gradient(72% 42%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: -webkit-radial-gradient(72% 42%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: -ms-radial-gradient(72% 42%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: -o-radial-gradient(72% 42%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: radial-gradient(72% 42%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
   }
 .backstretch img {
 display: block;
@@ -1297,7 +1297,7 @@ right: 300px;
 width: 165px;
 }
 img.mr-grey {
-width: 125px;
+width: 150px;
 right: 60px;
 }
 /*[MUSIC]*/
@@ -1353,6 +1353,14 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+ #news{
+    background-color: transparent;
+    background-image: -moz-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: -webkit-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: -ms-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: -o-radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+    background-image: radial-gradient(65% 40%, circle closest-corner, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 90%, transparent 0px, rgb(121,209,255) 0px);
+  }
   img.mr-blue {
 right: 0px;
 width: 175px;
