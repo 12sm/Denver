@@ -59,8 +59,8 @@
 </div>
 </section>
 <section id='music'>
-<div class="music-bg"></div>
  <div class="wrap container-fluid wrap-music" role="document">
+ <div class="music-bg"></div>
     <div class="content row">
       	<main class="main <?php echo roots_main_class(); ?>" role="main">
 			<div class='row music-player'>
