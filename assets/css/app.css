@@ -1315,17 +1315,14 @@ padding-left: 7%;
   background: #fff;
   z-index: 4;
 }
-.music-bg{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 5;
-  background: url(../img/denver-album.png) no-repeat;
+.music-bg {
+position: absolute;
+z-index: 5;
+background: url(../img/denver-album.png) no-repeat;
 background-size: contain;
-height: 100%;
 background-position: 0% 10%;
+width: 100%;
+padding-bottom: 100%;
 }
 
 /*[STORE]*/
@@ -1358,7 +1355,18 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+.music-bg{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  background: url(../img/denver-album.png) no-repeat;
+  background-size: contain;
+  height: 100%;
+  background-position: 0% 10%;
+}
 .blog .round-box {
 min-height: 575px;
 }
