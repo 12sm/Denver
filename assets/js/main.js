@@ -224,14 +224,12 @@ function matchFunc(){
   console.log('match');
 }
 function theSetup(){
-  debugger;
   var wid = window.innerWidth;
     if (wid > 992 ){
       oneScroll();
     };
 }
 
-debugger;
 enquire.register("only screen and (max-width : 992px), only screen and (max-width : 992px) and (orientation : landscape), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px)", {
 
     match : function() {
@@ -248,6 +246,7 @@ enquire.register("only screen and (max-width : 992px), only screen and (max-widt
                                 // Also may be called when handler is unregistered (if destroy is not available)
 
     setup : function() {
+      debugger;
       theSetup();
     },      // OPTIONAL
                                 // If supplied, triggered once immediately upon registration of the handler
