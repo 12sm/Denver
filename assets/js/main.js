@@ -221,7 +221,7 @@ $(".main-wrap").onepage_scroll({
 
 function matchFunc(){
   console.log('match');
-    $(".main-wrap").disable_onepage_scroll({sectionContainer: 'section'});
+    $(".main-wrap").destroy_onepage_scroll({sectionContainer: 'section'});
 }
 function theSetup(){
   var wid = window.innerWidth;
