@@ -1396,16 +1396,17 @@ right: 315px;
   section {
     overflow: hidden;
   }
-.music-bg{
-  position: absolute;
-  right: 0;
-  left: 0;
-  z-index: 5;
-  background: url(../img/denver-album.png) no-repeat;
-  background-size: contain;
-  height: 100%;
-  background-position: -110% 10%;
-  width: 50%;
+.music-bg {
+position: absolute;
+right: 0;
+left: 0;
+z-index: 0;
+background: url(../img/denver-album.png) no-repeat;
+background-size: contain;
+height: 100%;
+background-position: -110% 0%;
+width: 100%;
+padding-bottom: 0px;
 }
 .blog .round-box {
 min-height: 575px;
