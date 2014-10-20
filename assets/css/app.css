@@ -1206,9 +1206,11 @@ background-color: #FFF;
 background-color: #DD2A2A;
 }
 .navbar-header {
-  float: right;
   width: 45%;
   height: 80px;
+}
+.navbar-collapse {
+float: right;
 }
 nav.collapse.navbar-collapse {
 width: 65%;
