@@ -1307,7 +1307,12 @@ padding-left: 7%;
   background: #fff;
   z-index: 4;
 }
-.wrap-music{
+.music-background{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   z-index: 5;
   background: url(../img/denver-album.png) no-repeat;
 background-size: contain;
