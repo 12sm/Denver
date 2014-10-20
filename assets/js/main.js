@@ -229,8 +229,11 @@ function theSetup(){
     oneScroll();
   };
 }
+function unMatch(){
+  console.log('shits not matching bro');
+}
 
-enquire.register("only screen and (max-width : 992px), only screen and (max-width : 992px) and (orientation : landscape), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px)", {
+enquire.register("only screen and (max-width : 992px), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px)", {
 
     match : function() {
       matchFunc();
@@ -239,7 +242,7 @@ enquire.register("only screen and (max-width : 992px), only screen and (max-widt
                                 // *from an unmatched to a matched state*
 
     unmatch : function() {
-      oneScroll();
+      unMatch();
     },    // OPTIONAL
                                 // If supplied, triggered when the media query transitions 
                                 // *from a matched state to an unmatched state*.
