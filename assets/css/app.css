@@ -1033,7 +1033,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 @media (max-width: 767px) {
-
+.about .backstretch{
+  display: none;
+}
 
 .list-of-hall-of-famers {
 -webkit-column-count: 2;
