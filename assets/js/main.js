@@ -351,6 +351,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
 
   store: {
     init: function() {
+      $('a[href="#sheet-music"]').on('shown.bs.tab', function () {
     soundManager.setup({
   // disable or enable debug output
   debugMode: true,
@@ -368,6 +369,8 @@ soundManager.onready(function() {
   // soundManager.createSound() etc. may now be called
   inlinePlayer = new InlinePlayer();
 });
+});
+
   }
 },
 // Tour Page
