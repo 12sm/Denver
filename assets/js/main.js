@@ -43,6 +43,7 @@ var Roots = {
       
 
  // Setup the player to autoplay the next track
+ audiojs.events.ready(function() {
         var a = audiojs.createAll({
           trackEnded: function() {
             var next = $('ol li.playing').next();
@@ -82,6 +83,7 @@ var Roots = {
               var newtext = $('li.playing a').text();
               $('.music-wrapper p.song-title').text(newtext);
             });
+          });
 
 //SMOOTH SCROLL
     $(function() {
