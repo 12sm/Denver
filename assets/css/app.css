@@ -1300,7 +1300,7 @@ right: 60px;
   .circles {
 background-size: 60%;
 background-position: 50% 50%;
-padding-top: 6%;
+padding-top: 15%;
 margin-top: 0%;
 min-height: 485px;
 padding-left: 7%;
@@ -1653,7 +1653,7 @@ top: inherit;
   .circles {
   background: url(../img/circles.png) no-repeat;
   background-size: 60%;
-  padding-top: 8%;
+  padding-top: 5%;
   padding-bottom: 5%;
   background-position: 50% 50%;
   }
