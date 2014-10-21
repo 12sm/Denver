@@ -458,7 +458,6 @@ display: none;
 padding-bottom: 15px;
 }
 .home-news h3 {
-margin-top: 15vh;
 color: #FFFFFF;
 font-size: 46px;
 line-height: .9em;
@@ -1107,6 +1106,9 @@ width: 100%;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .home-news h3 {
+    margin-top: 15vh;
+}
   section {
     height: 100vh;
   }
