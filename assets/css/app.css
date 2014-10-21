@@ -314,7 +314,7 @@ display: block;
 font-size: 36px;
 }
   /* [MUSIC] */
-  a.button.add_to_cart_button.product_type_simple, a.added_to_cart {
+  a.button.add_to_cart_button.product_type_simple, a.added_to_cart, .button.btn.btn-sm {
     font-size: 18px !important;
   }
   a.added_to_cart{
