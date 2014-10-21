@@ -352,8 +352,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
   post_type_archive_product: {
     init: function() {
       $('a[href="#sheet-music"]').on('shown.bs.tab', function () {
-        alert('tabbed to sheet music');
-        soundManager.reset();
+    soundManager.reset();
     soundManager.setup({
   // disable or enable debug output
   debugMode: true,
