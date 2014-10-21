@@ -413,7 +413,7 @@ text-align: left;
 display: none;
 }  
   
-.add_to_cart_button, .single_add_to_cart_button, .wc-forward, .button, .added_to_cart {
+.add_to_cart_button, .single_add_to_cart_button, .wc-forward, .btn.btn-sm.button, .added_to_cart {
 font-family: 'proxima-nova'!important;
 font-size: 26px!important;
 color: #fff!important;
