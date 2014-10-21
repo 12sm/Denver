@@ -314,7 +314,7 @@ display: block;
   a.button.add_to_cart_button.product_type_simple, .added_to_cart {
     font-size: 18px !important;
   }
-  .added_to_cart{
+  a.added_to_cart{
     white-space: nowrap;
     display: inline-block;
     overflow: visible;
