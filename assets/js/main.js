@@ -351,7 +351,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
 
   post_type_archive_product: {
     init: function() {
-      $('a[href="#sheet-music"]').on('on.bs.shown', function () {
+      $('a[href="#sheet-music"]').on('shown.bs.tab', function () {
         alert('tabbed to sheet music');
         soundManager.reset();
     soundManager.setup({
