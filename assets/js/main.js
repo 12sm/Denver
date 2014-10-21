@@ -46,8 +46,8 @@ var Roots = {
  audiojs.events.ready(function() {
         var a = audiojs.createAll({
           trackEnded: function() {
-            var next = $('ol li.playing').next();
-            if (!next.length) next = $('ol li').first();
+            var next = $('ol#song-list li.playing').next();
+            if (!next.length) next = $('ol#song-list li').first();
             next.addClass('playing').siblings().removeClass('playing');
             audio.load($('a', next).attr('data-src'));
             audio.play();
@@ -56,14 +56,14 @@ var Roots = {
 
         // Load in the first track
         var audio = a[0];
-            first = $('ol a').attr('data-src');
-        $('ol li').first().addClass('playing');
+            first = $('ol#song-list a').attr('data-src');
+        $('ol#song-list li').first().addClass('playing');
         audio.load(first);
         var newtext = $('li.playing a').text();
       $('.music-wrapper p.song-title').text(newtext);
 
         // Load in a track on click
-        $('ol li').click(function(e) {
+        $('ol#song-list li').click(function(e) {
           e.preventDefault();
           $(this).addClass('playing').siblings().removeClass('playing');
           audio.load($('a', this).attr('data-src'));
