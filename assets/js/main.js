@@ -349,7 +349,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
     }
   },
 
-  store: {
+  post_type_archive_product: {
     init: function() {
       $('a[href="#sheet-music"]').on('click', function () {
         alert('tabbed to sheet music');
