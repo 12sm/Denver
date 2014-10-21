@@ -1352,6 +1352,9 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  img.about-denver {
+top: 0px;
+}
   body.home, html{
     overflow: initial;
   }
@@ -1516,6 +1519,9 @@ border: 1px solid #CCCCCC;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  img.about-denver {
+top: 213px;
+}
 
 .backstretch img {
 width: 45% !important;
