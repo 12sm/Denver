@@ -1352,6 +1352,9 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  section#slider {
+height: 65vh;
+}
   img.about-denver {
 top: 0px;
 }
@@ -1514,15 +1517,13 @@ width: 100%!important;
 transition: opacity .3s ease;
 border: 1px solid #CCCCCC;
 }
-section#slider {
-height: 65vh;
-}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   section#slider {
-height: 75vh;
+height: 90vh;
 }
   img.about-denver {
 top: 213px;
