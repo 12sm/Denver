@@ -277,9 +277,7 @@ margin-right: -15px;
    Home
    ========================================================================== */
 
-section {
-height: 100vh;
-}
+
   /* [ABOUT] */
   section#about {
 height: initial;
@@ -1112,7 +1110,9 @@ width: 100%;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  section {
+    height: 100vh;
+  }
   .photos h1 {
     font-size: 42px;
   }
