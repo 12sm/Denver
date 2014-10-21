@@ -500,7 +500,7 @@
 
 
 
-<!----ALBUM CONTENT TEMPLATE <!-->
+<!--ALBUM CONTENT TEMPLATE <!-->
 [wpv-layout-start]
 	[wpv-items-found]
 <div class="row album-header">
@@ -549,3 +549,26 @@
   	[wpv-view name="album-album-slider"] 
   </div>
 </div>
+
+
+
+
+<!-- STORE SHEET MUSIC <!-->
+[wpv-layout-start]
+  [wpv-items-found]
+    <div class="row">
+        <div class="preview-sheet col-xs-6">      
+          [wpv-view name ='ALBUM | SHEET MUSIC | VOX' wpvrchildof='[wpv-post-id]']
+        </div>
+        <div class="buy-sheet col-xs-6">
+          [wpv-view name ='ALBUM | SHEET MUSIC | HORN' wpvrchildof='[wpv-post-id]']
+        </div>
+    </div>
+    <script>
+      $('.buy-sheet .add_to_cart_button').addClass('btn-sm');
+    </script>
+  [/wpv-items-found]
+[wpv-no-items-found]
+    [wpml-string context="wpv-views"]<div class='hidden'>N/A</div>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]
