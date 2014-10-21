@@ -326,9 +326,6 @@ display: block;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   }
-  div.row.music-player {
-  padding-top: 2%;
-  }
 .circles {
 background: url(../img/circles.png) no-repeat;
 background-size: 140%;
