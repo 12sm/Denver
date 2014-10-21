@@ -1317,7 +1317,7 @@ position: absolute;
 z-index: 0;
 background: url(../img/denver-album.png) no-repeat;
 background-size: contain;
-background-position: -110% 10%;
+background-position: -110% 0%;
 width: 100%;
 padding-bottom: 100%;
 }
@@ -1356,7 +1356,7 @@ font-size: 86px;
 height: 65vh;
 }
   img.about-denver {
-top: 0px;
+top: 10px;
 }
   body.home, html{
     overflow: initial;
