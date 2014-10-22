@@ -1123,12 +1123,15 @@ position: absolute;
 width: 100%;
 display: none;
 }
-
+.buy-sheet a{
+    width: 250px;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .buy-sheet a{
+    width: initial;
     text-align: center;
     white-space: normal !important;
   }
