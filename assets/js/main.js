@@ -272,22 +272,6 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
     }
   },
 
-  music:{
-    init: function(){
-      $(".disco-carou").owlCarousel({
-
-            autoPlay: false, //Set AutoPlay to 3 seconds
-            items : 4,
-            itemsDesktop : [1199,4],
-            itemsDesktopSmall : [768,3],
-            itemsMobile : [479, 1],
-            navigation : true,
-            navigationText: ['<i class="fa fa-arrow-circle-left fa-3x"></i>','<i class="fa fa-arrow-circle-right fa-3x"></i>'],
-            pagination: false
-
-        });
-    }
-  },
   single_albums: {
       init: function() {
         $('.menu-news').removeClass('active');
@@ -326,7 +310,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
     }
   },
 
-  albums: {
+  music: {
       init: function() {
         $('.menu-news').removeClass('active');
       soundManager.setup({
@@ -346,29 +330,18 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
     // soundManager.createSound() etc. may now be called
     inlinePlayer = new InlinePlayer();
   });
-    }
-  },
+  $(".disco-carou").owlCarousel({
 
-single_albums: {
-      init: function() {
-        $('.menu-news').removeClass('active');
-      soundManager.setup({
-    // disable or enable debug output
-    debugMode: true,
-    // use HTML5 audio for MP3/MP4, if available
-    preferFlash: false,
-    useFlashBlock: true,
-    // path to directory containing SM2 SWF
-    url: '/swf ',
-    // optional: enable MPEG-4/AAC support (requires flash 9)
-    flashVersion: 9
-    });
+            autoPlay: false, //Set AutoPlay to 3 seconds
+            items : 4,
+            itemsDesktop : [1199,4],
+            itemsDesktopSmall : [768,3],
+            itemsMobile : [479, 1],
+            navigation : true,
+            navigationText: ['<i class="fa fa-arrow-circle-left fa-3x"></i>','<i class="fa fa-arrow-circle-right fa-3x"></i>'],
+            pagination: false
 
-
-  soundManager.onready(function() {
-    // soundManager.createSound() etc. may now be called
-    inlinePlayer = new InlinePlayer();
-  });
+        });
     }
   },
 
