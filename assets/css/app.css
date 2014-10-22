@@ -418,7 +418,9 @@ padding: 2%;
 .cart-tab {
 display: none;
 }  
-  
+.store-title a {
+  font-size: 22px;
+}
 .add_to_cart_button, .single_add_to_cart_button, .wc-forward, .btn.button, .added_to_cart {
 font-family: 'proxima-nova'!important;
 font-size: 26px!important;
