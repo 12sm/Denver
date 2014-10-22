@@ -884,6 +884,7 @@ margin-top:30px;
   white-space: normal !important;
 }
 .buy-options a, .buy-panel a{
+  text-align: center;
   font-size: 16px;
   width: 138px;
 }
