@@ -450,6 +450,7 @@ font-weight: 100;
 background: #f84848;
 font-size: 18px;
 transition:background-color .3s ease;
+width: 100%;
 }
 a.btn.btn-click:hover {background: #F09D20;}
 #news .btn-click{
