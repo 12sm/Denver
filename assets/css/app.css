@@ -544,7 +544,7 @@ img.mobile-denver {
 .album-img> img{
   width: 100%;
 }
-.album-img.img-container{
+.album-image.img-container{
   padding-bottom: 100%;
   overflow: visible;
 }
