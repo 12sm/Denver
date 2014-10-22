@@ -1400,9 +1400,6 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  #sheet-music .store-title {
-height: 100px;
-}
   .buy-sheet a{
     width: 250px;
   }
@@ -1579,6 +1576,9 @@ border: 1px solid #CCCCCC;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  #sheet-music .store-title {
+height: initial;
+}
   section#slider {
 height: 90vh;
 }
