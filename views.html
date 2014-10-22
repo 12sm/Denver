@@ -646,13 +646,6 @@
               <div class="buy-options row">
                 <div class="col-md-12">
                   <div class="row">
-                    <div class="col-sm-6">
-                      <div class="buy-now-cd buy-now center">
-                        [wpv-woo-buy-or-select add_to_cart_text="Buy CD Here" link_to_product_text="Buy CD Here"]
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
                     <div class="col-sm-6 center">
                       <a href="[types field="amazon-link" output="raw" id="$albums"][/types]" target='_blank' class="btn btn-click btn-sm"><i class="fa fa-cloud-download"></i>  Amazon</a>
                     </div>
@@ -670,5 +663,44 @@
   [/wpv-items-found]
   [wpv-no-items-found]
     [wpml-string context="wpv-views"]<strong>N/A</strong>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]
+
+<!-- ALBUM | TRACKS <!-->
+[wpv-layout-start]
+  [wpv-items-found]
+
+    <h3 class='song-list-head'>Songs</h3>
+      <ul class="song-list">
+          <wpv-loop>
+                <li class="row row-store">
+                  <div class="col-sm-4">
+                  <a href="[types field="mp3-upload" link="true" output='raw'][/types]" class="sm2_link [wpv-post-id] row">
+                        <div class="col-xs-2">
+                          <span class="play-button"><i class="fa fa-play"></i></span>
+                        </div>
+                        <div class="col-xs-10">
+                          <span class="track-title">[types field="track-number" output="raw"][/types] [wpv-post-title]</span>
+                        </div>
+                      </a>
+                  </div>
+                  <div class='col-sm-8  hide-mobile'>
+                  <div class="row">
+                        <div class="preview-sheet col-sm-6">      
+                          [wpv-view name ='ALBUM | SHEET MUSIC | VOX' wpvprchildof='[wpv-post-id]']
+                        </div>
+                        <div class="buy-sheet col-sm-6">
+                          [wpv-view name ='ALBUM | SHEET MUSIC | HORN' wpvprchildof='[wpv-post-id]']
+                        </div>
+                    </div>
+
+                    <div class="hidden">[wpv-post-id]</div>
+            </div>
+                  </li>
+          </wpv-loop>
+      </ul> 
+  [/wpv-items-found]
+  [wpv-no-items-found]
+        [wpml-string context="wpv-views"]<strong>N/A</strong>[/wpml-string]
   [/wpv-no-items-found]
 [wpv-layout-end]

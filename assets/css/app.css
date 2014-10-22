@@ -1128,6 +1128,9 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .buy-sheet a{
+    width: 250px;
+  }
   .buy-options a {
     font-size: 16px;
     width: 138px;
