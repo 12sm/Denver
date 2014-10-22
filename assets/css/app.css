@@ -896,6 +896,7 @@ height: 250px;
 }
 .song-list{
   list-style: none;
+  padding-left: 0px;
 }
 .single-albums .song-list, .music .song-list{
 
