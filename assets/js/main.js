@@ -24,7 +24,6 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
       $('.img-container').imgLiquid();
-      $('.sheet-img').imgLiquid({verticalAlign: 'top'});
       $('.vid-container').fitVids();
       $('.img-thumbnail').swipebox();
       $('#menu-socials>li>a').attr('target', '_blank');
@@ -349,19 +348,19 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
   post_type_archive_product: {
     init: function() {
       $('a[href="#sheet-music"]').on('shown.bs.tab', function () {
-    soundManager.reset();
-    soundManager.setup({
-  // disable or enable debug output
-  debugMode: true,
-  // use HTML5 audio for MP3/MP4, if available
-  preferFlash: false,
-  useFlashBlock: true,
-  // path to directory containing SM2 SWF
-  url: '/swf',
-  // optional: enable MPEG-4/AAC support (requires flash 9)
-  flashVersion: 9
-  });
-
+        $('.sheet-img').imgLiquid({verticalAlign: 'top'});
+        soundManager.reset();
+        soundManager.setup({
+          // disable or enable debug output
+          debugMode: true,
+          // use HTML5 audio for MP3/MP4, if available
+          preferFlash: false,
+          useFlashBlock: true,
+          // path to directory containing SM2 SWF
+          url: '/swf',
+          // optional: enable MPEG-4/AAC support (requires flash 9)
+          flashVersion: 9
+        });
 
 soundManager.onready(function() {
   // soundManager.createSound() etc. may now be called
