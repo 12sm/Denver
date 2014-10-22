@@ -1129,6 +1129,7 @@ display: none;
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .buy-sheet a{
+    text-align: center;
     width: 250px;
   }
   .buy-options a {
