@@ -1150,10 +1150,12 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .store-title a {
+font-size: 32px;
+}
   .home-news h3 {
     margin-top: 15vh;
 }
-  
   .photos h1 {
     font-size: 42px;
   }
