@@ -1130,8 +1130,7 @@ display: none;
 @media (min-width: 768px) {
   .buy-sheet a{
     text-align: center;
-    width: 250px;
-    white-space: normal;
+    white-space: normal !important;
   }
   .buy-options a {
     font-size: 16px;
@@ -1379,6 +1378,9 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .buy-sheet a{
+    width: 250px;
+  }
   section {
     height: 100vh;
   }
