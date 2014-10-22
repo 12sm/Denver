@@ -348,7 +348,9 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
   post_type_archive_product: {
     init: function() {
       $('a[href="#sheet-music"]').on('shown.bs.tab', function () {
-        $('.sheet-img').imgLiquid({verticalAlign: top});
+        $('.sheet-img').imgLiquid({
+          verticalAlign: 'top'
+        });
         soundManager.reset();
         soundManager.setup({
           // disable or enable debug output
