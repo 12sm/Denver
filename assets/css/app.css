@@ -1153,6 +1153,9 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  #sheet-music .store-title {
+height: 150px;
+}
   .store-title a {
 font-size: 32px;
 }
