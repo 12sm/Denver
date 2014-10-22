@@ -980,7 +980,9 @@ background-size: contain!important;
     a.sm2_button.sm2_paused:hover {
      background-color:#666;
     }
-
+    .buy-options.row {
+      margin-top: 25px;
+    }
 
 /* ==========================================================================
    Footer
@@ -1203,7 +1205,7 @@ margin-left: 0px;
 margin-right: 0px;
 }
 a.btn.btn-click {
-font-size: 18px;
+font-size: 16px;
 }
 .row-prod a.btn.btn-click {
 font-size: 18px;
