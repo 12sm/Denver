@@ -544,6 +544,9 @@ img.mobile-denver {
 .album-img> img{
   width: 100%;
 }
+.album-img.img-container{
+  padding-bottom: 100%;
+}
 .album-desc {
 font-size: 18px;
 color: #f84848;
