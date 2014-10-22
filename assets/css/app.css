@@ -878,6 +878,11 @@ margin-top:30px;
 /* ==========================================================================
    Store
    ========================================================================== */
+.buy-sheet a{
+  width: initial;
+  text-align: center;
+  white-space: normal !important;
+}
 .buy-options a, .buy-panel a.btn-click {
   font-size: 16px;
   width: 138px;
@@ -1134,12 +1139,6 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .buy-sheet a{
-    width: initial;
-    text-align: center;
-    white-space: normal !important;
-  }
-
   .home-news h3 {
     margin-top: 15vh;
 }
