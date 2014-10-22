@@ -557,7 +557,7 @@
 [wpv-layout-start]
   [wpv-items-found]
     <div class="row">
-        <div class="preview-sheet col-xs-6">      
+        <div class="preview-sheet col-sm-6">      
           [wpv-view name ='ALBUM | SHEET MUSIC | VOX' wpvrchildof='[wpv-post-id]']
         </div>
         <div class="buy-sheet col-xs-6">
@@ -570,5 +570,94 @@
   [/wpv-items-found]
 [wpv-no-items-found]
     [wpml-string context="wpv-views"]<div class='hidden'>N/A</div>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]
+
+
+<!-- STORE MUSIC <!-->
+[wpv-layout-start]
+  [wpv-items-found]
+    <div class="row">
+      <wpv-loop>
+        <div class="col-lg-6 col-md-12 col-sm-12 store-section">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-sm-8 store-title">
+                  <h2><strong>[wpv-post-link id="$album"]</strong></h2>
+                </div>
+                <div class="col-sm-4">
+                  <h3 class="prod-price right"><b>[wpv-woo-product-price]</b></h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-6">
+              <a href="[wpv-post-url id="$album"]" class="album-img">
+                <img src="[types field="album-image" size="medium" url="true" resize="crop" id="$albums"][/types]" class="img-responsive">
+              </a>
+            </div>
+            <div class="hidden-lg col-md-4 hidden-sm hidden-xs">
+              <div class="row album-excerpt">
+                <div class="col-md-12">
+                  [types field="album-desc" id="$album"][/types]
+                </div>
+              </div>
+              <div class="row center">
+                <div class="col-md-12">
+                  <a href="[wpv-post-url id="$album"]" class="btn btn-sm btn-click view-details"><i class="fa fa-search"></i> View Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 hidden-md hidden-sm hidden-xs">
+              <div class="row album-excerpt">
+                <div class="col-md-12">
+                  [types field="album-desc" id="$album"][/types]
+                </div>
+              </div>
+              <div class="row center">
+                <div class="col-md-12">
+                  <a href="[wpv-post-url id="$album"]" class="btn btn-sm btn-click view-details"><i class="fa fa-search"></i> View Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="hidden-lg hidden-md col-sm-6 col-xs-12">
+              <div class="row album-excerpt">
+                <div class="col-md-12">
+                  [types field="album-desc" id="$album"][/types]
+                </div>
+              </div>
+              <div class="row center">
+                <div class="col-md-12">
+                  <a href="[wpv-post-url id="$album"]" class="btn btn-sm view-details"><i class="fa fa-search"></i> View Details</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-6">
+              <div class="buy-options row">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="buy-now-cd buy-now center">
+                        [wpv-woo-buy-or-select add_to_cart_text="Buy CD Here" link_to_product_text="Buy CD Here"]
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6 center">
+                      <a href="[types field="amazon-url" output="raw" id="$album"][/types]" class="btn btn-click btn-sm"><i class="fa fa-cloud-download"></i>  Amazon</a>
+                    </div>
+                    <div class="col-sm-6 center">
+                      <a href="[types field="itunes-url" output="raw" id="$album"][/types]" class="btn btn-click btn-sm"><i class="fa fa-music"></i>  iTunes</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </wpv-loop>
+    </div>
+  [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>N/A</strong>[/wpml-string]
   [/wpv-no-items-found]
 [wpv-layout-end]
