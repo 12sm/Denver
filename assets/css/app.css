@@ -29,7 +29,7 @@ background-repeat: repeat-y;
 background-attachment:fixed;
 }
 
-.centered {
+.centered, .center {
 text-align: center;	
 }
 
