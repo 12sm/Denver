@@ -24,6 +24,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
       $('.img-container').imgLiquid();
+      $('.img-container.sheet-img').imgLiquid({verticalAlign: 'top'});
       $('.vid-container').fitVids();
       $('.img-thumbnail').swipebox();
       $('#menu-socials>li>a').attr('target', '_blank');
