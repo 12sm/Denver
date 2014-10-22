@@ -1131,6 +1131,7 @@ display: none;
   .buy-sheet a{
     text-align: center;
     width: 250px;
+    white-space: normal;
   }
   .buy-options a {
     font-size: 16px;
