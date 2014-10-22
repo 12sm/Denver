@@ -1400,6 +1400,9 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  #sheet-music .store-title {
+height: 100px;
+}
   .buy-sheet a{
     width: 250px;
   }
