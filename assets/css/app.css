@@ -665,7 +665,7 @@ body.dmho-wall-of-fame .addthis_sharing_toolbox {
    News
    ========================================================================== */
 h2.post-title {
-font-size: 34px;
+font-size: 24px;
 font-weight: 100;
 color: #f84848;
 margin-top: 0;
@@ -693,7 +693,7 @@ line-height: 1.2em;
 }
 
 body.single-post h1 {
-font-size: 42px;
+font-size: 26px;
 letter-spacing: 1px;
 line-height: .9em;
 text-align: center;
@@ -1155,12 +1155,15 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  body.single-post h1 {
+    font-size: 42px;
+  }
   #sheet-music .store-title {
-height: 150px;
-}
+    height: 150px;
+  }
   .store-title a {
-font-size: 32px;
-}
+    font-size: 32px;
+  }
   .home-news h3 {
     margin-top: 15vh;
 }
@@ -1402,6 +1405,9 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  h2.post-title {
+    font-size: 34px;
+  }
   .buy-sheet a{
     width: 250px;
   }
