@@ -56,7 +56,7 @@ letter-spacing: .3px;
 h1 {
 /* color: #79d1ff; */
 color: #3CA0D3;
-font-size: 42px;
+font-size: 68px;
 font-weight: 900;
 text-transform: uppercase;
 letter-spacing: 8px;
@@ -643,8 +643,6 @@ body.dmho-wall-of-fame h1 {text-align:center;}
 
 body.dmho-wall-of-fame h3 {
 font-size: 22px;
-width: 80%;
-margin: 0 auto;
 font-weight: normal;
 border-bottom: 1px solid #ECECEC;
 padding-bottom: 50px;
@@ -1200,6 +1198,8 @@ text-align: center;
 }		
 	body.dmho-wall-of-fame h3 {
     text-align: center!important;
+    width: 80%;
+margin: 0 auto;
   }
 body.music .item .img-container, body.single-albums .item .img-container {
 width: 50px;
