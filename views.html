@@ -704,3 +704,43 @@
         [wpml-string context="wpv-views"]<strong>N/A</strong>[/wpml-string]
   [/wpv-no-items-found]
 [wpv-layout-end]
+
+<!-- ALBUM FEATURED <!-->
+[wpv-layout-start]
+  [wpv-items-found] 
+<!-- wpv-loop-start -->
+<wpv-loop>
+  <div class="row">
+    <div class="col-md-12">
+      <h3 style="margin-top:50px">Albums</h3>
+      <div class="round-box margin-bottom">[wpv-view name="album-album-slider"]</div>
+    </div>
+  </div>
+  <div class="row album-header">
+    <div class='col-sm-12'>
+      <h2>[wpv-post-title]</h2>
+    </div>
+  </div>
+  <div class="row album-header">
+    <div class="col-md-4 col-sm-4">
+      <div class="featured-thumb"> [types field="album-image" size="medium" align="none" resize="proportional" class="img-responsive"][/types] </div>
+      <div class="album-desc"> [types field="album-description"][/types] </div>
+      <div class="buy-box round-box">
+        <div class="buy-panel"> [wpv-view name="ALBUM | CART BTN" wpvprchildof="[wpv-post-id]"]
+          <h3>Digital:</h3>
+          <div class="row">
+            <div class="col-md-6 col-sm-12"> <a href="[types field="amazon-link" output="raw"][/types]" class="btn btn-sm btn-click"><i class="fa fa-cloud-download" target='_blank'></i> Amazon</a> </div>
+            <div class="col-md-6 col-sm-12"> <a href="[types field="itunes-link" output="raw"][/types]" class="btn btn-sm btn-click"><i class="fa fa-music" target='_blank'></i> iTunes</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8"> [wpv-view name="ALBUM | TRACKS" wpvprchildof="[wpv-post-id]"] </div>
+  </div>
+</wpv-loop>
+<!-- wpv-loop-end --> 
+[/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]

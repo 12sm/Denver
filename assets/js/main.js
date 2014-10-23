@@ -265,6 +265,17 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
 
     }
   },
+
+  post_type_archive_videos{
+    init: function(){
+      $('.menu-news').removeClass('active');
+    }
+  },
+  single_photo_gal{
+    init: function(){
+      $('.menu-news').removeClass('active');
+    }
+  },
   single_videos:{
     init: function(){
       $('.entry-content').removeClass('col-sm-6 col-sm-offset-3');
