@@ -266,12 +266,12 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
     }
   },
 
-  post_type_archive_videos{
+  post_type_archive_videos: {
     init: function(){
       $('.menu-news').removeClass('active');
     }
   },
-  single_photo_gal{
+  single_photo_gal: {
     init: function(){
       $('.menu-news').removeClass('active');
     }
