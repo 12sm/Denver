@@ -1,5 +1,15 @@
 <?php 
 
+function posts_per_pagesize( $query ) {
+
+    if ( is_post_type_archive( 'videos' ) ) {
+        // Display 50 posts for a custom post type called 'movie'
+        $query->set( 'posts_per_page', 9 );
+        return;
+    }
+}
+add_action( 'pre_get_posts', 'posts_per_pagesize', 1 );
+
 
 // Add Shortcode
 function event_date( $atts ) {
