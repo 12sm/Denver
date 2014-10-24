@@ -235,7 +235,7 @@ function unMatch(){
   oneScroll();
 }
 
-enquire.register("only screen and (max-width : 768px)", {
+enquire.register("only screen and (max-width : 992px)", {
 
     match : function() {
       matchFunc();
