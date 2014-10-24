@@ -341,7 +341,7 @@ font-size: 36px;
 background: url(../img/circles.png) no-repeat;
 background-size: 140%;
 padding-top: 14%;
-padding-bottom: 16%;
+padding-bottom: 100px;
 background-position: 50% 0%;
 }
 
@@ -1372,10 +1372,10 @@ right: 60px;
   .circles {
 background-size: 60%;
 background-position: 50% 50%;
-padding-top: 15%;
-margin-top: 0%;
+padding-top: 50px;
+margin-top: 0px;
 min-height: 485px;
-padding-left: 7%;
+padding-left: 25px;
 }
 #music{
   background: #fff;
