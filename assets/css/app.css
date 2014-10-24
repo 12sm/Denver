@@ -1288,8 +1288,11 @@ background-color: #DD2A2A;
 float: right;
 }
 nav.collapse.navbar-collapse {
-width: 55%;
+width: 65%;
 float: right;
+}
+.navbar-header {
+width: 35%;
 }
 ul#menu-primary-navigation {
 margin-top: 20px;
@@ -1590,6 +1593,9 @@ background-position: -90% 51%;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  nav.collapse.navbar-collapse {
+    width: 65%;
+  }
     img.about-denver {
     top: inherit;
   }
