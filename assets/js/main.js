@@ -376,10 +376,21 @@ enquire.register("only screen and (max-width : 992px)", {
 
   post_type_archive_product: {
     init: function() {
-      $('a[href="#sheet-music"]').on('shown.bs.tab', function () {
+      function sheetImg(){
+        $('sheet-img').swipebox();
+      }
+      function prodLiquid(){
         $('.sheet-img').imgLiquid({
           verticalAlign: 'top'
         });
+      }
+      function newAjax(){
+        prodLiquid();
+        sheetImg()
+      }
+      $('a[href="#sheet-music"]').on('shown.bs.tab', function () {
+        prodLiquid();
+        sheetImg();
         soundManager.reset();
         soundManager.setup({
           // disable or enable debug output
