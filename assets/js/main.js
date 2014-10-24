@@ -227,7 +227,7 @@ function matchFunc(){
 }
 function theSetup(){
   var wid = window.innerWidth;
-  if (wid > 1024 ){
+  if (wid > 768 ){
     oneScroll();
   };
 }
