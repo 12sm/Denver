@@ -1226,7 +1226,7 @@ max-width:50% !important;
 }
 
 
-body.single-post .col-posts, .store .wrap {
+body.single-post .col-posts, .post-type-archive-product .wrap {
 max-width: 1300px;
 margin: 0 auto;
 }
