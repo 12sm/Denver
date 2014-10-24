@@ -319,6 +319,11 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
     inlinePlayer = new InlinePlayer();
   });
 
+        text = $('.buy-sheets>a').html();
+        console.log(text);
+        $('.buy-sheets>a').html(function(){
+          return '<i class="fa fa-shopping-cart"></i>' + text;
+        });
     }
   },
 
@@ -326,10 +331,11 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
       init: function() {
         //Add shopping cart to buttons
         text = $('.buy-sheets>a').html();
+        console.log(text);
         $('.buy-sheets>a').html(function(){
           return '<i class="fa fa-shopping-cart"></i>' + text;
         });
-        
+
         $('.buy-sheet').tooltip()
         $('.menu-news').removeClass('active');
       soundManager.setup({
