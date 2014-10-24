@@ -322,7 +322,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
         text = $('.add_to_cart_button').html();
         console.log(text);
         $('.add_to_cart_button').html(function(){
-          return '<i class="fa fa-shopping-cart"></i>' + text;
+          return '<i class="fa fa-shopping-cart"></i> ' + text;
         });
     }
   },
@@ -333,7 +333,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
         text = $('.add_to_cart_button').html();
         console.log(text);
         $('.add_to_cart_button').html(function(){
-          return '<i class="fa fa-shopping-cart"></i>' + text;
+          return '<i class="fa fa-shopping-cart"></i> ' + text;
         });
 
         $('.buy-sheet').tooltip()
