@@ -1420,6 +1420,9 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  img.about-denver {
+    bottom: 0px;
+  }
   .full-height{
     height: 100%;
   }
