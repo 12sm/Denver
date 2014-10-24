@@ -280,9 +280,6 @@ margin-right: -15px;
 
 
   /* [ABOUT] */
-  .row.home-about.full-height {
-    overflow: hidden;
-  }
   img.about-guitar{
     display: none;
   }
