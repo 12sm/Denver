@@ -1326,6 +1326,7 @@ width: 112%;
 max-width: 112%;
 display: block;
 z-index: 0;
+bottom: 0;
 }
 .about-bg {
   background-attachment: fixed;
@@ -1415,7 +1416,14 @@ z-index: 1;
 line-height: 85px;
 font-size: 86px;
 }
-
+.about-imgs-container {
+width: 50%;
+float: left;
+position: absolute;
+height: 100%;
+top: 0;
+bottom: 0;
+}
 
 }
 
@@ -1427,9 +1435,6 @@ font-size: 86px;
   .row.home-about.full-height,  .home-news.full-height{
     overflow-y: visible;
     padding: 0px;
-  }
-  img.about-denver {
-    bottom: 0px;
   }
   a.button.add_to_cart_button.product_type_simple, a.added_to_cart, .button.btn.btn-sm {
     font-size: 18px !important;
