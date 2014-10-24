@@ -1064,6 +1064,7 @@ background: none!important;
 p.credits, p.credits a {
 color: #FFF!important;
 font-weight: bold!important;
+margin-top: 15px;
 }
 footer .fa {
 color: #fff;
