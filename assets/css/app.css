@@ -1172,6 +1172,9 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .full-height{
+    height: 100%;
+  }
   body.home, html {
   overflow: hidden;
 }
@@ -1426,9 +1429,6 @@ font-size: 86px;
   }
   img.about-denver {
     bottom: 0px;
-  }
-  .full-height{
-    height: 100%;
   }
   a.button.add_to_cart_button.product_type_simple, a.added_to_cart, .button.btn.btn-sm {
     font-size: 18px !important;
