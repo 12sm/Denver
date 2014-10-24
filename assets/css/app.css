@@ -1167,6 +1167,10 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .row.home-about.full-height {
+    overflow-y: hidden;
+    padding: 25px 0px;
+  }
   .tooltip-inner{
     background: #79d1ff!important;
   }
@@ -1317,7 +1321,7 @@ display: block;
 }
 img.about-denver {
 left: 2%;
-bottom: 0px;
+top: 0px;
 width: 112%;
 max-width: 112%;
 display: block;
@@ -1417,7 +1421,12 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .row.home-about.full-height {
+    overflow-y: visible;
+    padding: 0px;
+  }
   img.about-denver {
+    top: none;
     bottom: 0px;
   }
   .full-height{
