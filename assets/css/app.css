@@ -1065,6 +1065,7 @@ p.credits, p.credits a {
 color: #FFF!important;
 font-weight: bold!important;
 margin-top: 15px;
+text-align: right;
 }
 footer .fa {
 color: #fff;
@@ -1073,7 +1074,6 @@ font-size: 26px;
 #menu-socials li {
 display: inline-block;
 padding: 15px;
-float: right;
 }
 .row.footer-nav {
 max-width: 1300px;
@@ -1178,6 +1178,10 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  ul#menu-socials {
+    padding: 0px;
+    float: left;
+  }
   .full-height{
     height: 100%;
   }
