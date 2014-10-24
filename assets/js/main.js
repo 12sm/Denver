@@ -224,6 +224,13 @@ function matchFunc(){
     $(".main-wrap").destroy_onepage_scroll({sectionContainer: 'section'});
     $('.main-wrap[style]').removeAttr('style');
     $('.home-people>img[style]').removeAttr('style');
+    $('.about-guitar').css({top: '185px'});
+    $('.about-trumpet').css({top: '345px'});
+    $('.mr-green').css({top: ''});
+    $('.mr-red').css({top: ''});
+    $('.mr-grey').css({top: ''});
+    $('.mr-blue').css({top: ''});
+
 }
 function theSetup(){
   var wid = window.innerWidth;
