@@ -1426,7 +1426,7 @@ font-size: 86px;
     padding: 0px;
   }
   img.about-denver {
-    top: none;
+    top: inherit;
     bottom: 0px;
   }
   .full-height{
