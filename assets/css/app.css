@@ -1168,6 +1168,9 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .tooltip, .tooltip-inner{
+    background: #79d1ff!important;
+  }
   .buy-sheet {
     display: inline-block;
     margin: 5px;
