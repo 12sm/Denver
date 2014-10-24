@@ -325,10 +325,12 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
   music: {
       init: function() {
         //Add shopping cart to buttons
+        function(){
         text = $('.buy-sheets>a').html();
         $('.buy-sheets>a').html(function(){
           return '<i class='fa fa-shopping-cart'></i>' + text;
         });
+      }
         $('.buy-sheet').tooltip()
         $('.menu-news').removeClass('active');
       soundManager.setup({
