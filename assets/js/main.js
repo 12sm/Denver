@@ -267,17 +267,20 @@ enquire.register("only screen and (max-width : 992px)", {
   post_type_archive_videos: {
     init: function(){
       $('.menu-news').removeClass('active');
+      $('.menu-media').addClass('active');
     }
   },
   single_photo_gal: {
     init: function(){
       $('.menu-news').removeClass('active');
+      $('.menu-media').addClass('active');
     }
   },
   single_videos:{
     init: function(){
       $('.entry-content').removeClass('col-sm-6 col-sm-offset-3');
       $('.menu-news').removeClass('active');
+      $('.menu-media').addClass('active');
     }
   },
 
