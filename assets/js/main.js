@@ -198,7 +198,6 @@ function Hide(){
 
   //OneScroll
   function oneScroll(){
-    console.log('oneScroll firing');
 $(".main-wrap").onepage_scroll({
    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
    easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
@@ -222,7 +221,6 @@ $(".main-wrap").onepage_scroll({
 }
 
 function matchFunc(){
-  console.log('match');
     $(".main-wrap").destroy_onepage_scroll({sectionContainer: 'section'});
     $('.main-wrap[style]').removeAttr('style');
     $('.home-people>img[style]').removeAttr('style');
@@ -234,7 +232,6 @@ function theSetup(){
   };
 }
 function unMatch(){
-  console.log('shits not matching bro');
   oneScroll();
 }
 
