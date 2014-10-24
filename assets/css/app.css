@@ -1485,7 +1485,6 @@ right: 315px;
   section {
     overflow: hidden;
   }
-(min-width: 992px)
 #music {
 z-index: 0;
 background: url(../img/denver-album.png) no-repeat;
