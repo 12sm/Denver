@@ -224,6 +224,7 @@ function matchFunc(){
     $(".main-wrap").destroy_onepage_scroll({sectionContainer: 'section'});
     $('.main-wrap[style]').removeAttr('style');
     $('.home-people>img[style]').removeAttr('style');
+    Move();
 }
 function theSetup(){
   var wid = window.innerWidth;
