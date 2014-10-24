@@ -318,11 +318,12 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
     // soundManager.createSound() etc. may now be called
     inlinePlayer = new InlinePlayer();
   });
-
-        text = $('.add_to_cart_button').html();
-        console.log(text);
-        $('.add_to_cart_button').html(function(){
-          return '<i class="fa fa-shopping-cart"></i> ' + text;
+        $('.add_to_cart_button').each(function(){
+          text = $(this).html();
+          console.log(text);
+          $(this).html(function(){
+            return '<i class="fa fa-shopping-cart"></i> ' + text;
+          });
         });
     }
   },
@@ -330,10 +331,12 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
   music: {
       init: function() {
         //Add shopping cart to buttons
-        text = $('.add_to_cart_button').html();
-        console.log(text);
-        $('.add_to_cart_button').html(function(){
-          return '<i class="fa fa-shopping-cart"></i> ' + text;
+       $('.add_to_cart_button').each(function(){
+          text = $(this).html();
+          console.log(text);
+          $(this).html(function(){
+            return '<i class="fa fa-shopping-cart"></i> ' + text;
+          });
         });
 
         $('.buy-sheet').tooltip()
