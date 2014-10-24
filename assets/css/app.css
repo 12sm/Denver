@@ -565,9 +565,22 @@ opacity: .9;
 }
 .item h4 {
 text-align: center;
-margin-left: -10%;
-text-weight:800!important;
+margin-left: -5%;
+font-weight: 600;
+position: absolute;
+z-index: 99999999;
+bottom: -50px;
+display: block;
+width: 100%;
+background: rgba(255,255,255,0.9);
+padding: 15px;
+transition: all 0.8s;
 }
+
+.item a:hover h4 {
+bottom:0px;	
+}
+
 .buy-box a.btn-click {
 margin-top: 0!important;
 font-size: 14px!important;
