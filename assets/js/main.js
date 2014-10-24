@@ -224,7 +224,6 @@ function matchFunc(){
     $(".main-wrap").destroy_onepage_scroll({sectionContainer: 'section'});
     $('.main-wrap[style]').removeAttr('style');
     $('.home-people>img[style]').removeAttr('style');
-    Move();
 }
 function theSetup(){
   var wid = window.innerWidth;
@@ -239,6 +238,7 @@ function unMatch(){
 enquire.register("only screen and (max-width : 992px)", {
 
     match : function() {
+      Move();
       matchFunc();
     },      // OPTIONAL
                                 // If supplied, triggered when the media query transitions 
