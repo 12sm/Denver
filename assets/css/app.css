@@ -7,7 +7,7 @@
    Base
    ========================================================================== */
 body.home, html {
-  overflow: visible;
+  overflow: visible !important;
 }
 body { }
 html{text-rendering: optimizeLegibility;}
@@ -1429,6 +1429,9 @@ bottom: 0;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  body.home, html {
+  overflow: hidden !important;
+}
   body.home, html {
     overflow: hidden;
   }
