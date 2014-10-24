@@ -1002,7 +1002,9 @@ margin-top:30px;
     .wpv-filter-form a {
       padding: 5px 10px;
     }
-
+    .sheet-img{
+    padding-bottom: 125%;
+   }
    .buy-sheet {
 display: none;
 }
