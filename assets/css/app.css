@@ -1419,6 +1419,9 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .full-height{
+    height: 100%;
+  }
   a.button.add_to_cart_button.product_type_simple, a.added_to_cart, .button.btn.btn-sm {
     font-size: 18px !important;
   }
@@ -1582,9 +1585,6 @@ background-position: -90% 51%;
   #sheet-music .store-title {
     height: initial;
   }
-  img.about-denver {
-    top: 213px;
-  }
 
 .backstretch img {
 width: 45% !important;
@@ -1675,7 +1675,6 @@ height: 80px;
 img.about-denver {
 left: 18%;
 width: 100%;
-top: inherit;
 }
 /*[news-home]*/
   img.mr-blue {
