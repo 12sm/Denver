@@ -9,7 +9,6 @@
 
 body { }
 html{text-rendering: optimizeLegibility;}
-body.home, html{overflow: visible!important;}
 
 body.single,
 body.blog,
