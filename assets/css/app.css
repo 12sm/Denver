@@ -210,6 +210,10 @@ p.pause:before{
 /* ==========================================================================
    Header
    ========================================================================== */
+   .dropdown-menu>.active>a{
+    background: initial;
+    color: #3CA0D3;
+   }
   .top-slider img {
   width: 85%;
   margin: 0 auto;
