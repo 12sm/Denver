@@ -154,7 +154,6 @@ $('a[href*=#]:not([href=#])').click(function() {
         };
     //mr Red
     if ($news.hasClass('active')) {
-        $('.mr-red').animate({top: ['85px', 'swing']}, {duration: 1150});
         $('.mr-red').animate({top: ['45px', 'swing']}, {duration: 300});
        };
        if (!$news.hasClass('active')) {
@@ -240,7 +239,6 @@ function unMatch(){
 enquire.register("only screen and (max-width : 992px)", {
 
     match : function() {
-      Move();
       matchFunc();
     },      // OPTIONAL
                                 // If supplied, triggered when the media query transitions 
