@@ -1485,16 +1485,14 @@ right: 315px;
   section {
     overflow: hidden;
   }
-.music-bg {
-position: absolute;
-right: 0;
-left: 0;
+(min-width: 992px)
+#music {
 z-index: 0;
 background: url(../img/denver-album.png) no-repeat;
 background-size: contain;
-height: 100%;
-width: 100%;
-padding-bottom: 0px;
+}
+.music-bg{
+  display: none;
 }
 .blog .round-box {
 min-height: 575px;
