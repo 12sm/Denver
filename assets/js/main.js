@@ -235,7 +235,7 @@ function unMatch(){
   oneScroll();
 }
 
-enquire.register("only screen and (max-width : 992px), (orientation : landscape) and (min-device-width : 768px) and (max-device-width : 1024px)", {
+enquire.register("only screen and (max-width : 768px)", {
 
     match : function() {
       matchFunc();
