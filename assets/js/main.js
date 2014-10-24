@@ -154,7 +154,7 @@ $('a[href*=#]:not([href=#])').click(function() {
         };
     //mr Red
     if ($news.hasClass('active')) {
-        $('.mr-red').animate({top: ['45px', 'swing']}, {duration: 300});
+        $('.mr-red').animate({top: ['45px', 'swing']}, {duration: 1300});
        };
        if (!$news.hasClass('active')) {
         $('.mr-red').css({top: '-10000px'});
@@ -222,7 +222,7 @@ $(".main-wrap").onepage_scroll({
 function matchFunc(){
     $(".main-wrap").destroy_onepage_scroll({sectionContainer: 'section'});
     $('.main-wrap[style]').removeAttr('style');
-    $('.home-people>img').attr('style', '');
+    $('.home-people>img').removeAttr('style');
     $('.about-guitar').css({top: '185px'});
     $('.about-trumpet').css({top: '345px'});
 }
