@@ -999,12 +999,13 @@ margin-top:30px;
 /* ==========================================================================
    Store
    ========================================================================== */
+    .wpv-filter-form a {
+      padding: 5px 10px;
+    }
+
    .buy-sheet {
 display: none;
 }
-   .sheet-img{
-    padding-bottom: 125%;
-   }
 .buy-sheet a{
   width: initial;
   text-align: center;
