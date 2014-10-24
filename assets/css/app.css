@@ -1170,9 +1170,7 @@ display: none;
 @media (min-width: 768px) {
   .buy-sheet {
     display: inline-block;
-    margin-left:10px;
-    margin-right: 10px;
-    width: 75px;
+    margin: 5px;
   }
   body.single-post h1 {
     font-size: 42px;
