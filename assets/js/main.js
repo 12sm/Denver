@@ -321,7 +321,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
 
         text = $('.add_to_cart_button').html();
         console.log(text);
-        $('.buy-sheets>a').html(function(){
+        $('.add_to_cart_button').html(function(){
           return '<i class="fa fa-shopping-cart"></i>' + text;
         });
     }
@@ -330,9 +330,9 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
   music: {
       init: function() {
         //Add shopping cart to buttons
-        text = $('.buy-sheets>a').html();
+        text = $('.add_to_cart_button').html();
         console.log(text);
-        $('.buy-sheets>a').html(function(){
+        $('.add_to_cart_button').html(function(){
           return '<i class="fa fa-shopping-cart"></i>' + text;
         });
 
