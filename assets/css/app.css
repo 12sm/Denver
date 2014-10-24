@@ -1175,9 +1175,7 @@ display: none;
   .full-height{
     height: 100%;
   }
-  body.home, html {
-  overflow: hidden;
-}
+
   .tooltip-inner{
     background: #79d1ff!important;
   }
@@ -1423,6 +1421,9 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  body.home, html {
+    overflow: hidden;
+  }
   .row.home-about.full-height,  .home-news.full-height{
     overflow-y: visible;
     padding: 0px;
