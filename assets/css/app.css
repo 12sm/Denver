@@ -6,7 +6,9 @@
 /* ==========================================================================
    Base
    ========================================================================== */
-
+body.home, html {
+  overflow: visible;
+}
 body { }
 html{text-rendering: optimizeLegibility;}
 
@@ -1170,6 +1172,9 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  body.home, html {
+  overflow: hidden;
+}
   .tooltip-inner{
     background: #79d1ff!important;
   }
