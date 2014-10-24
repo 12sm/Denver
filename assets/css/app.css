@@ -1587,15 +1587,18 @@ background-position: -90% 51%;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .flex-viewport img {
+    max-width: 1024px;
+  }
   #sheet-music .store-title {
-height: initial;
-}
+    height: initial;
+  }
   section#slider {
-height: 90vh;
-}
+    height: 90vh;
+  }
   img.about-denver {
-top: 213px;
-}
+    top: 213px;
+  }
 
 .backstretch img {
 width: 45% !important;
