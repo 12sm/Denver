@@ -1165,6 +1165,8 @@ display: none;
 @media (min-width: 768px) {
   .buy-sheet {
     display: inline-block;
+    margin: 0 10px;
+    width: 75px;
   }
   body.single-post h1 {
     font-size: 42px;
