@@ -1436,12 +1436,9 @@ bottom: 0;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  body.home, html {
+  body.home{
   overflow: hidden !important;
 }
-  body.home, html {
-    overflow: hidden;
-  }
   .row.home-about.full-height,  .home-news.full-height{
     overflow-y: visible;
     padding: 0px;
