@@ -302,10 +302,10 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
       $(".disco-carou").owlCarousel({
 
       autoPlay: false, //Set AutoPlay to 3 seconds
-      items : 4,
+      items : 5,
       itemsDesktop : [1199,4],
-      itemsTablet : [600,2],
-      itemsMobile: [479, 1],
+      itemsTablet : [600,3],
+      itemsMobile: [479, 2],
       navigation : true,
       navigationText: ['<i class="fa fa-arrow-circle-left fa-3x"></i>','<i class="fa fa-arrow-circle-right fa-3x"></i>'],
       pagination: false
@@ -344,10 +344,10 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
   $(".disco-carou").owlCarousel({
 
             autoPlay: false, //Set AutoPlay to 3 seconds
-            items : 4,
+            items : 5,
             itemsDesktop : [1199,4],
             itemsDesktopSmall : [768,3],
-            itemsMobile : [479, 1],
+            itemsMobile : [479, 2],
             navigation : true,
             navigationText: ['<i class="fa fa-arrow-circle-left fa-3x"></i>','<i class="fa fa-arrow-circle-right fa-3x"></i>'],
             pagination: false
