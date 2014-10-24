@@ -285,6 +285,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
 
   single_albums: {
       init: function() {
+        $('.buy-sheet').tooltip(options)
         $('.menu-news').removeClass('active');
         $('.entry-content').removeClass('col-sm-6 col-sm-offset-3').addClass('col');
 
@@ -323,6 +324,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
 
   music: {
       init: function() {
+        $('.buy-sheet').tooltip(options)
         $('.menu-news').removeClass('active');
       soundManager.setup({
     // disable or enable debug output

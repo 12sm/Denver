@@ -986,6 +986,9 @@ margin-top:30px;
 /* ==========================================================================
    Store
    ========================================================================== */
+   .buy-sheet {
+display: none;
+}
    .sheet-img{
     padding-bottom: 125%;
    }
@@ -1160,6 +1163,9 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .buy-sheet {
+    display: inline-block;
+  }
   body.single-post h1 {
     font-size: 42px;
   }
