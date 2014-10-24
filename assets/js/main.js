@@ -222,7 +222,8 @@ $(".main-wrap").onepage_scroll({
 function matchFunc(){
     $(".main-wrap").destroy_onepage_scroll({sectionContainer: 'section'});
     $('.main-wrap[style]').removeAttr('style');
-    $('.home-people>img').removeAttr('style');
+    var peeps = $('.home-people>img')
+    remove_style(peeps);
     $('.about-guitar').css({top: '185px'});
     $('.about-trumpet').css({top: '345px'});
 }
