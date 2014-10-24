@@ -1386,7 +1386,7 @@ position: absolute;
 z-index: 0;
 background: url(../img/denver-album.png) no-repeat;
 background-size: contain;
-background-position: -110% 20%;
+background-position: -110% 0%;
 width: 100%;
 padding-bottom: 100%;
 }
