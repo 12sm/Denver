@@ -280,6 +280,10 @@ margin-right: -15px;
 
 
   /* [ABOUT] */
+  .row.home-about.full-height, .home-news.full-height {
+    overflow-y: hidden;
+    padding: 25px 0px;
+  }
   img.about-guitar{
     display: none;
   }
@@ -1167,10 +1171,6 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .row.home-about.full-height {
-    overflow-y: hidden;
-    padding: 25px 0px;
-  }
   .tooltip-inner{
     background: #79d1ff!important;
   }
@@ -1421,7 +1421,7 @@ font-size: 86px;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .row.home-about.full-height {
+  .row.home-about.full-height,  .home-news.full-height{
     overflow-y: visible;
     padding: 0px;
   }
