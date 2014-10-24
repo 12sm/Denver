@@ -319,7 +319,7 @@ enquire.register("only screen and (max-width : 992px), (orientation : landscape)
     inlinePlayer = new InlinePlayer();
   });
 
-        text = $('.buy-sheets>a').html();
+        text = $('.add_to_cart_button').html();
         console.log(text);
         $('.buy-sheets>a').html(function(){
           return '<i class="fa fa-shopping-cart"></i>' + text;
