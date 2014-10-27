@@ -1590,22 +1590,10 @@ and (min-device-width : 768px)
 and (max-device-width : 992px) 
 and (orientation : portrait) { 
   img.mr-blue {
-  right: -11%;
+  right: -3%;
   }
-  img.mr-grey {
-  top: 50px !important;
-  }
-  img.mr-red {
-  top: 80px !important;
-  }
-  img.mr-stripe {
-  top: 110px !important;
-  }
-  img.mr-blue {
-  top: initial !important;
-  }
-  img.mr-green{
-    top: initial !important;
+  .home-people img {
+    top: 75px !important;
   }
 }
 *Ipad Landscape*/
