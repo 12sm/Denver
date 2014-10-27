@@ -1210,6 +1210,8 @@ display: none;
 @media (min-width: 768px) {
   .sheet-album{
     display: block;
+    width: 90px;
+    padding-bottom: 90px;
   } 
   ul#menu-socials {
     padding: 0px;

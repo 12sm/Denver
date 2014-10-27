@@ -393,6 +393,7 @@ enquire.register("only screen and (max-width : 992px)", {
         $('.sheet-img').imgLiquid({
           verticalAlign: 'top'
         });
+        $('.sheet-album').imgLiquid();
       }
       function newAjax(){
         prodLiquid();
