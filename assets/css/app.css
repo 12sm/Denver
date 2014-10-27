@@ -1207,6 +1207,9 @@ display: none;
 .buy-sheet a{
     width: 250px;
   }
+  html{
+    overflow: visible;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
