@@ -36,6 +36,7 @@
    include roots_template_path();  
    ?>
    </div>
+   <?php get_template_part('templates/footer'); ?>
    <?php } 
    ?>
 
