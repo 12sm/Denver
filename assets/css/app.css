@@ -433,9 +433,7 @@ padding-bottom: 15px;
 border: 1px solid rgb(238, 238, 238);
 }
 /* Enable when Store Launches */
-.cart-tab {
-display: none;
-}  
+  
 .store-title a {
   font-size: 22px;
 }
