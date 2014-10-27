@@ -1207,11 +1207,12 @@ display: none;
 .buy-sheet a{
     width: 250px;
   }
+}
+@media (max-width: 992px) {
   html{
     overflow: visible !important;
   }
 }
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .sheet-album{
