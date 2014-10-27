@@ -137,6 +137,9 @@ width: 100%;
 .cart-tab .button {
   width: 225px;
 }
+div.cart-tab {
+top: 10em;
+}
 /* ==========================================================================
    Audio Player
    ========================================================================== */
@@ -333,7 +336,7 @@ font-size: 36px;
     font-weight: 500;
     text-align: center;
   }
-  a.button, a.btn, a.button.add_to_cart_button{
+  a.button, a.btn, a.button.add_to_cart_button, a.btn.button{
     margin-top: 5px;
     margin-bottom: 5px;
   }
@@ -1198,7 +1201,7 @@ display: none;
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .sheet-album{
-    display: none;
+    display: block;
   } 
   ul#menu-socials {
     padding: 0px;
