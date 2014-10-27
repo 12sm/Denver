@@ -35,7 +35,7 @@ text-align: center;
 }
 
 h1,h2,h3,h4,h5,h6,p,a{
-  font-family: 'proxima-nova'
+  font-family: 'proxima-nova';
 }
 
 .marg-bot-25{
@@ -407,6 +407,7 @@ font-weight: 700 !important;
 background: #79d1ff !important;
 transition: background .3s ease !important;
 margin-bottom: 10px !important;
+font-family: 'proxima-nova';
 }
 button.btn-tix.btn:hover {
 background: #21A9F0;
