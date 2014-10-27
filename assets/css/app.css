@@ -1601,6 +1601,12 @@ and (orientation : portrait) {
   img.mr-stripe {
   top: 110px !important;
   }
+  img.mr-blue {
+  top: initial !important;
+  }
+  img.mr-green{
+    top: initial !important;
+  }
 }
 *Ipad Landscape*/
 @media only screen 
