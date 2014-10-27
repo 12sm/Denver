@@ -1208,7 +1208,7 @@ display: none;
     width: 250px;
   }
   html{
-    overflow: visible;
+    overflow: visible !important;
   }
 }
 
