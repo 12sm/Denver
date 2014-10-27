@@ -1585,6 +1585,27 @@ top: 12vh;
 .tour-people {position:relative;}
 
 }
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 992px) 
+and (orientation : portrait) { 
+  img.mr-blue {
+  right: -11%;
+  }
+  img.mr-grey {
+  right: 6%;
+  top: 50px !important;
+  }
+  img.mr-red {
+  right: 38%;
+  top: 80px !important;
+  }
+  img.mr-stripe {
+  left:12%;
+  top: 110px !important;
+  z-index: -1;
+  }
+}
 *Ipad Landscape*/
 @media only screen 
 and (min-device-width : 768px) 
