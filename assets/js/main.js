@@ -377,12 +377,13 @@ enquire.register("only screen and (max-width : 992px)", {
   post_type_archive_product: {
     init: function() {
 
-      $(".sheet-img>img").each(function() {
+      $(".sheet-img").each(function() {
         var $this = $(this);
-        var src = $this.attr('src');
-        $this.addClass('image');
+        var child = $(this).children('img');
+        var src = $child.attr('src');
+        $child.addClass('image');
         var a = $('<a/>').attr('href', src);
-        $('.sheet-img').wrap(a);
+        $this.wrap(a);
       });
 
       function sheetImg(){
