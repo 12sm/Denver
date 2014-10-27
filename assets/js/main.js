@@ -387,7 +387,7 @@ enquire.register("only screen and (max-width : 992px)", {
       });
 
       function sheetImg(){
-        $('swipe').swipebox();
+        $('.swipe').swipebox();
       }
       function prodLiquid(){
         $('.sheet-img').imgLiquid({
