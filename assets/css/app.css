@@ -644,6 +644,15 @@ height: 50px;
 width: 100%;
 display: block;
 float: left;
+padding:10px;
+}
+
+li.row.row-store:hover {
+background: rgba(255,255,255,0.7);	
+}
+
+li.row.row-store a.button.add_to_cart_button.product_type_simple {
+padding:2px 5px!important;	
 }
 
  /*SoundManager Css*/
@@ -665,8 +674,7 @@ top: 5px;
     .play-button i {padding: 7px 9px;}
     
 .sm2_link {
-display: block;
-padding: 10px;	    
+display: block;	    
 }
 
     .sm2_link .fa :before, .sm2_paused .fa:before {
@@ -1231,10 +1239,11 @@ display: none;
   .tooltip-inner{
     background: #79d1ff!important;
   }
-  .buy-sheet {
-    display: inline-block;
-    margin: 5px;
-  }
+.buy-sheet {
+display: block;
+margin: 0px 5px;
+float: right;
+}
   body.single-post h1 {
     font-size: 42px;
   }
