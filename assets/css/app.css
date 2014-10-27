@@ -1593,17 +1593,13 @@ and (orientation : portrait) {
   right: -11%;
   }
   img.mr-grey {
-  right: 6%;
   top: 50px !important;
   }
   img.mr-red {
-  right: 38%;
   top: 80px !important;
   }
   img.mr-stripe {
-  left:12%;
   top: 110px !important;
-  z-index: -1;
   }
 }
 *Ipad Landscape*/
