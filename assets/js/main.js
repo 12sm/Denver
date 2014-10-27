@@ -376,6 +376,14 @@ enquire.register("only screen and (max-width : 992px)", {
 
   post_type_archive_product: {
     init: function() {
+
+      $(".sheet-img").each(function() {
+        var $this = $(this);
+        var src = $this.attr('src');
+        $this.addClass('image');
+        var a = $('<a/>').attr('href', src);
+        $this.wrap(a);
+
       function sheetImg(){
         $('sheet-img').swipebox();
       }
