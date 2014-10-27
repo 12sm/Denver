@@ -383,7 +383,7 @@ enquire.register("only screen and (max-width : 992px)", {
         $this.addClass('image');
         var a = $('<a/>').attr('href', src);
         $('.sheet-img').wrap(a);
-      }
+      });
 
       function sheetImg(){
         $('sheet-img').swipebox();
