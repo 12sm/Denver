@@ -1595,6 +1595,9 @@ and (orientation : portrait) {
   .home-people img {
     top: 75px !important;
   }
+  img.about-guitar {
+    top: 15px !important;
+}
 }
 *Ipad Landscape*/
 @media only screen 
