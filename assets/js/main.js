@@ -382,12 +382,12 @@ enquire.register("only screen and (max-width : 992px)", {
         var child = $(this).children('img');
         var src = child.attr('src');
         child.addClass('image');
-        var a = $('<a/>').attr('href', src);
+        var a = $('<a class="swipe"></a>').attr('href', src);
         $this.wrap(a);
       });
 
       function sheetImg(){
-        $('sheet-img').swipebox();
+        $('swipe').swipebox();
       }
       function prodLiquid(){
         $('.sheet-img').imgLiquid({
