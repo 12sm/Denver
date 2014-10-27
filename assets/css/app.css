@@ -394,7 +394,7 @@ margin: 0 auto;
   .round-box.tour-box {
   margin-top: 25px;
   }
-  button.btn-tix.btn, .frm-submit>input {
+  button.btn-tix.btn, .frm_submit>input {
 color: #fff;
 font-weight: 700;
 background: #79d1ff;
