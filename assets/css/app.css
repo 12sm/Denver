@@ -1654,9 +1654,6 @@ background-position: -90% 51%;
   nav.collapse.navbar-collapse {
     width: 65%;
   }
-    img.about-denver {
-    top: inherit;
-  }
   .flex-viewport img {
     max-width: 1024px;
   }
