@@ -380,8 +380,8 @@ enquire.register("only screen and (max-width : 992px)", {
       $(".sheet-img").each(function() {
         var $this = $(this);
         var child = $(this).children('img');
-        var src = $child.attr('src');
-        $child.addClass('image');
+        var src = child.attr('src');
+        child.addClass('image');
         var a = $('<a/>').attr('href', src);
         $this.wrap(a);
       });
