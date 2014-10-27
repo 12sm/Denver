@@ -433,7 +433,9 @@ padding-bottom: 15px;
 border: 1px solid rgb(238, 238, 238);
 }
 /* Enable when Store Launches */
-  
+ .sheet-album{
+  display: none;
+ } 
 .store-title a {
   font-size: 22px;
 }
@@ -1197,6 +1199,9 @@ display: none;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .sheet-album{
+    display: none;
+  } 
   ul#menu-socials {
     padding: 0px;
     float: left;
