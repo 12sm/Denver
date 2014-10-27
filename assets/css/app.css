@@ -394,12 +394,19 @@ margin: 0 auto;
   .round-box.tour-box {
   margin-top: 25px;
   }
-  button.btn-tix.btn, .frm_submit>input {
+  button.btn-tix.btn{
 color: #fff;
 font-weight: 700;
 background: #79d1ff;
 transition: background .3s ease;
 margin-bottom: 10px;
+}
+.frm_submit>input {
+color: #fff !important;
+font-weight: 700 !important;
+background: #79d1ff !important;
+transition: background .3s ease !important;
+margin-bottom: 10px !important;
 }
 button.btn-tix.btn:hover {
 background: #21A9F0;
