@@ -445,6 +445,9 @@ padding-top: 15px;
 padding-bottom: 15px;
 border: 1px solid rgb(238, 238, 238);
 }
+#music .store-section {
+min-height: 475px;
+}
 /* Enable when Store Launches */
  .sheet-album{
   display: none;
