@@ -593,7 +593,7 @@
                   <a href="[types field='mp3-upload' link='true' output='raw' id='$tracks'][/types]" class="btn btn-sm view-details sm2_link button"><i class="fa fa-play"></i>Listen</a>
                 </div>
                 <div class="col-sm-6">
-                  [wpv-woo-buy-or-select add_to_cart_text="Buy Sheet Music Here" link_to_product_text="Buy Sheet Music Here"]
+                  [wpv-woo-buy-or-select add_to_cart_text="Buy Now" link_to_product_text="Buy Now"]
                 </div>
               </div>
               <div class="row">
@@ -642,7 +642,7 @@
                 </div>
               </a>
             </div>
-            <div class="col-sm-6">
+            <div class="col-lg-6">
               <div class="hidden-xs">
                 <div class="row album-excerpt">
                   <div class="col-sm-12">
@@ -780,6 +780,46 @@
 </wpv-loop>
 <!-- wpv-loop-end --> 
 [/wpv-items-found]
+  [wpv-no-items-found]
+    [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
+  [/wpv-no-items-found]
+[wpv-layout-end]
+
+<!-- SHEET MUSIC TABLE <!-->
+[wpv-layout-start]
+  [wpv-items-found]
+<div class="row">
+<div class="col-sm-12 col-md-10 col-md-offset-1">
+   <table data-toggle="table" data-sort-name="title" data-sort-order="desc">
+            <thead><tr>
+               <th class="col-md-4" data-field="title" data-align="right" data-sortable="true">Title</th>
+               <th class="col-md-4" data-field="type" data-align="right" data-sortable="true">Type</th>
+               <th class="col-md-2" data-field="buy" data-align="center" data-sortable="false">Buy Now</th>
+               <th class="col-md-2" data-field="price" data-align="right" data-sortable="true">Price</th>
+            </tr></thead>
+      <tbody>
+      <wpv-loop>
+            <tr>
+              <td class="col-md-4" >
+               <a href="[wpv-post-url]">
+                [wpv-post-title]
+               </a>
+              </td>
+               <td class="col-md-4" >[wpv-post-taxonomy type="product_cat" separator=", " format="link" show="name"]
+               </td>
+               <td class="col-md-2">
+                 [wpv-woo-buy-or-select add_to_cart_text="Buy Now" link_to_product_text="Buy Now"] 
+               </td> 
+                <td class="col-md-2">
+                 [wpv-woo-product-price]
+               </td>
+            </tr>
+      </wpv-loop>
+   </tbody>
+   </table>
+  </div>
+</div>
+  [/wpv-items-found]
   [wpv-no-items-found]
     [wpml-string context="wpv-views"]<strong>No items found</strong>[/wpml-string]
   [/wpv-no-items-found]

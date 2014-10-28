@@ -373,6 +373,16 @@ enquire.register("only screen and (max-width : 992px)", {
         });
     }
   },
+  single_product: {
+    init: function() {
+      $('.add_to_cart_button').each(function(){
+          text = $(this).html();
+          $(this).html(function(){
+            return '<i class="fa fa-shopping-cart"></i> ' + text;
+          });
+        });
+    }
+  },
 
   post_type_archive_product: {
     init: function() {
