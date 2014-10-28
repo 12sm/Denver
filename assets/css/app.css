@@ -1213,9 +1213,19 @@ display: none;
 .buy-sheet a{
     width: 250px;
   }
+  /* BOOTSTRAP TABLE CSS */
+  .bootstrap-table * {
+    text-align: center;
+  }
   table td[class*="col-"], table th[class*="col-"] {
     display: block;
-}
+  }
+  td {
+    border: 0px !important;
+  }
+  tr{
+    border: 1px solid #ddd;
+  }
 }
 @media (max-width: 992px) {
   html{

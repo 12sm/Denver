@@ -839,25 +839,28 @@
             </tr></thead>
       <tbody>
       <wpv-loop>
-        <thead class="hidden-sm hidden-md hidden-lg hidden-xl"><tr>
-        </tr></thead>
             <tr>
               <td class="col-md-4 col-xs-12" >
-              <th class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl" data-field="title" data-align="right" data-sortable="true">Title</th>
+               <h4 class="hidden-sm hidden-md hidden-lg">
+                Title:
+               </h4>
                <a href="[wpv-post-url]">
                 <h4>[wpv-post-title]</h4>
                </a>
               </td>
-               <td class="col-md-4 col-xs-12">
-                <th class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl" data-field="type" data-align="right" data-sortable="true">Type</th>
+               <td class="col-md-4 col-xs-12" >
+                <h4 class="hidden-sm hidden-md hidden-lg">
+                Type:
+               </h4>
                [wpv-post-taxonomy type="product_cat" separator=", " format="link" show="name"]
                </td>
                <td class="col-md-1 col-xs-12">
                  [wpv-woo-buy-or-select add_to_cart_text="Buy Now" link_to_product_text="Buy Now"] 
                </td> 
                 <td class="col-md-1 col-xs-12">
-                <th class="hidden-sm hidden-md hidden-lg hidden-xl col-xs-12" data-field="price" data-align="right" data-sortable="true">Price</th>
-
+                <h4 class="hidden-sm hidden-md hidden-lg">
+                  Price:
+                </h4>
                  [wpv-woo-product-price]
                </td>
             </tr>
