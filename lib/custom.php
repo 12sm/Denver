@@ -64,22 +64,17 @@ $args=array(
  
 $categories=get_categories($args);
  
-echo '<ul>';
- 
     foreach($categories as $category) { 
  
         if($category->parent!=0)
  
         {
  
-        echo '<li><a href="' . get_category_link( $category->term_id ) . '" title="' . $category->name. '" ' . '>' . $category->name.'</a> </li> ';
+        return '<a href="' . get_category_link( $category->term_id ) . '" title="' . $category->name. '" ' . '>' . $category->name.'</a> </li> ';
  
         }
  
-    }
- 
-echo '</ul>';
-      
+    }   
 }
 add_shortcode( 'show_child_cat', 'show_child_cat_func' );
 
