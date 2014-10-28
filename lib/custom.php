@@ -66,7 +66,7 @@ echo '<ul>';
  
     foreach($categories as $category) { 
  
-        if($category->parent!=0)
+        if($category[parent]!=0)
  
         {
  
