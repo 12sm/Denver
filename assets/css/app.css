@@ -1215,7 +1215,7 @@ display: none;
   }
   /* BOOTSTRAP TABLE CSS */
   .bootstrap-table * {
-    text-align: center;
+    text-align: left !important;
   }
   table td[class*="col-"], table th[class*="col-"] {
     display: block;
@@ -1226,6 +1226,7 @@ display: none;
   tr{
     border: 1px solid #ddd;
   }
+  /* END TABLE STYLES */
 }
 @media (max-width: 992px) {
   html{
