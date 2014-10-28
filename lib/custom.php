@@ -42,19 +42,6 @@ return tribe_get_stateprovince($id);
 add_shortcode( 'eventstate', 'event_state' );
 
 
-<<<<<<< HEAD
-add_action('admin_head', 'my_custom_fonts');
-
-function my_custom_fonts() {
-  echo '<style>
-    .vc_license-activation-notice {display:none;}
-    
-  </style>';
-}
-
-
-=======
-//Child tax
 function show_child_cat_func( $atts ) {
     extract( shortcode_atts( array(
         'taxonomy' => ''
@@ -92,7 +79,18 @@ echo '</ul>';
       
 }
 add_shortcode( 'show_child_cat', 'show_child_cat_func' );
->>>>>>> FETCH_HEAD
+
+
+add_action('admin_head', 'my_custom_fonts');
+
+function my_custom_fonts() {
+  echo '<style>
+    .vc_license-activation-notice {display:none;}
+    
+  </style>';
+}
+
+
 
 define( 'UPLOADS', ''.'assets' );
 
