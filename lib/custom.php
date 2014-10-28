@@ -48,7 +48,35 @@ function show_child_cat_func( $atts ) {
         'taxonomy' => ''
     ), $atts ) );
    
-    return '<ul>'.wp_list_categories('taxonomy='.$taxonomy.'&depth=2').'</ul>';
+$args=array(
+ 
+  'orderby' => 'id',
+ 
+  'order' => 'ASC',
+ 
+  'taxonomy' => $taxonomy,
+ 
+  'hide_empty' => 0,
+ 
+  );
+ 
+$categories=get_categories($args);
+ 
+echo '<ul>';
+ 
+    foreach($categories as $category) { 
+ 
+        if($category->parent!=0)
+ 
+        {
+ 
+        echo '<li><a href="' . get_category_link( $category->term_id ) . '" title="' . $category->name. '" ' . '>' . $category->name.'</a> </li> ';
+ 
+        }
+ 
+    }
+ 
+echo '</ul>';
       
 }
 add_shortcode( 'show_child_cat', 'show_child_cat_func' );
