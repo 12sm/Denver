@@ -739,9 +739,7 @@ display: block;
     a.sm2_button.sm2_paused:hover {
      background-color:#666;
     }
-    .buy-options.row {
-      margin-top: 25px;
-    }
+    
 
 
 /* ==========================================================================
@@ -1223,6 +1221,9 @@ display: none;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .buy-options.row {
+      margin-top: 25px;
+    }
   .sheet-album{
     display: block;
     width: 90px;
