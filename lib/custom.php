@@ -41,44 +41,6 @@ return tribe_get_stateprovince($id);
 }
 add_shortcode( 'eventstate', 'event_state' );
 
-
-function show_child_cat_func( $atts ) {
-    extract( shortcode_atts( array(
-        'taxonomy' => '',
-        'include' => ''
-    ), $atts ) );
-   
-$args=array(
- 
-  'orderby' => 'id',
- 
-  'order' => 'ASC',
- 
-  'taxonomy' => $taxonomy,
- 
-  'hide_empty' => 0,
-
-  'include' => $include,
- 
-  );
- 
-$categories=get_categories($args);
- 
-    foreach($categories as $category) { 
- 
-        if($category->parent!=0)
- 
-        {
- 
-        return '<a href="' . get_category_link( $category->term_id ) . '" title="' . $category->name. '" ' . '>' . $category->name.'</a> </li> ';
- 
-        }
- 
-    }   
-}
-add_shortcode( 'show_child_cat', 'show_child_cat_func' );
-
-
 add_action('admin_head', 'my_custom_fonts');
 
 function my_custom_fonts() {
