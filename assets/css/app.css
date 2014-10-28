@@ -652,7 +652,8 @@ background: rgba(255,255,255,0.7);
 }
 
 li.row.row-store a.button.add_to_cart_button.product_type_simple {
-padding:2px 5px!important;	
+padding:2px 5px!important;
+margin:0px;	
 }
 
  /*SoundManager Css*/
@@ -672,6 +673,7 @@ top: 5px;
     }
 
     .play-button i {padding: 7px 9px;}
+    .sm2_playing .play-button i {padding: 7px 8px;}
     
 .sm2_link {
 display: block;	    

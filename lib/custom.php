@@ -42,7 +42,19 @@ return tribe_get_stateprovince($id);
 add_shortcode( 'eventstate', 'event_state' );
 
 
+add_action('admin_head', 'my_custom_fonts');
+
+function my_custom_fonts() {
+  echo '<style>
+    .vc_license-activation-notice {display:none;}
+    
+  </style>';
+}
+
+
+
 define( 'UPLOADS', ''.'assets' );
+
 
 
 ?>
