@@ -373,6 +373,16 @@ enquire.register("only screen and (max-width : 992px)", {
         });
     }
   },
+  single_product: {
+    init: function() {
+      $('.add_to_cart_button').each(function(){
+          text = $(this).html();
+          $(this).html(function(){
+            return '<i class="fa fa-shopping-cart"></i> ' + text;
+          });
+        });
+    }
+  },
 
   post_type_archive_product: {
     init: function() {
@@ -385,7 +395,7 @@ enquire.register("only screen and (max-width : 992px)", {
         var a = $('<a class="swipe"></a>').attr('href', src);
         $this.wrap(a);
       });
-
+      
       function sheetImg(){
         $('.swipe').swipebox();
       }

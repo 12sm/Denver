@@ -13,7 +13,7 @@
 function roots_scripts() {
   wp_enqueue_style('roots_main', get_template_directory_uri() . '/assets/css/main.min.css', false, '6c39f42987ae297a5a21e2bb35bf3402');
     wp_enqueue_style('roots_app', get_template_directory_uri() . '/assets/css/app.css', false, null);
-
+    wp_enqueue_style('bootstrap_table', '//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.3.0/bootstrap-table.min.css', false, null); 
   // jQuery is loaded using the same method from HTML5 Boilerplate:
   // Grab Google CDN's latest jQuery with a protocol relative URL; fallback to local if offline
   // It's kept in the header instead of footer to avoid conflicts with plugins.
