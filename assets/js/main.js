@@ -385,7 +385,7 @@ enquire.register("only screen and (max-width : 992px)", {
         var a = $('<a class="swipe"></a>').attr('href', src);
         $this.wrap(a);
       });
-
+      
       function sheetImg(){
         $('.swipe').swipebox();
       }

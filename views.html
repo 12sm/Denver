@@ -593,14 +593,16 @@
                   <a href="[types field='mp3-upload' link='true' output='raw' id='$tracks'][/types]" class="btn btn-sm view-details sm2_link button"><i class="fa fa-play"></i>Listen</a>
                 </div>
                 <div class="col-sm-6">
-                  [wpv-woo-buy-or-select add_to_cart_text="Buy CD Here" link_to_product_text="Buy CD Here"]
+                  [wpv-woo-buy-or-select add_to_cart_text="Buy Sheet Music Here" link_to_product_text="Buy Sheet Music Here"]
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm-12 marg-top-25">
-                  <a href='[wpv-post-url id="$albums"]'>
+                 <a href='[wpv-post-url id="$albums"]'>
+                  <div class='sheet-album'>
                   [types field="album-image" size="thumbnail" align="none" resize="proportional" class="img-responsive" id='$albums'][/types]
-                  </a>
+                  </div>
+                 </a>
                 </div>
               </div>
             </div>
@@ -621,78 +623,74 @@
   [wpv-items-found]
     <div class="row">
       <wpv-loop>
-        <div class="col-lg-6 col-md-12 col-sm-12 store-section">
+        <div class="col-lg-6 col-md-6 col-sm-6 store-section">
           <div class="row">
             <div class="col-md-12">
               <div class="row">
-                <div class="col-sm-8 store-title">
+                <div class="col-md-8 store-title">
                   <h2><strong>[wpv-post-link id="$albums"]</strong></h2>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-md-4">
                   <h3 class="prod-price right"><b>[wpv-woo-product-price]</b></h3>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4 col-sm-6">
+            <div class="col-lg-6">
               <a href="[wpv-post-url id="$albums"]" class="album-img">
-                <img src="[types field="album-image" size="medium" url="true" resize="crop" id="$albums"][/types]" class="img-responsive">
+                <div class='album-image img-container'>
+                  <img src="[types field="album-image" size="medium" url="true" resize="crop" id="$albums"][/types]" class="img-responsive">
+                </div>
               </a>
             </div>
-            <div class="hidden-lg col-md-4 hidden-sm hidden-xs">
-              <div class="row album-excerpt">
-                <div class="col-md-12">
-                  [types field="album-desc" id="$album"][/types]
-                </div>
-              </div>
-              <div class="row center">
-                <div class="col-md-12">
-                  <a href="[wpv-post-url id="$albums"]" class="btn btn-sm btn-click view-details"><i class="fa fa-search"></i> View Details</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 hidden-md hidden-sm hidden-xs">
-              <div class="row album-excerpt">
-                <div class="col-md-12">
-                  [types field="album-desc" id="$albums"][/types]
-                </div>
-              </div>
-              <div class="row center">
-                <div class="col-md-6">
-                  <a href="[wpv-post-url id="$albums"]" class="btn btn-sm btn-click view-details"><i class="fa fa-search"></i> View Details</a>
-                </div>
-                <div class="col-sm-6">
-                  <div class="buy-now-cd buy-now center">
-                    [wpv-woo-buy-or-select add_to_cart_text="Buy CD Here" link_to_product_text="Buy CD Here"]
+            <div class="col-sm-6">
+              <div class="hidden-xs">
+                <div class="row album-excerpt">
+                  <div class="col-sm-12">
+                    [types field="album-desc" id="$albums"][/types]
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="hidden-lg hidden-md col-sm-6 col-xs-12">
-              <div class="row album-excerpt">
-                <div class="col-md-12">
-                  [types field="album-desc" id="$albums"][/types]
-                </div>
-                <div class="col-sm-12">
-                  <div class="buy-now-cd buy-now center">
-                    [wpv-woo-buy-or-select add_to_cart_text="Buy CD Here" link_to_product_text="Buy CD Here"]
+                <div class="row center buy-options">
+                  <div class="col-sm-6">
+                    <a href="[wpv-post-url id="$albums"]" class="btn btn-sm btn-click view-details"><i class="fa fa-search"></i> View Details</a>
                   </div>
-                </div>
-              </div>
-              <div class="row center">
-                <div class="col-md-12">
-                  <a href="[wpv-post-url id="$albums"]" class="btn btn-sm view-details"><i class="fa fa-search"></i> View Details</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-4 col-sm-6">
-              <div class="buy-options row">
-                <div class="col-md-12">
-                  <div class="row">
-                    <div class="col-sm-6 center">
-                      <a href="[types field="amazon-link" output="raw" id="$albums"][/types]" target='_blank' class="btn btn-click btn-sm"><i class="fa fa-cloud-download"></i>  Amazon</a>
+                  <div class="col-sm-6">
+                    <div class="buy-now-cd buy-now center">
+                      [wpv-woo-buy-or-select add_to_cart_text="Buy CD Here" link_to_product_text="Buy CD Here"]
                     </div>
-                    <div class="col-sm-6 center">
-                      <a href="[types field="itunes-link" output="raw" id="$albums"][/types]" target='_blank' class="btn btn-click btn-sm"><i class="fa fa-music"></i>  iTunes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="hidden-lg hidden-md hidden-sm col-sm-6 col-xs-12">
+                  <div class="row album-excerpt">
+                    <div class="col-md-12">
+                      [types field="album-desc" id="$albums"][/types]
+                    </div>
+                    <div class="col-sm-12 buy-options">
+                      <div class="buy-now-cd buy-now center">
+                        [wpv-woo-buy-or-select add_to_cart_text="Buy CD Here" link_to_product_text="Buy CD Here"]
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row center">
+                    <div class="col-md-12">
+                      <a href="[wpv-post-url id="$albums"]" class="btn btn-sm btn-click view-details"><i class="fa fa-search"></i> View Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="buy-options row">
+                    <div class="col-md-12">
+                      <div class="row">
+                        <div class="col-sm-6 center">
+                          <a href="[types field="amazon-link" output="raw" id="$albums"][/types]" target='_blank' class="btn btn-click btn-sm"><i class="fa fa-cloud-download"></i>  Amazon</a>
+                        </div>
+                        <div class="col-sm-6 center">
+                          <a href="[types field="itunes-link" output="raw" id="$albums"][/types]" target='_blank' class="btn btn-click btn-sm"><i class="fa fa-music"></i>  iTunes</a>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
