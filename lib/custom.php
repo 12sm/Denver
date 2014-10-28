@@ -44,7 +44,8 @@ add_shortcode( 'eventstate', 'event_state' );
 
 function show_child_cat_func( $atts ) {
     extract( shortcode_atts( array(
-        'taxonomy' => ''
+        'taxonomy' => '',
+        'include' => ''
     ), $atts ) );
    
 $args=array(
@@ -56,6 +57,8 @@ $args=array(
   'taxonomy' => $taxonomy,
  
   'hide_empty' => 0,
+
+  'include' => $include,
  
   );
  
