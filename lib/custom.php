@@ -48,7 +48,7 @@ function show_child_cat_func( $atts ) {
         'taxonomy' => ''
     ), $atts ) );
    
-    echo '<ul>'.wp_list_categories('taxonomy='.$taxonomy.'&depth=2').'<ul>';
+    return '<ul>'.wp_list_categories('taxonomy='.$taxonomy.'&depth=2').'<ul>';
       
 }
 add_shortcode( 'show_child_cat', 'show_child_cat_func' );
