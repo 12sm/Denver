@@ -874,7 +874,7 @@ text-align:center;
 text-shadow: 1px 1px 1px #FAF9F5;
 }
 
-body.post-type-archive-videos h2 {
+body.videos h2 {
  color:#3CA0D3; 
 }
 
@@ -883,6 +883,7 @@ max-width:1300px !important;
 }
 
 body.post-type-archive-videos h2,
+body.videos h2,
 body.single-vides h2,
 body.post-type-archive-videos .video-list h1 {
 font-size: 24px;
