@@ -12,6 +12,9 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 
-Hello Category!
-
 //wc_get_template( 'archive-product.php' );
+
+?>
+
+
+Hello Category!
