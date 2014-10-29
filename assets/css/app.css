@@ -1098,6 +1098,47 @@ padding: 0px 0px 30px;
 .store-menu .btn-click {
 width:auto!important;	
 }
+
+.main .woocommerce {
+max-width:1300px;
+margin:30px auto;	
+}
+
+.woocommerce #payment div.payment_box, .woocommerce-page #payment div.payment_box {
+position: relative;
+width: 96%;
+padding: 1em 2%;
+margin: 1em 0 1em 0;
+font-size: 0.92em;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+line-height: 1.5em;
+background: #fff;
+box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+-webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+color: #5e5e5e;
+text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.woocommerce #payment div.payment_box:after, .woocommerce-page #payment div.payment_box:after {
+content: "";
+display: block;
+border: 8px solid #fff;
+border-right-color: transparent;
+border-left-color: transparent;
+border-top-color: transparent;
+position: absolute;
+top: -3px;
+left: 0;
+margin: -1em 0 0 2em;
+}
+
+.woocommerce #payment, .woocommerce-page #payment {
+background: #fff;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid #ccc;
+}
  
 /* ==========================================================================
    Footer
@@ -1611,7 +1652,7 @@ height: 300px;
 font-size: 18px;
 }
   .add_to_cart_button, .single_add_to_cart_button, .wc-forward, .button {
-font-size: 36px!important;
+font-size: 20px!important;
 }
 h3.prod-title {
   font-size: 34px;
