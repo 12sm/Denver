@@ -1139,6 +1139,10 @@ background: #fff;
 border-radius: 5px;
 border: 1px solid #ccc;
 }
+
+.woocommerce .woocommerce-message, .woocommerce-page .woocommerce-message {
+border-top: 3px solid #79d1ff;
+}
  
 /* ==========================================================================
    Footer
