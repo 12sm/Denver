@@ -1307,6 +1307,12 @@ display: none;
   tr{
     border: 1px solid #ddd;
   }
+  
+body.sheet-music .inline-playable {
+display: inline-block;
+float: none;
+}
+  
   /* END TABLE STYLES */
 }
 @media (max-width: 992px) {
