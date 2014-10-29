@@ -1423,9 +1423,10 @@ display: block;
   .news-mobile{
   padding-bottom: 0px;
 }
-  .top-slider {
+.top-slider {
 margin-left: 0px;
 margin-right: 0px;
+margin-top: 8%;
 }
 a.btn.btn-click {
 font-size: 16px;
