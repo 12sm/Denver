@@ -14,7 +14,6 @@ function child_manage_woocommerce_styles() {
   if ( function_exists( 'is_woocommerce' ) ) {
     //dequeue scripts and styles
     if ( ! is_woocommerce() && ! is_cart() && ! is_checkout() && ! is_shop() && ! is_product_category() && ! is_product() && ! is_account_page() ) {
-      echo "woocommerce conditional is true";
       wp_dequeue_style( 'woocommerce_frontend_styles' );
       wp_dequeue_style( 'woocommerce_fancybox_styles' );
       wp_dequeue_style( 'woocommerce_chosen_styles' );
