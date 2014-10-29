@@ -1100,6 +1100,20 @@ padding: 0px 0px 30px;
 width:auto!important;	
 }
 
+body.sheet-music .woocommerce img, .woocommerce-page img {
+height: 45px;
+max-width: 100%;
+max-height: 50px!important;
+width: auto;
+float: left;
+}
+
+body.sheet-music .inline-playable {
+padding: 5px 8px;
+border: 1px solid;
+border-radius: 20px;	
+}
+
 .main .woocommerce {
 max-width:1300px;
 margin:30px auto;	
