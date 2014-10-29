@@ -29,6 +29,6 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 				<?php echo do_shortcode('[wpv-view name="STORE-MENU"]'); ?>
 			</div>
 		</div>
-			<?php echo do_shortcode('[wpv-view name="Sheet Music"]'); ?>
+			<?php echo do_shortcode('[wpv-view name="STORE-OTHER"]'); ?>
 	</div>
 </div>
