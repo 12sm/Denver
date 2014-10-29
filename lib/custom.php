@@ -41,7 +41,6 @@ return tribe_get_stateprovince($id);
 }
 add_shortcode( 'eventstate', 'event_state' );
 
-add_action('admin_head', 'my_custom_fonts');
 
 function my_custom_fonts() {
   echo '<style>
@@ -49,6 +48,8 @@ function my_custom_fonts() {
     
   </style>';
 }
+
+add_action('admin_head', 'my_custom_fonts');
 
 
 
