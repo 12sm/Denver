@@ -342,7 +342,7 @@ enquire.register("only screen and (max-width : 992px)", {
 
         $('.buy-sheet').tooltip()
         $('.menu-news').removeClass('active');
-      soundManager.setup({
+    soundManager.setup({
     // disable or enable debug output
     debugMode: true,
     // use HTML5 audio for MP3/MP4, if available
@@ -382,6 +382,28 @@ enquire.register("only screen and (max-width : 992px)", {
           });
         });
     }
+  },
+  
+  sheet_music: {
+	init: function() {
+	soundManager.setup({
+    // disable or enable debug output
+    debugMode: true,
+    // use HTML5 audio for MP3/MP4, if available
+    preferFlash: false,
+    useFlashBlock: true,
+    // path to directory containing SM2 SWF
+    url: '/swf ',
+    // optional: enable MPEG-4/AAC support (requires flash 9)
+    flashVersion: 9
+    });
+
+
+    soundManager.onready(function() {
+    // soundManager.createSound() etc. may now be called
+    inlinePlayer = new InlinePlayer();
+    });
+	}  
   },
 
   post_type_archive_product: {
