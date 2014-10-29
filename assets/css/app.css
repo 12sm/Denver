@@ -1083,6 +1083,14 @@ body.woocommerce .img-container.store-prod-img.imgLiquid_bgSize.imgLiquid_ready 
 border: 1px solid rgb(230, 230, 230);
 background-size: contain!important;
 }
+
+.widget_shopping_cart h2 {
+font-size:28px;
+}
+
+.widget_shopping_cart .wc-forward {
+	
+}
  
 /* ==========================================================================
    Footer
