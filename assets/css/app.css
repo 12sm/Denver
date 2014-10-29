@@ -1100,9 +1100,10 @@ padding: 0px 0px 30px;
 width:auto!important;	
 }
 
-body.sheet-music .woocommerce img, .woocommerce-page img {
-height: 45px;
-max-width: 100%;
+body.sheet-music .bootstrap-table img,
+body.sheet-music .bootstrap-table img {
+height: 45px!important;
+max-width: 100%!important;
 max-height: 50px!important;
 width: auto;
 float: left;
