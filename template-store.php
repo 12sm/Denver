@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Sheet Music Template
+Template Name: Store Template
 */
 ?>
 
