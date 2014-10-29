@@ -1031,6 +1031,7 @@ color: #8D5959;
 body.single {
 background: url("/assets/img/news-bg.jpg") #f9f9f9;
 background-repeat: no-repeat;
+background-size:contain;
 }
 
 body.single-post .entry-content {
