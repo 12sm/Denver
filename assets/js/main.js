@@ -455,6 +455,55 @@ soundManager.onready(function() {
 
   }
 },
+store: {
+    init: function() {
+
+      $(".sheet-img").each(function() {
+        var $this = $(this);
+        var child = $(this).children('img');
+        var src = child.attr('src');
+        child.addClass('image');
+        var a = $('<a class="swipe"></a>').attr('href', src);
+        $this.wrap(a);
+      });
+      
+      function sheetImg(){
+        $('.swipe').swipebox();
+      }
+      function prodLiquid(){
+        $('.sheet-img').imgLiquid({
+          verticalAlign: 'top'
+        });
+        $('.sheet-album').imgLiquid();
+      }
+      function newAjax(){
+        prodLiquid();
+        sheetImg()
+      }
+      $('a[href="#sheet-music"]').on('shown.bs.tab', function () {
+        prodLiquid();
+        sheetImg();
+        soundManager.reset();
+        soundManager.setup({
+          // disable or enable debug output
+          debugMode: true,
+          // use HTML5 audio for MP3/MP4, if available
+          preferFlash: false,
+          useFlashBlock: true,
+          // path to directory containing SM2 SWF
+          url: '/swf',
+          // optional: enable MPEG-4/AAC support (requires flash 9)
+          flashVersion: 9
+        });
+
+soundManager.onready(function() {
+  // soundManager.createSound() etc. may now be called
+  inlinePlayer = new InlinePlayer();
+});
+});
+
+  }
+},
 // Tour Page
   events_archive: {
     init: function() {
