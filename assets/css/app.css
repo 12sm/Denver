@@ -11,7 +11,9 @@ body.home{
 }
 body { }
 html{text-rendering: optimizeLegibility;}
-
+.home .demo_store {
+  display: none;
+}
 body.single,
 body.blog,
 body.page.page-id-115.page-template.page-template-template-music-php.logged-in.admin-bar.tribe-bar-is-disabled.music.tribe-theme-denver.customize-support.woocommerce,
