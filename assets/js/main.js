@@ -457,6 +457,7 @@ soundManager.onready(function() {
 },
 store: {
     init: function() {
+      console.log('store');
 
       $(".sheet-img").each(function() {
         var $this = $(this);
