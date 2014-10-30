@@ -12,7 +12,7 @@ body.home{
 body { }
 html{text-rendering: optimizeLegibility;}
 .home .demo_store {
-  display: none;
+  display: none !important;
 }
 .demo_store {
   z-index: 0 !important;
