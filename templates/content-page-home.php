@@ -7,7 +7,7 @@
     <div class="content row">
       <main class="main <?php echo roots_main_class(); ?>" role="main">
       <h1>Denver & The Mile High Orchestra</h1>
-      <img src="/wp-content/themes/denver/assets/img/denver.png" class='mobile-denver'>
+      <img src="/wp-content/themes/denver/assets/img/denver-mobile.png" class='mobile-denver'>
   </main>
 </div>
 </section>
