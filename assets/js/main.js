@@ -455,7 +455,7 @@ soundManager.onready(function() {
 
   }
 },
-store: {
+woocommerce_page: {
     init: function() {
       console.log('store');
 
