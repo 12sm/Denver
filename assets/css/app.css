@@ -11,11 +11,13 @@ body.home{
 }
 body { }
 html{text-rendering: optimizeLegibility;}
-.home .demo_store {
-  display: none !important;
+.store .demo_store {
+  display: block !important;
 }
 .demo_store {
   z-index: 0 !important;
+  display: none !important;
+  color: #fff!important;
 }
 body.single,
 body.blog,
