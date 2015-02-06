@@ -1,11 +1,11 @@
-<?php 
+<?php
 
 
 function posts_per_pagesize( $query ) {
 
     if ( is_post_type_archive( 'videos' ) ) {
         // Display 50 posts for a custom post type called 'movie'
-        $query->set( 'posts_per_page', 9 );
+        $query->set( 'posts_per_page', 60 );
         return;
     }
 }
@@ -46,7 +46,7 @@ add_shortcode( 'eventstate', 'event_state' );
 function my_custom_fonts() {
   echo '<style>
     .vc_license-activation-notice {display:none;}
-    
+
   </style>';
 }
 
